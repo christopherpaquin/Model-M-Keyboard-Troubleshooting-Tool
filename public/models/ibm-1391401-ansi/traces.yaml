@@ -1,0 +1,153 @@
+traces:
+  - modelId: ibm-1391401-ansi
+    traceId: solid_01
+    displayName: Vertical trace 1
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_01
+    description: Continuous vertical path 1 of 16 (kbupgrade row line 1 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_02
+    displayName: Vertical trace 2
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_02
+    description: Continuous vertical path 2 of 16 (kbupgrade row line 2 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_03
+    displayName: Vertical trace 3
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_03
+    description: Continuous vertical path 3 of 16 (kbupgrade row line 3 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_04
+    displayName: Vertical trace 4
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_04
+    description: Continuous vertical path 4 of 16 (kbupgrade row line 4 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_05
+    displayName: Vertical trace 5
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_05
+    description: Continuous vertical path 5 of 16 (kbupgrade row line 5 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_06
+    displayName: Vertical trace 6
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_06
+    description: Continuous vertical path 6 of 16 (kbupgrade row line 6 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_07
+    displayName: Vertical trace 7
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_07
+    description: Continuous vertical path 7 of 16 (kbupgrade row line 7 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_08
+    displayName: Vertical trace 8
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_08
+    description: Continuous vertical path 8 of 16 (kbupgrade row line 8 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_09
+    displayName: Vertical trace 9
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_09
+    description: Continuous vertical path 9 of 16 (kbupgrade row line 9 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_10
+    displayName: Vertical trace 10
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_10
+    description: Continuous vertical path 10 of 16 (kbupgrade row line 10 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_11
+    displayName: Vertical trace 11
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_11
+    description: Continuous vertical path 11 of 16 (kbupgrade row line 11 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_12
+    displayName: Vertical trace 12
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_12
+    description: Continuous vertical path 12 of 16 (kbupgrade row line 12 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_13
+    displayName: Vertical trace 13
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_13
+    description: Continuous vertical path 13 of 16 (kbupgrade row line 13 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_14
+    displayName: Vertical trace 14
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_14
+    description: Continuous vertical path 14 of 16 (kbupgrade row line 14 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_15
+    displayName: Vertical trace 15
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_15
+    description: Continuous vertical path 15 of 16 (kbupgrade row line 15 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: solid_16
+    displayName: Vertical trace 16
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_16
+    description: Continuous vertical path 16 of 16 (kbupgrade row line 16 → model pathA).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_A
+    displayName: Horizontal trace A
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_A
+    description: Horizontal (dotted-line layer) path A of 8 (C0 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_B
+    displayName: Horizontal trace B
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_B
+    description: Horizontal (dotted-line layer) path B of 8 (C1 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_C
+    displayName: Horizontal trace C
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_C
+    description: Horizontal (dotted-line layer) path C of 8 (C2 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_D
+    displayName: Horizontal trace D
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_D
+    description: Horizontal (dotted-line layer) path D of 8 (C3 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_E
+    displayName: Horizontal trace E
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_E
+    description: Horizontal (dotted-line layer) path E of 8 (C4 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_F
+    displayName: Horizontal trace F
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_F
+    description: Horizontal (dotted-line layer) path F of 8 (C5 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_G
+    displayName: Horizontal trace G
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_G
+    description: Horizontal (dotted-line layer) path G of 8 (C6 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).
+  - modelId: ibm-1391401-ansi
+    traceId: dashed_H
+    displayName: Horizontal trace H
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_H
+    description: Horizontal (dotted-line layer) path H of 8 (C7 in
+      modelm-102-key-1391401/ansi-matrix.json → model pathB).

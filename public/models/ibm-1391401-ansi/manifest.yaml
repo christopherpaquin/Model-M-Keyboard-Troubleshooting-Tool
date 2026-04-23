@@ -1,0 +1,31 @@
+modelId: ibm-1391401-ansi
+displayName: IBM Model M 102-key ANSI (1391401 / 1391404 class)
+family: IBM Model M
+layoutName: 102-key ANSI
+description: "IBM 102-key ANSI (1391401 class): 16 continuous vertical paths + 8
+  horizontal paths on the dotted-membrane layer. Vertical indices from kbupgrade
+  1391401.matrix; horizontal A..H from modelm-102-key-1391401/ansi-matrix.json
+  (C0..C7). Often compatible with 1391404; verify for your part."
+schemaVersion: 1.0.0
+modelVersion: 0.3.7-ribbon-legend-layout
+supportedFeatures:
+  - trace_overlay
+  - ribbon_highlight
+  - comparison_keys
+dataNotes:
+  - "Vertical trace paths 1–16: key membership is from kbupgrade 1391401.matrix.
+    That is pathA in the data."
+  - "Horizontal trace paths A–H: each key’s C0..C7 in
+    modelm-102-key-1391401/ansi-matrix.json maps to pathB. The file’s (R,C)
+    pairs are not a unique 16×8 table; the generator uses kbupgrade for pathA
+    and column for pathB."
+  - On-screen key positions and trace line segments are schematic, not a
+    measured FFC. Package trace_paths use tail pin points plus key centers in
+    reading order. Replace the package art for a photo-accurate overlay if
+    needed.
+files:
+  keys: keys.yaml
+  traces: traces.yaml
+  tracePaths: trace_paths.yaml
+  ribbonContacts: ribbon_contacts.yaml
+  keyTraceMap: key_trace_map.yaml
