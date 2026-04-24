@@ -87,6 +87,13 @@ export function App(): React.ReactElement {
     return alt?.keys ?? model.keys;
   }, [model, keyLayoutId]);
 
+  const diagramKeys = useMemo((): import("../domain/types").KeyboardKey[] => {
+    const hidden = model?.manifest.keysHiddenOnDiagram;
+    if (!displayKeys.length || !hidden?.length) return displayKeys;
+    const omit = new Set(hidden);
+    return displayKeys.filter((k) => !omit.has(k.keyId));
+  }, [model, displayKeys]);
+
   const keyById = useMemo(
     () => (model ? getKeyById(displayKeys) : new Map<string, import("../domain/types").KeyboardKey>()),
     [model, displayKeys],
@@ -263,7 +270,8 @@ export function App(): React.ReactElement {
               </div>
             </header>
             <KeyboardDiagram
-              keys={displayKeys}
+              keys={diagramKeys}
+              allKeysForTraceGeometry={displayKeys}
               deadKeyIds={dead}
               focusKeyId={dead.size === 1 ? (deadArr[0] ?? null) : null}
               visibleTraceIds={draw}

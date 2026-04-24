@@ -47,8 +47,12 @@ const ISO_SHIFT_ROW = {
   right_shift: [520, 236, 100, 36],
 };
 
-/** nubs / € — to the right of the main number row, same as 102 helper usage */
-const SSK_EXTRAS = { euro1: [20, 104, 32, 36] };
+/**
+ * QMK k_nubs → `euro1` (matrix-only, no SSK cap). **Do not** place on the `backtick` row: [20, 104, …] sits
+ * inside `backtick`’s [16, 104, 36, …] and shows as a “·” on top of `.
+ * Tuck in the F12–PrtSc gap (F12 ends x=588; PrtSc at 630) so traces have a fixed point without collision.
+ */
+const SSK_EXTRAS = { euro1: [590, 56, 32, 32] };
 
 /**
  * @param {SskLayoutVariant} variant
@@ -91,12 +95,14 @@ export function buildLayoutIbmSskPhysical(keyIds, variant = "ansi") {
       L[k] = p;
     }
   }
+  /** Unplaced keys: row under the TKL (avoids 650,~200 “sidebar” in the keywell). */
+  const OVERFLOW_Y_RAW = 328;
   let j = 0;
   for (const k of keyIds.sort()) {
     if (L[k]) {
       continue;
     }
-    L[k] = R(650 + (j % 6) * 26, 200 + ((j / 6) | 0) * 24, 24, 20);
+    L[k] = R(8 + (j % 8) * 32, OVERFLOW_Y_RAW + ((j / 8) | 0) * 24, 26, 20);
     j += 1;
   }
   return L;

@@ -653,6 +653,8 @@ function manifest122() {
       ribbonContacts: "ribbon_contacts.yaml",
       keyTraceMap: "key_trace_map.yaml",
     },
+    // Same nubs as 122 from CSV: matrix-only, no 5250 cap in tools/layout-ibm-122-physical.mjs
+    keysHiddenOnDiagram: ["euro1", "intl_backslash", "matrix_aux_kp_plus"],
   };
 }
 

@@ -6,7 +6,7 @@ subtitle: IBM Model M 104/105 Space Saving Keyboard (SSK) — QMK
 description: 8×16 QMK matrix (matrix_ssk.csv); SSK, no numpad. On-screen key
   shapes use a 104+ schematic, not a scan table grid.
 schemaVersion: 1.0.0
-modelVersion: 0.4.0-ssk-ansi-iso
+modelVersion: 0.4.1-ssk-ansi-iso
 supportedFeatures:
   - trace_overlay
   - ribbon_highlight
@@ -28,3 +28,5 @@ keyLayoutAlternates:
   - id: iso-uk
     label: ISO/UK (extra key left of Z)
     file: keys-iso.yaml
+keysHiddenOnDiagram:
+  - euro1

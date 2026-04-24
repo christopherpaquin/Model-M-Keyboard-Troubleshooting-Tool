@@ -8,7 +8,7 @@ tracePaths:
   - modelId: unicomp-mini-m
     traceId: dashed_B
     pathId: path_001
-    geometry: M 26 46 L 34 192 L 182 330 L 398 374 L 54 388.5
+    geometry: M 26 46 L 34 192 L 182 330 L 398 374 L 85 458
     pathType: overlay
     label: Membrane 1 (top) — col 1 B
   - modelId: unicomp-mini-m
@@ -21,7 +21,7 @@ tracePaths:
   - modelId: unicomp-mini-m
     traceId: dashed_D
     pathId: path_003
-    geometry: M 54 46 L 222 330 L 438 374 L 563 388.5 L 372 418
+    geometry: M 54 46 L 222 330 L 438 374 L 372 418 L 117 458
     pathType: overlay
     label: Membrane 1 (top) — col 3 D
   - modelId: unicomp-mini-m
@@ -79,15 +79,15 @@ tracePaths:
   - modelId: unicomp-mini-m
     traceId: dashed_M
     pathId: path_012
-    geometry: M 180 46 L 578 228 L 474 242 L 648 242 L 728 242 L 43 286 L 496 330 L
-      124 418
+    geometry: M 180 46 L 474 242 L 648 242 L 728 242 L 43 286 L 496 330 L 124 418 L
+      21 458
     pathType: overlay
     label: Membrane 1 (top) — col 12 M
   - modelId: unicomp-mini-m
     traceId: dashed_N
     pathId: path_013
-    geometry: M 194 46 L 648 192 L 688 192 L 688 242 L 648 286 L 728 286 L 568 316 L
-      568 330
+    geometry: M 194 46 L 648 192 L 688 192 L 688 242 L 648 286 L 728 286 L 568 330 L
+      53 458
     pathType: overlay
     label: Membrane 1 (top) — col 13 N
   - modelId: unicomp-mini-m
@@ -106,14 +106,14 @@ tracePaths:
     traceId: solid_01
     pathId: path_016
     geometry: M 250 46 L 34 192 L 130 192 L 170 192 L 210 192 L 34 242 L 234 242 L
-      454 286 L 568 330 L 563 388.5 L 124 418
+      454 286 L 568 330 L 124 418 L 117 458
     pathType: overlay
     label: Membrane 2 (bottom) — row 1
   - modelId: unicomp-mini-m
     traceId: solid_02
     pathId: path_017
-    geometry: M 268 46 L 270 192 L 274 242 L 94 286 L 568 316 L 47 330 L 563 374 L
-      54 388.5 L 504 418
+    geometry: M 268 46 L 270 192 L 274 242 L 94 286 L 47 330 L 563 374 L 504 418 L
+      53 458 L 85 458
     pathType: overlay
     label: Membrane 2 (bottom) — row 2
   - modelId: unicomp-mini-m
@@ -151,7 +151,7 @@ tracePaths:
   - modelId: unicomp-mini-m
     traceId: solid_08
     pathId: path_023
-    geometry: M 376 46 L 570 192 L 688 192 L 578 228 L 154 242 L 374 286
+    geometry: M 376 46 L 570 192 L 688 192 L 154 242 L 374 286 L 21 458
     pathType: overlay
     label: Membrane 2 (bottom) — row 8
   - modelId: unicomp-mini-m

@@ -17,7 +17,8 @@ dataNotes:
     Physical diagram matches 102 schematic minus the numpad; verify to your FFC.
   - "Key positions: Unicomp Mini M TKL ANSI
     (tools/layout-unicomp-minim-physical.mjs), not matrix scan order.
-    LShift/Enter/Backsp/RShift Hid slivers per minimSharkLabels.mjs."
+    LShiftHid/BackspHid/EnterHid/ShiftHid (matrix_aux_*) in an overflow strip—no
+    second cap on the main diagram."
 files:
   keys: keys.yaml
   traces: traces.yaml

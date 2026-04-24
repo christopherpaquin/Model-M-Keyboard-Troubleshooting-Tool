@@ -18,7 +18,10 @@ export type SelectionTraceInfo = {
 };
 
 export function KeyboardDiagram(props: {
+  /** Keys to draw. May be a subset of `allKeysForTraceGeometry` to hide non-physical QMK nodes. */
   keys: KeyboardKey[];
+  /** If set, trace polylines use this full set (positions) so lines stay correct. Defaults to `keys`. */
+  allKeysForTraceGeometry?: KeyboardKey[];
   deadKeyIds: Set<string>;
   focusKeyId: string | null;
   /** When true, only keys on the focused trace are tinted. */
@@ -38,10 +41,11 @@ export function KeyboardDiagram(props: {
   multiSelectionTraceHint: string | null;
 }): React.ReactElement {
   const sortedKeys = [...props.keys].sort((a, b) => b.width * b.height - a.width * a.height);
+  const keysForGeometry = props.allKeysForTraceGeometry ?? props.keys;
 
   const keyById = useMemo(
-    () => new Map(props.keys.map((k) => [k.keyId, k])),
-    [props.keys],
+    () => new Map(keysForGeometry.map((k) => [k.keyId, k])),
+    [keysForGeometry],
   );
   const traceById = useMemo(() => new Map(props.traces.map((t) => [t.traceId, t])), [props.traces]);
   const traceByContact = useMemo(
@@ -72,12 +76,12 @@ export function KeyboardDiagram(props: {
     const padY = 20;
     let w = 920;
     let h = 520;
-    for (const k of props.keys) {
+    for (const k of keysForGeometry) {
       w = Math.max(w, k.x + k.width + padX);
       h = Math.max(h, k.y + k.height + padY);
     }
     return { w, h };
-  }, [props.keys]);
+  }, [keysForGeometry]);
 
   return (
     <div className="kbd-wrap">

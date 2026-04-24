@@ -25,12 +25,8 @@ const BOTTOM_104_PLUS = {
   right_ctrl: [484, 400, 40, 36],
 };
 
-/**
- * k_code → Lang5 / "Code" — in the gap between F-row and nav cluster (no overlap with 620-wide main).
- */
-const LANG5_CODE = [600, 220, 36, 32];
-
-const MERGED_104 = { ...LAYOUT_102, ...BOTTOM_104_PLUS, lang5_code: LANG5_CODE };
+/** 102/104 alnum + numpad + 104+ bottom. No k_code: US boards often have no physical Code key. */
+const MERGED_104 = { ...LAYOUT_102, ...BOTTOM_104_PLUS };
 
 /**
  * @param {string} id
@@ -60,10 +56,28 @@ function edgeStrip(r, edge, t) {
 }
 
 /**
+ * Matrix-only or duplicate-trace nodes on US 104: do not share a full cap with Enter, nuhs, €, Code,
+ * or a second numpad Enter (avoids overlapped key rects and doubled legends).
+ * @param {string} keyId
+ * @returns {boolean}
+ */
+function isMatrixOnlyUnicomp104(keyId) {
+  return (
+    keyId === "lang5_code" ||
+    keyId === "intl_backslash" ||
+    keyId === "euro1" ||
+    keyId === "qmk_raw_kp_enter_hidden"
+  );
+}
+
+/**
  * @param {string} keyId
  * @returns { [number, number, number, number] | null }
  */
 function rectForAuxOrOverlap(keyId) {
+  if (isMatrixOnlyUnicomp104(keyId)) {
+    return null;
+  }
   if (keyId === "matrix_aux_bsp") {
     return edgeStrip(MERGED_104.backspace, "top", 8);
   }
@@ -72,9 +86,6 @@ function rectForAuxOrOverlap(keyId) {
   }
   if (keyId === "matrix_aux_kp_0") {
     return edgeStrip(MERGED_104.kp_0, "bottom", 8);
-  }
-  if (keyId === "qmk_raw_kp_enter_hidden") {
-    return edgeStrip(MERGED_104.kp_enter, "top", 8);
   }
   return getRectForIbm102EnhancedKey(keyId);
 }
@@ -91,12 +102,20 @@ export function buildLayoutIbmUnicomp104Physical(keyIds) {
       L[k] = p;
     }
   }
+  /** QMK-only / matrix nubs — not a physical 4th row. Keep them under the main board, not (800,~160) top-right. */
+  const OVERFLOW_Y = 448;
+  const OVERFLOW_X0 = 8;
   let j = 0;
   for (const k of keyIds.sort()) {
     if (L[k]) {
       continue;
     }
-    L[k] = [800 + (j % 4) * 32, 160 + ((j / 4) | 0) * 24, 28, 20];
+    L[k] = [
+      OVERFLOW_X0 + (j % 8) * 32,
+      OVERFLOW_Y + ((j / 8) | 0) * 24,
+      26,
+      20,
+    ];
     j += 1;
   }
   return L;

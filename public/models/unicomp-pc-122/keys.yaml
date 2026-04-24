@@ -919,9 +919,7 @@ keys:
     sortOrder: 560543
   - modelId: unicomp-pc-122
     keyId: intl_backslash
-    displayName: |-
-      #
-      `
+    displayName: ·
     section: main
     x: 474
     y: 280
@@ -1020,7 +1018,7 @@ keys:
     sortOrder: 620146
   - modelId: unicomp-pc-122
     keyId: euro1
-    displayName: €
+    displayName: ·
     section: main
     x: 64
     y: 310
@@ -1101,7 +1099,7 @@ keys:
     sortOrder: 644735
   - modelId: unicomp-pc-122
     keyId: matrix_aux_kp_plus
-    displayName: +*
+    displayName: ·
     section: numpad
     x: 798
     y: 410

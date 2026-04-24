@@ -24,3 +24,7 @@ files:
   tracePaths: trace_paths.yaml
   ribbonContacts: ribbon_contacts.yaml
   keyTraceMap: key_trace_map.yaml
+keysHiddenOnDiagram:
+  - euro1
+  - intl_backslash
+  - matrix_aux_kp_plus

@@ -2,8 +2,8 @@ tracePaths:
   - modelId: unicomp-endurapro
     traceId: dashed_A
     pathId: path_000
-    geometry: M 12 46 L 34 192 L 34 242 L 36 242 L 74 242 L 43 286 L 94 286 L 102
-      330 L 118 374
+    geometry: M 12 46 L 34 192 L 34 242 L 74 242 L 43 286 L 94 286 L 102 330 L 118
+      374 L 21 458
     pathType: overlay
     label: Membrane 1 (top) — col 0 A
   - modelId: unicomp-endurapro
@@ -29,7 +29,7 @@ tracePaths:
   - modelId: unicomp-endurapro
     traceId: dashed_E
     pathId: path_004
-    geometry: M 68 46 L 210 192 L 618 236 L 648 242 L 124 418 L 372 418
+    geometry: M 68 46 L 210 192 L 648 242 L 124 418 L 372 418 L 85 458
     pathType: overlay
     label: Membrane 1 (top) — col 4 E
   - modelId: unicomp-endurapro
@@ -91,13 +91,13 @@ tracePaths:
   - modelId: unicomp-endurapro
     traceId: dashed_N
     pathId: path_013
-    geometry: M 194 46 L 568 330 L 688 374 L 563 388.5 L 248 418 L 416 418 L 728 418
+    geometry: M 194 46 L 688 374 L 563 388.5 L 248 418 L 416 418 L 728 418 L 53 458
     pathType: overlay
     label: Membrane 1 (top) — col 13 N
   - modelId: unicomp-endurapro
     traceId: dashed_O
     pathId: path_014
-    geometry: M 208 46 L 688 192 L 898 327 L 898 336 L 898 368 L 790 400 L 80 418
+    geometry: M 208 46 L 688 192 L 898 327 L 898 368 L 790 400 L 80 418 L 117 458
     pathType: overlay
     label: Membrane 1 (top) — col 14 O
   - modelId: unicomp-endurapro
@@ -124,9 +124,9 @@ tracePaths:
   - modelId: unicomp-endurapro
     traceId: solid_03
     pathId: path_018
-    geometry: M 286 46 L 578 228 L 618 236 L 74 242 L 394 242 L 434 242 L 514 242 L
-      728 242 L 769 242 L 812 242 L 855 242 L 214 286 L 294 286 L 374 286 L 688
-      374 L 80 418
+    geometry: M 286 46 L 578 228 L 74 242 L 394 242 L 434 242 L 514 242 L 728 242 L
+      769 242 L 812 242 L 855 242 L 214 286 L 294 286 L 374 286 L 688 374 L 80
+      418 L 85 458
     pathType: overlay
     label: Membrane 2 (bottom) — row 3
   - modelId: unicomp-endurapro
@@ -155,9 +155,9 @@ tracePaths:
   - modelId: unicomp-endurapro
     traceId: solid_07
     pathId: path_022
-    geometry: M 358 46 L 36 242 L 898 296 L 142 330 L 422 330 L 568 330 L 898 336 L
-      812 350 L 855 350 L 198 374 L 238 374 L 318 374 L 478 374 L 372 418 L 648
-      418
+    geometry: M 358 46 L 898 296 L 142 330 L 422 330 L 812 350 L 855 350 L 198 374 L
+      238 374 L 318 374 L 478 374 L 372 418 L 648 418 L 21 458 L 53 458 L 117
+      458
     pathType: overlay
     label: Membrane 2 (bottom) — row 7
   - modelId: unicomp-endurapro

@@ -270,15 +270,6 @@ keys:
     height: 36
     sortOrder: 448565
   - modelId: unicomp-mini-m
-    keyId: matrix_aux_bsp
-    displayName: Bsp*
-    section: main
-    x: 536
-    y: 224
-    width: 84
-    height: 8
-    sortOrder: 448566
-  - modelId: unicomp-mini-m
     keyId: insert
     displayName: insert
     section: navigation
@@ -286,7 +277,7 @@ keys:
     y: 224
     width: 36
     height: 36
-    sortOrder: 448661
+    sortOrder: 448660
   - modelId: unicomp-mini-m
     keyId: home
     displayName: home
@@ -295,7 +286,7 @@ keys:
     y: 224
     width: 36
     height: 36
-    sortOrder: 448702
+    sortOrder: 448701
   - modelId: unicomp-mini-m
     keyId: page_up
     displayName: page_up
@@ -304,7 +295,7 @@ keys:
     y: 224
     width: 36
     height: 36
-    sortOrder: 448743
+    sortOrder: 448742
   - modelId: unicomp-mini-m
     keyId: tab
     displayName: tab
@@ -313,7 +304,7 @@ keys:
     y: 268
     width: 54
     height: 36
-    sortOrder: 536050
+    sortOrder: 536049
   - modelId: unicomp-mini-m
     keyId: q
     displayName: Q
@@ -322,7 +313,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536111
+    sortOrder: 536110
   - modelId: unicomp-mini-m
     keyId: w
     displayName: W
@@ -331,7 +322,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536152
+    sortOrder: 536151
   - modelId: unicomp-mini-m
     keyId: e
     displayName: E
@@ -340,7 +331,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536193
+    sortOrder: 536192
   - modelId: unicomp-mini-m
     keyId: r
     displayName: R
@@ -349,7 +340,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536234
+    sortOrder: 536233
   - modelId: unicomp-mini-m
     keyId: t
     displayName: T
@@ -358,7 +349,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536275
+    sortOrder: 536274
   - modelId: unicomp-mini-m
     keyId: y
     displayName: Y
@@ -367,7 +358,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536316
+    sortOrder: 536315
   - modelId: unicomp-mini-m
     keyId: u
     displayName: U
@@ -376,7 +367,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536357
+    sortOrder: 536356
   - modelId: unicomp-mini-m
     keyId: i
     displayName: I
@@ -385,7 +376,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536398
+    sortOrder: 536397
   - modelId: unicomp-mini-m
     keyId: o
     displayName: O
@@ -394,7 +385,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536439
+    sortOrder: 536438
   - modelId: unicomp-mini-m
     keyId: p
     displayName: P
@@ -403,7 +394,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536480
+    sortOrder: 536479
   - modelId: unicomp-mini-m
     keyId: bracket_left
     displayName: bracket_left
@@ -412,7 +403,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536521
+    sortOrder: 536520
   - modelId: unicomp-mini-m
     keyId: bracket_right
     displayName: bracket_right
@@ -421,7 +412,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536562
+    sortOrder: 536561
   - modelId: unicomp-mini-m
     keyId: backslash
     displayName: backslash
@@ -430,7 +421,7 @@ keys:
     y: 268
     width: 64
     height: 36
-    sortOrder: 536603
+    sortOrder: 536602
   - modelId: unicomp-mini-m
     keyId: delete
     displayName: delete
@@ -439,7 +430,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536678
+    sortOrder: 536677
   - modelId: unicomp-mini-m
     keyId: end
     displayName: end
@@ -448,7 +439,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536719
+    sortOrder: 536718
   - modelId: unicomp-mini-m
     keyId: page_down
     displayName: page_down
@@ -457,7 +448,7 @@ keys:
     y: 268
     width: 36
     height: 36
-    sortOrder: 536760
+    sortOrder: 536759
   - modelId: unicomp-mini-m
     keyId: caps_lock
     displayName: caps_lock
@@ -466,7 +457,7 @@ keys:
     y: 312
     width: 62
     height: 36
-    sortOrder: 624067
+    sortOrder: 624066
   - modelId: unicomp-mini-m
     keyId: a
     displayName: A
@@ -475,7 +466,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624136
+    sortOrder: 624135
   - modelId: unicomp-mini-m
     keyId: s
     displayName: S
@@ -484,7 +475,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624177
+    sortOrder: 624176
   - modelId: unicomp-mini-m
     keyId: d
     displayName: D
@@ -493,7 +484,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624218
+    sortOrder: 624217
   - modelId: unicomp-mini-m
     keyId: f
     displayName: F
@@ -502,7 +493,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624259
+    sortOrder: 624258
   - modelId: unicomp-mini-m
     keyId: g
     displayName: G
@@ -511,7 +502,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624300
+    sortOrder: 624299
   - modelId: unicomp-mini-m
     keyId: h
     displayName: H
@@ -520,7 +511,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624341
+    sortOrder: 624340
   - modelId: unicomp-mini-m
     keyId: j
     displayName: J
@@ -529,7 +520,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624382
+    sortOrder: 624381
   - modelId: unicomp-mini-m
     keyId: k
     displayName: K
@@ -538,7 +529,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624423
+    sortOrder: 624422
   - modelId: unicomp-mini-m
     keyId: l
     displayName: L
@@ -547,7 +538,7 @@ keys:
     y: 312
     width: 36
     height: 36
-    sortOrder: 624464
+    sortOrder: 624463
   - modelId: unicomp-mini-m
     keyId: semicolon
     displayName: semicolon
@@ -556,7 +547,7 @@ keys:
     y: 312
     width: 32
     height: 36
-    sortOrder: 624505
+    sortOrder: 624504
   - modelId: unicomp-mini-m
     keyId: quote
     displayName: quote
@@ -565,7 +556,7 @@ keys:
     y: 312
     width: 32
     height: 36
-    sortOrder: 624542
+    sortOrder: 624541
   - modelId: unicomp-mini-m
     keyId: enter_main
     displayName: enter_main
@@ -574,16 +565,7 @@ keys:
     y: 312
     width: 104
     height: 36
-    sortOrder: 624579
-  - modelId: unicomp-mini-m
-    keyId: matrix_aux_enter
-    displayName: Ent*
-    section: main
-    x: 516
-    y: 312
-    width: 104
-    height: 8
-    sortOrder: 624580
+    sortOrder: 624578
   - modelId: unicomp-mini-m
     keyId: left_shift
     displayName: left_shift
@@ -592,7 +574,7 @@ keys:
     y: 356
     width: 76
     height: 36
-    sortOrder: 712081
+    sortOrder: 712079
   - modelId: unicomp-mini-m
     keyId: z
     displayName: Z
@@ -601,7 +583,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712166
+    sortOrder: 712164
   - modelId: unicomp-mini-m
     keyId: x
     displayName: X
@@ -610,7 +592,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712207
+    sortOrder: 712205
   - modelId: unicomp-mini-m
     keyId: c
     displayName: C
@@ -619,7 +601,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712248
+    sortOrder: 712246
   - modelId: unicomp-mini-m
     keyId: v
     displayName: V
@@ -628,7 +610,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712289
+    sortOrder: 712287
   - modelId: unicomp-mini-m
     keyId: b
     displayName: B
@@ -637,7 +619,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712330
+    sortOrder: 712328
   - modelId: unicomp-mini-m
     keyId: n
     displayName: N
@@ -646,7 +628,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712371
+    sortOrder: 712369
   - modelId: unicomp-mini-m
     keyId: m
     displayName: M
@@ -655,7 +637,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712412
+    sortOrder: 712410
   - modelId: unicomp-mini-m
     keyId: comma
     displayName: comma
@@ -664,7 +646,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712453
+    sortOrder: 712451
   - modelId: unicomp-mini-m
     keyId: period
     displayName: period
@@ -673,7 +655,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712494
+    sortOrder: 712492
   - modelId: unicomp-mini-m
     keyId: slash
     displayName: slash
@@ -682,7 +664,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712535
+    sortOrder: 712533
   - modelId: unicomp-mini-m
     keyId: right_shift
     displayName: right_shift
@@ -691,7 +673,7 @@ keys:
     y: 356
     width: 126
     height: 36
-    sortOrder: 712576
+    sortOrder: 712574
   - modelId: unicomp-mini-m
     keyId: arrow_up
     displayName: arrow_up
@@ -700,25 +682,7 @@ keys:
     y: 356
     width: 36
     height: 36
-    sortOrder: 712747
-  - modelId: unicomp-mini-m
-    keyId: matrix_aux_lsh
-    displayName: LSh*
-    section: main
-    x: 16
-    y: 385
-    width: 76
-    height: 7
-    sortOrder: 770094
-  - modelId: unicomp-mini-m
-    keyId: matrix_aux_rsh
-    displayName: Sh*
-    section: main
-    x: 500
-    y: 385
-    width: 126
-    height: 7
-    sortOrder: 770579
+    sortOrder: 712745
   - modelId: unicomp-mini-m
     keyId: left_ctrl
     displayName: left_ctrl
@@ -727,7 +691,7 @@ keys:
     y: 400
     width: 40
     height: 36
-    sortOrder: 800096
+    sortOrder: 800092
   - modelId: unicomp-mini-m
     keyId: os_left
     displayName: Win
@@ -736,7 +700,7 @@ keys:
     y: 400
     width: 40
     height: 36
-    sortOrder: 800141
+    sortOrder: 800137
   - modelId: unicomp-mini-m
     keyId: left_alt
     displayName: left_alt
@@ -745,7 +709,7 @@ keys:
     y: 400
     width: 40
     height: 36
-    sortOrder: 800186
+    sortOrder: 800182
   - modelId: unicomp-mini-m
     keyId: space
     displayName: space
@@ -754,7 +718,7 @@ keys:
     y: 400
     width: 200
     height: 36
-    sortOrder: 800231
+    sortOrder: 800227
   - modelId: unicomp-mini-m
     keyId: right_alt
     displayName: right_alt
@@ -763,7 +727,7 @@ keys:
     y: 400
     width: 40
     height: 36
-    sortOrder: 800436
+    sortOrder: 800432
   - modelId: unicomp-mini-m
     keyId: os_right
     displayName: Win
@@ -772,7 +736,7 @@ keys:
     y: 400
     width: 40
     height: 36
-    sortOrder: 800481
+    sortOrder: 800477
   - modelId: unicomp-mini-m
     keyId: app_menu
     displayName: Menu
@@ -781,7 +745,7 @@ keys:
     y: 400
     width: 40
     height: 36
-    sortOrder: 800526
+    sortOrder: 800522
   - modelId: unicomp-mini-m
     keyId: right_ctrl
     displayName: right_ctrl
@@ -790,7 +754,7 @@ keys:
     y: 400
     width: 40
     height: 36
-    sortOrder: 800571
+    sortOrder: 800567
   - modelId: unicomp-mini-m
     keyId: arrow_left
     displayName: arrow_left
@@ -799,7 +763,7 @@ keys:
     y: 400
     width: 36
     height: 36
-    sortOrder: 800718
+    sortOrder: 800714
   - modelId: unicomp-mini-m
     keyId: arrow_down
     displayName: arrow_down
@@ -808,7 +772,7 @@ keys:
     y: 400
     width: 36
     height: 36
-    sortOrder: 800759
+    sortOrder: 800755
   - modelId: unicomp-mini-m
     keyId: arrow_right
     displayName: arrow_right
@@ -817,4 +781,40 @@ keys:
     y: 400
     width: 36
     height: 36
-    sortOrder: 800800
+    sortOrder: 800796
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_bsp
+    displayName: ·
+    section: main
+    x: 8
+    y: 448
+    width: 26
+    height: 20
+    sortOrder: 896095
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_enter
+    displayName: ·
+    section: main
+    x: 40
+    y: 448
+    width: 26
+    height: 20
+    sortOrder: 896128
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_lsh
+    displayName: ·
+    section: main
+    x: 72
+    y: 448
+    width: 26
+    height: 20
+    sortOrder: 896161
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_rsh
+    displayName: ·
+    section: main
+    x: 104
+    y: 448
+    width: 26
+    height: 20
+    sortOrder: 896194

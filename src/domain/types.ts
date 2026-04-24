@@ -30,6 +30,11 @@ export interface KeyboardModelManifest {
    * positions; see `keyLayoutAlternates` on the loaded model for resolved `KeyboardKey[]`.
    */
   keyLayoutAlternates?: { id: string; label: string; file: string }[];
+  /**
+   * `keyId`s to omit from the main keyboard SVG (still in `keys` and traces for the inspector).
+   * E.g. QMK matrix-only nubs with no physical cap.
+   */
+  keysHiddenOnDiagram?: string[];
 }
 
 export interface KeyboardKey {

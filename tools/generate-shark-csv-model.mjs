@@ -31,8 +31,8 @@ const DISPLAY_EXTRA = {
   ex8: "EX8",
   ex9: "EX9",
   ex10: "EX10",
-  intl_backslash: "#\n`",
-  euro1: "€",
+  intl_backslash: "·",
+  euro1: "·",
   nav_center: "JUMP",
   print_screen: "PrtSc",
   scroll_lock: "ScrLk",
@@ -41,14 +41,16 @@ const DISPLAY_EXTRA = {
   os_left: "Win",
   os_right: "Win",
   app_menu: "Menu",
-  lang5_code: "Code",
-  matrix_aux_kp_plus: "+*",
-  matrix_aux_bsp: "Bsp*",
-  matrix_aux_rsh: "Sh*",
-  matrix_aux_lsh: "LSh*",
-  matrix_aux_enter: "Ent*",
+  lang5_code: "",
+  matrix_aux_kp_plus: "·",
+  matrix_aux_bsp: "·",
+  matrix_aux_rsh: "·",
+  matrix_aux_lsh: "·",
+  matrix_aux_enter: "·",
   qmk_raw_kp_minus: "-",
-  matrix_aux_kp_plus: "+*",
+  matrix_aux_kp_plus1: "·",
+  qmk_raw_kp_enter_hidden: "·",
+  matrix_aux_kp_0: "·",
 };
 
 /** keycap text for numpad keys in generated YAML (diagram uses keyCapLabel, which also maps these) */
@@ -81,8 +83,8 @@ function defaultDisplayName(keyId) {
   if (NUMPAD_DISPLAY[keyId] !== undefined) {
     return NUMPAD_DISPLAY[keyId];
   }
-  if (DISPLAY_EXTRA[keyId]) {
-    return DISPLAY_EXTRA[keyId];
+  if (Object.hasOwn(DISPLAY_EXTRA, keyId)) {
+    return DISPLAY_EXTRA[keyId] ?? keyId;
   }
   const m = /^f(\d+)$/.exec(keyId);
   if (m) {
@@ -475,7 +477,7 @@ function generateOne(opt) {
           : opt.physicalLayoutUnicomp104
             ? "Key positions: Unicomp 104+ full ANSI (tools/layout-unicomp-104-physical.mjs) with Win/Menu and numpad, not a scan table grid. Hidden k_*_hidden matrix nodes shown as slivers on the primary key."
             : opt.physicalLayoutUnicompMinim
-              ? "Key positions: Unicomp Mini M TKL ANSI (tools/layout-unicomp-minim-physical.mjs), not matrix scan order. LShift/Enter/Backsp/RShift Hid slivers per minimSharkLabels.mjs."
+              ? "Key positions: Unicomp Mini M TKL ANSI (tools/layout-unicomp-minim-physical.mjs), not matrix scan order. LShiftHid/BackspHid/EnterHid/ShiftHid (matrix_aux_*) in an overflow strip—no second cap on the main diagram."
               : "Generated from a QMK community matrix CSV; key positions are a coarse grid—edit keys.yaml to match a photo.",
     ],
     files: {
@@ -486,6 +488,7 @@ function generateOne(opt) {
       keyTraceMap: "key_trace_map.yaml",
     },
     ...(keyLayoutAlternates ? { keyLayoutAlternates } : {}),
+    ...(opt.keysHiddenOnDiagram ? { keysHiddenOnDiagram: opt.keysHiddenOnDiagram } : {}),
   };
   const kmap = (() => {
     const a = [];
@@ -538,7 +541,7 @@ function generateOne(opt) {
 const BUILDS = [
   {
     physicalLayoutSsk: true,
-    modelVersion: "0.4.0-ssk-ansi-iso",
+    modelVersion: "0.4.1-ssk-ansi-iso",
     csvName: "matrix_ssk.csv",
     modelId: "ibm-m-104-ssk",
     packagePath: "ibm-m-104-ssk",
@@ -548,6 +551,7 @@ const BUILDS = [
     description:
       "8×16 QMK matrix (matrix_ssk.csv); SSK, no numpad. On-screen key shapes use a 104+ schematic, not a scan table grid.",
     dataNote: "SSK: verify QMK vs your FFC. Diagram layout matches 104+ reference (not matrix row order).",
+    keysHiddenOnDiagram: ["euro1"],
   },
   {
     physicalLayout122: true,
@@ -561,6 +565,11 @@ const BUILDS = [
     description:
       "8×16 QMK (matrix_pc122.csv). 122-key layout: F1–F24, EX1–10, nav, numpad. On-screen positions follow the 5250/122 schematic (not scan order), same as ibm-122-converged.",
     dataNote: "PC 122: 8×16 matrix; on-screen key shapes use tools/layout-ibm-122-physical.mjs. Confirm to your FFC and QMK build.",
+    keysHiddenOnDiagram: [
+      "euro1",
+      "intl_backslash",
+      "matrix_aux_kp_plus",
+    ],
   },
   {
     physicalLayoutUnicomp104: true,
@@ -574,6 +583,12 @@ const BUILDS = [
     description:
       "8×16 QMK (matrix_endurapro.csv). On-screen keys use a 104+ ANSI schematic (numpad, nav, Win/Menu), not a scan table grid. Includes k_*_hidden and aux keyIds for routing.",
     dataNote: "Endurapro: k_bsp_hidden, k_rshift_hidden, etc. map to cap slivers; verify FFC to QMK on your board.",
+    keysHiddenOnDiagram: [
+      "euro1",
+      "intl_backslash",
+      "lang5_code",
+      "qmk_raw_kp_enter_hidden",
+    ],
   },
   {
     physicalLayout122: true,
@@ -588,6 +603,11 @@ const BUILDS = [
     description:
       "8×20 QMK (matrix_converged.csv) — 5250-style matrix; M2=rows, M1=columns. Pair with ibm-122-terminal for the same QMK hand-built package.",
     dataNote: "Converged CSV traceability; on-screen key shape matches 122 layout helper.",
+    keysHiddenOnDiagram: [
+      "euro1",
+      "intl_backslash",
+      "matrix_aux_kp_plus",
+    ],
   },
   {
     minim: true,
