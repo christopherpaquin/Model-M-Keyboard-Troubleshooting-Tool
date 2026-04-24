@@ -147,34 +147,34 @@ keys:
     displayName: PrtSc
     advancedName: print_screen
     section: function
-    x: 588
+    x: 630
     y: 176
-    width: 40
+    width: 36
     height: 32
     recognitionRank: 3
-    sortOrder: 176601
+    sortOrder: 176643
   - modelId: ibm-1391401-ansi
     keyId: scroll_lock
     displayName: ScrLk
     advancedName: scroll_lock
     section: function
-    x: 636
+    x: 670
     y: 176
-    width: 40
+    width: 36
     height: 32
     recognitionRank: 3
-    sortOrder: 176650
+    sortOrder: 176684
   - modelId: ibm-1391401-ansi
     keyId: pause_break
     displayName: Pause
     advancedName: pause_break
     section: function
-    x: 684
+    x: 710
     y: 176
-    width: 40
+    width: 36
     height: 32
     recognitionRank: 3
-    sortOrder: 176699
+    sortOrder: 176725
   - modelId: ibm-1391401-ansi
     keyId: backtick
     displayName: "`"
@@ -763,12 +763,12 @@ keys:
     displayName: Shift
     advancedName: right_shift
     section: main
-    x: 480
+    x: 500
     y: 356
-    width: 100
+    width: 126
     height: 36
     recognitionRank: 3
-    sortOrder: 356549
+    sortOrder: 356569
   - modelId: ibm-1391401-ansi
     keyId: left_ctrl
     displayName: Ctrl
@@ -940,195 +940,184 @@ keys:
     advancedName: num_lock
     section: numpad
     x: 750
-    y: 176
+    y: 224
     width: 38
-    height: 32
+    height: 36
     recognitionRank: 3
-    sortOrder: 176835
+    sortOrder: 224835
   - modelId: ibm-1391401-ansi
     keyId: kp_slash
     displayName: /
     advancedName: kp_slash
     section: numpad
     x: 793
-    y: 176
+    y: 224
     width: 38
-    height: 32
+    height: 36
     recognitionRank: 3
-    sortOrder: 176879
+    sortOrder: 224879
   - modelId: ibm-1391401-ansi
     keyId: kp_asterisk
     displayName: "*"
     advancedName: kp_asterisk
     section: numpad
     x: 836
-    y: 176
+    y: 224
     width: 38
-    height: 32
+    height: 36
     recognitionRank: 3
-    sortOrder: 176923
+    sortOrder: 224923
   - modelId: ibm-1391401-ansi
     keyId: kp_minus
     displayName: "-"
     advancedName: kp_minus
     section: numpad
     x: 879
-    y: 176
+    y: 224
     width: 38
-    height: 32
+    height: 36
     recognitionRank: 3
-    sortOrder: 176967
+    sortOrder: 224967
   - modelId: ibm-1391401-ansi
     keyId: kp_7
     displayName: "7"
     advancedName: kp_7
     section: numpad
     x: 750
-    y: 224
+    y: 260
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 224839
+    sortOrder: 260839
   - modelId: ibm-1391401-ansi
     keyId: kp_8
     displayName: "8"
     advancedName: kp_8
     section: numpad
     x: 793
-    y: 224
+    y: 260
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 224883
+    sortOrder: 260883
   - modelId: ibm-1391401-ansi
     keyId: kp_9
     displayName: "9"
     advancedName: kp_9
     section: numpad
     x: 836
-    y: 224
+    y: 260
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 224927
+    sortOrder: 260927
   - modelId: ibm-1391401-ansi
     keyId: kp_plus
     displayName: +
     advancedName: kp_plus
     section: numpad
     x: 879
-    y: 224
+    y: 260
     width: 38
-    height: 120
+    height: 72
     recognitionRank: 3
-    sortOrder: 224971
+    sortOrder: 260971
   - modelId: ibm-1391401-ansi
     keyId: kp_4
     displayName: "4"
     advancedName: kp_4
     section: numpad
     x: 750
-    y: 308
+    y: 296
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 308843
+    sortOrder: 296843
   - modelId: ibm-1391401-ansi
     keyId: kp_5
     displayName: "5"
     advancedName: kp_5
     section: numpad
     x: 793
-    y: 308
+    y: 296
     width: 38
     height: 36
     recognitionRank: 10
-    sortOrder: 308887
+    sortOrder: 296887
   - modelId: ibm-1391401-ansi
     keyId: kp_6
     displayName: "6"
     advancedName: kp_6
     section: numpad
     x: 836
-    y: 308
+    y: 296
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 308931
+    sortOrder: 296931
   - modelId: ibm-1391401-ansi
     keyId: kp_1
     displayName: "1"
     advancedName: kp_1
     section: numpad
     x: 750
-    y: 360
+    y: 332
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 360846
+    sortOrder: 332846
   - modelId: ibm-1391401-ansi
     keyId: kp_2
     displayName: "2"
     advancedName: kp_2
     section: numpad
     x: 793
-    y: 360
+    y: 332
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 360890
+    sortOrder: 332890
   - modelId: ibm-1391401-ansi
     keyId: kp_3
     displayName: "3"
     advancedName: kp_3
     section: numpad
     x: 836
-    y: 360
+    y: 332
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 360934
+    sortOrder: 332934
   - modelId: ibm-1391401-ansi
     keyId: kp_enter
     displayName: Ent
     advancedName: kp_enter
     section: numpad
     x: 879
-    y: 360
+    y: 332
     width: 38
-    height: 80
+    height: 72
     recognitionRank: 10
-    sortOrder: 360978
+    sortOrder: 332978
   - modelId: ibm-1391401-ansi
     keyId: kp_0
     displayName: "0"
     advancedName: kp_0
     section: numpad
     x: 750
-    y: 440
+    y: 368
     width: 80
     height: 36
     recognitionRank: 3
-    sortOrder: 440850
+    sortOrder: 368850
   - modelId: ibm-1391401-ansi
     keyId: kp_decimal
     displayName: .
     advancedName: kp_decimal
     section: numpad
     x: 838
-    y: 440
+    y: 368
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 440939
-  - modelId: ibm-1391401-ansi
-    keyId: intl_extra
-    displayName: Intl
-    advancedName: intl_extra
-    section: main
-    x: 4
-    y: 480
-    width: 32
-    height: 16
-    recognitionRank: 3
-    sortOrder: 480106
+    sortOrder: 368939

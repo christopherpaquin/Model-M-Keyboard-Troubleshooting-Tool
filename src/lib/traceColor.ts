@@ -15,7 +15,7 @@ export function colorForTrace(traceId: string, alpha = 0.9): string {
   return strokeForTrace(traceId, alpha);
 }
 
-/** Solid (membrane_solid / pathA) = cool (cyan/blue) family. Dashed = warm (amber) family. */
+/** Membrane 2 (bottom) / `solid_*` / pathA = cool (blue) family. Membrane 1 (top) / `dashed_*` / pathB = warm (amber) family. */
 export function strokeForTrace(traceId: string, alpha = 0.92): string {
   if (traceId.startsWith("solid_")) {
     const n = parseInt(traceId.replace("solid_", ""), 10) || 0;

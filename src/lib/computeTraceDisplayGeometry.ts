@@ -75,6 +75,7 @@ export function keyRectFillTints(
   if (dead) {
     return { fill: "rgba(240,113,120,0.22)" };
   }
+  /* solid/dashed = Membrane2/M1 in layerId naming */
   const tints: { solid: boolean; dashed: boolean } = { solid: false, dashed: false };
   for (const e of keyTraceMap) {
     if (e.keyId !== k.keyId) continue;

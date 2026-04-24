@@ -28,6 +28,28 @@ export function tracesForKeys(
   return [...t];
 }
 
+/**
+ * Default traces to show for a dead-key selection.
+ * - **0 keys:** none
+ * - **1 key:** both (Membrane 1 + Membrane 2) for that key
+ * - **2+ keys:** **intersection** only — a trace appears if *every* selected key uses it (highlights a plausible shared break)
+ */
+export function defaultTraceSetForSelection(
+  map: KeyTraceMapEntry[],
+  keyIds: readonly string[],
+): string[] {
+  if (keyIds.length === 0) return [];
+  if (keyIds.length === 1) {
+    return tracesForKey(map, keyIds[0]!);
+  }
+  let acc = new Set(tracesForKey(map, keyIds[0]!));
+  for (let i = 1; i < keyIds.length; i++) {
+    const cur = new Set(tracesForKey(map, keyIds[i]!));
+    acc = new Set([...acc].filter((t) => cur.has(t)));
+  }
+  return [...acc];
+}
+
 export function keysSharingTrace(
   map: KeyTraceMapEntry[],
   keyById: Map<string, KeyboardKey>,
@@ -47,12 +69,7 @@ export function keysSharingTrace(
 
 export function sharedTracesAmongDeadKeys(map: KeyTraceMapEntry[], deadKeyIds: string[]): string[] {
   if (deadKeyIds.length < 2) return [];
-  let acc = new Set(tracesForKey(map, deadKeyIds[0]!));
-  for (let i = 1; i < deadKeyIds.length; i++) {
-    const cur = new Set(tracesForKey(map, deadKeyIds[i]!));
-    acc = new Set([...acc].filter((t) => cur.has(t)));
-  }
-  return [...acc];
+  return defaultTraceSetForSelection(map, deadKeyIds);
 }
 
 export function ribbonForTraces(

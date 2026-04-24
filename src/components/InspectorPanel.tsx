@@ -69,7 +69,7 @@ export function InspectorPanel({
                 <li key={k.keyId} style={{ margin: "0.2em 0" }}>
                   <code className="key-tag">{k.displayName}</code>{" "}
                   <span className="muted">
-                    — {s.traceA} + {s.traceB}
+                    — {s.membrane1Top} + {s.membrane2Bottom}
                   </span>
                 </li>
               );
@@ -214,7 +214,7 @@ export function InspectorPanel({
         <details>
           <summary>Advanced details (ribbon, roles)</summary>
           <p className="dev">
-            <strong>Tail contact highlights</strong> match the vertical/horizontal trace mapping in this model package. Verify
+            <strong>Tail contact highlights</strong> match Membrane 1 (top) and Membrane 2 (bottom) traces in this model package. Verify
             on your own board and connector.
           </p>
           {ribbon.length > 0 ? (

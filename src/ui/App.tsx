@@ -4,7 +4,13 @@ import { InspectorPanel } from "../components/InspectorPanel";
 import { makeRibbonList } from "../domain/ribbonList";
 import { buildTroubleshooting } from "../domain/troubleshooting";
 import type { LoadedKeyboardModel, ModelsRegistry, RibbonContact } from "../domain/types";
-import { getKeyById, getRibbonById, getTraceById, suggestComparisonKeys, tracesForKeys } from "../domain/selectors";
+import {
+  defaultTraceSetForSelection,
+  getKeyById,
+  getRibbonById,
+  getTraceById,
+  suggestComparisonKeys,
+} from "../domain/selectors";
 import { loadModelPackage, loadRegistry } from "../domain/modelLoader";
 
 export function App(): React.ReactElement {
@@ -53,7 +59,7 @@ export function App(): React.ReactElement {
 
   const relTraceIds = useMemo(() => {
     if (!model) return new Set<string>();
-    return new Set(tracesForKeys(model.keyTraceMap, dead));
+    return new Set(defaultTraceSetForSelection(model.keyTraceMap, Array.from(dead)));
   }, [model, dead]);
 
   const traceList = useMemo(() => {
@@ -92,23 +98,32 @@ export function App(): React.ReactElement {
     const pathA = rows.find((e) => e.role === "pathA");
     const pathB = rows.find((e) => e.role === "pathB");
     if (!pathA || !pathB) return null;
+    const tr1 = tmap.get(pathB.traceId);
+    const tr2 = tmap.get(pathA.traceId);
+    const c1 = tr1 != null ? (ribbonById.get(tr1.ribbonContactId)?.contactNumber) : undefined;
+    const c2 = tr2 != null ? (ribbonById.get(tr2.ribbonContactId)?.contactNumber) : undefined;
     return {
       keyLabel: keyById.get(keyId)?.displayName ?? keyId,
-      pathA: { id: pathA.traceId, name: tmap.get(pathA.traceId)?.displayName ?? pathA.traceId },
-      pathB: { id: pathB.traceId, name: tmap.get(pathB.traceId)?.displayName ?? pathB.traceId },
+      membrane1Top: { id: pathB.traceId, name: tr1?.displayName ?? pathB.traceId },
+      membrane2Bottom: { id: pathA.traceId, name: tr2?.displayName ?? pathA.traceId },
+      ribbonM1Contact: c1 ?? "—",
+      ribbonM2Contact: c2 ?? "—",
     };
-  }, [model, deadArr, keyById]);
+  }, [model, deadArr, keyById, ribbonById]);
 
   const comp = useMemo(() => {
     if (!model) return [];
-    return suggestComparisonKeys(
-      model.keyTraceMap,
-      keyById,
-      deadArr,
-      [...(draw.size ? draw : relTraceIds)],
-      3,
-    );
-  }, [model, keyById, deadArr, draw, relTraceIds]);
+    return suggestComparisonKeys(model.keyTraceMap, keyById, deadArr, [...relTraceIds], 3);
+  }, [model, keyById, deadArr, relTraceIds]);
+
+  const multiSelectionTraceHint = useMemo(() => {
+    if (dead.size < 2) return null;
+    const n = relTraceIds.size;
+    if (n === 0) {
+      return "No trace is common to all selected keys — nothing highlighted on the tail. The failures may be unrelated in this model, or separate contact issues; we cannot show contact quality here.";
+    }
+    return `Showing ${n} trace${n === 1 ? "" : "s"} common to all ${dead.size} selected keys. A break on a shared line can cause multiple dead keys.`;
+  }, [dead, relTraceIds]);
 
   const [ribbonHighlights, ribbonSolid, ribbonDashed, ribbonList] = useMemo(() => {
     if (!model) {
@@ -181,9 +196,9 @@ export function App(): React.ReactElement {
               </div>
             </div>
             <p className="manifest-notes manifest-notes__lead" role="note" aria-label="Map source">
-              Offline only — the diagram does <strong>not</strong> read your board. Tints: <strong>blue</strong> = same
-              vertical trace (1…16), <strong>amber</strong> = same horizontal trace (A…H). Simplified map, not a real membrane
-              drawing.
+              Offline only — the diagram does <strong>not</strong> read your board. One key selected: both M1 and M2 traces
+              and tail pads. Several keys: only <strong>traces common to every</strong> selected key are drawn. Tints:{" "}
+              <strong>blue</strong> = Membrane 2 (1…16), <strong>amber</strong> = Membrane 1 (A…H) on unselected keys.
             </p>
             <KeyboardDiagram
               keys={model.keys}
@@ -208,6 +223,7 @@ export function App(): React.ReactElement {
                 });
               }}
               selectionTraces={selectionTraces}
+              multiSelectionTraceHint={multiSelectionTraceHint}
             />
           </main>
           {showPanel ? (
@@ -248,7 +264,7 @@ export function App(): React.ReactElement {
                 setDraw(new Set());
               }}
               onToSelection={() => {
-                setDraw(new Set(tracesForKeys(model.keyTraceMap, dead)));
+                setDraw(new Set(defaultTraceSetForSelection(model.keyTraceMap, Array.from(dead))));
                 setListAll(false);
               }}
               drawSet={draw}

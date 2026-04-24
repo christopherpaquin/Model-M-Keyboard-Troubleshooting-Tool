@@ -1,9 +1,9 @@
 import type { KeyboardTrace, KeyTraceMapEntry, TroubleshootingResult } from "./types";
 import {
+  defaultTraceSetForSelection,
   getTraceById,
   sharedTracesAmongDeadKeys,
   tracesForKey,
-  tracesForKeys,
 } from "./selectors";
 
 export function buildTroubleshooting(
@@ -25,7 +25,7 @@ export function buildTroubleshooting(
   }
 
   const shared = sharedTracesAmongDeadKeys(map, selectedDeadKeyIds);
-  const union = tracesForKeys(map, selectedDeadKeyIds);
+  const traceIdsForPerKeyNotes = defaultTraceSetForSelection(map, selectedDeadKeyIds);
 
   const summaryLines: string[] = [];
   if (selectedDeadKeyIds.length === 1) {
@@ -43,7 +43,7 @@ export function buildTroubleshooting(
   }
 
   const perTraceNotes: Record<string, string[]> = {};
-  for (const tid of union) {
+  for (const tid of traceIdsForPerKeyNotes) {
     const t = traceById.get(tid);
     perTraceNotes[tid] = [
       t?.description ?? "Trace path description not provided for this build.",
@@ -80,13 +80,13 @@ export function traceNarrationForKey(
   map: KeyTraceMapEntry[],
   traceById: Map<string, KeyboardTrace>,
   keyId: string,
-): { traceA: string; traceB: string } {
+): { membrane1Top: string; membrane2Bottom: string } {
   const entries = map.filter((e) => e.keyId === keyId);
-  const a = entries.find((e) => e.role === "pathA");
-  const b = entries.find((e) => e.role === "pathB");
+  const pathA = entries.find((e) => e.role === "pathA");
+  const pathB = entries.find((e) => e.role === "pathB");
   return {
-    traceA: a ? traceById.get(a.traceId)?.displayName ?? a.traceId : "—",
-    traceB: b ? traceById.get(b.traceId)?.displayName ?? b.traceId : "—",
+    membrane1Top: pathB ? traceById.get(pathB.traceId)?.displayName ?? pathB.traceId : "—",
+    membrane2Bottom: pathA ? traceById.get(pathA.traceId)?.displayName ?? pathA.traceId : "—",
   };
 }
 

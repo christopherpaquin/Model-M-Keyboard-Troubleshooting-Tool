@@ -1,217 +1,217 @@
 ribbonContacts:
   - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_01
-    layerId: membrane_solid
-    contactNumber: "1"
-    x: 8
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 1
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_02
-    layerId: membrane_solid
-    contactNumber: "2"
-    x: 36
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 2
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_03
-    layerId: membrane_solid
-    contactNumber: "3"
-    x: 64
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 3
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_04
-    layerId: membrane_solid
-    contactNumber: "4"
-    x: 92
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 4
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_05
-    layerId: membrane_solid
-    contactNumber: "5"
-    x: 120
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 5
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_06
-    layerId: membrane_solid
-    contactNumber: "6"
-    x: 148
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 6
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_07
-    layerId: membrane_solid
-    contactNumber: "7"
-    x: 176
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 7
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_08
-    layerId: membrane_solid
-    contactNumber: "8"
-    x: 204
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 8
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_09
-    layerId: membrane_solid
-    contactNumber: "9"
-    x: 232
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 9
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_10
-    layerId: membrane_solid
-    contactNumber: "10"
-    x: 260
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 10
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_11
-    layerId: membrane_solid
-    contactNumber: "11"
-    x: 288
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 11
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_12
-    layerId: membrane_solid
-    contactNumber: "12"
-    x: 316
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 12
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_13
-    layerId: membrane_solid
-    contactNumber: "13"
-    x: 344
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 13
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_14
-    layerId: membrane_solid
-    contactNumber: "14"
-    x: 372
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 14
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_15
-    layerId: membrane_solid
-    contactNumber: "15"
-    x: 400
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 15
-  - modelId: ibm-1391401-ansi
-    contactId: ribbon_s_16
-    layerId: membrane_solid
-    contactNumber: "16"
-    x: 428
-    y: 32
-    width: 24
-    height: 32
-    label: Vertical tail contact 16
-  - modelId: ibm-1391401-ansi
     contactId: ribbon_d_A
     layerId: membrane_dashed
     contactNumber: A
-    x: 468
+    x: 8
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact A
+    label: Membrane 1 (top) — trace A
   - modelId: ibm-1391401-ansi
     contactId: ribbon_d_B
     layerId: membrane_dashed
     contactNumber: B
-    x: 502
+    x: 42
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact B
+    label: Membrane 1 (top) — trace B
   - modelId: ibm-1391401-ansi
     contactId: ribbon_d_C
     layerId: membrane_dashed
     contactNumber: C
-    x: 536
+    x: 76
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact C
+    label: Membrane 1 (top) — trace C
   - modelId: ibm-1391401-ansi
     contactId: ribbon_d_D
     layerId: membrane_dashed
     contactNumber: D
-    x: 570
+    x: 110
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact D
+    label: Membrane 1 (top) — trace D
   - modelId: ibm-1391401-ansi
     contactId: ribbon_d_E
     layerId: membrane_dashed
     contactNumber: E
-    x: 604
+    x: 144
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact E
+    label: Membrane 1 (top) — trace E
   - modelId: ibm-1391401-ansi
     contactId: ribbon_d_F
     layerId: membrane_dashed
     contactNumber: F
-    x: 638
+    x: 178
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact F
+    label: Membrane 1 (top) — trace F
   - modelId: ibm-1391401-ansi
     contactId: ribbon_d_G
     layerId: membrane_dashed
     contactNumber: G
-    x: 672
+    x: 212
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact G
+    label: Membrane 1 (top) — trace G
   - modelId: ibm-1391401-ansi
     contactId: ribbon_d_H
     layerId: membrane_dashed
     contactNumber: H
-    x: 706
+    x: 246
     y: 32
     width: 28
     height: 32
-    label: Horizontal tail contact H
+    label: Membrane 1 (top) — trace H
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_01
+    layerId: membrane_solid
+    contactNumber: "1"
+    x: 290
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 1
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_02
+    layerId: membrane_solid
+    contactNumber: "2"
+    x: 318
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 2
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_03
+    layerId: membrane_solid
+    contactNumber: "3"
+    x: 346
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 3
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_04
+    layerId: membrane_solid
+    contactNumber: "4"
+    x: 374
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 4
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_05
+    layerId: membrane_solid
+    contactNumber: "5"
+    x: 402
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 5
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_06
+    layerId: membrane_solid
+    contactNumber: "6"
+    x: 430
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 6
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_07
+    layerId: membrane_solid
+    contactNumber: "7"
+    x: 458
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 7
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_08
+    layerId: membrane_solid
+    contactNumber: "8"
+    x: 486
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 8
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_09
+    layerId: membrane_solid
+    contactNumber: "9"
+    x: 514
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 9
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_10
+    layerId: membrane_solid
+    contactNumber: "10"
+    x: 542
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 10
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_11
+    layerId: membrane_solid
+    contactNumber: "11"
+    x: 570
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 11
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_12
+    layerId: membrane_solid
+    contactNumber: "12"
+    x: 598
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 12
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_13
+    layerId: membrane_solid
+    contactNumber: "13"
+    x: 626
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 13
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_14
+    layerId: membrane_solid
+    contactNumber: "14"
+    x: 654
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 14
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_15
+    layerId: membrane_solid
+    contactNumber: "15"
+    x: 682
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 15
+  - modelId: ibm-1391401-ansi
+    contactId: ribbon_s_16
+    layerId: membrane_solid
+    contactNumber: "16"
+    x: 710
+    y: 32
+    width: 24
+    height: 32
+    label: Membrane 2 (bottom) — trace 16

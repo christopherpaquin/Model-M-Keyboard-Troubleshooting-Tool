@@ -1,6 +1,6 @@
 # Model M keyboard dead-key troubleshooting (local web app)
 
-Desktop-first **static** web app: it loads keyboard **model packages** (YAML) from the browser, draws an **SVG** layout, overlays **vertical** and **horizontal** membrane trace paths, and offers plain-language **troubleshooting** hints. There is no cloud, database, or backend in v1—everything runs in the browser with files under `public/models/`.
+Desktop-first **static** web app: it loads keyboard **model packages** (YAML) from the browser, draws an **SVG** layout, overlays **Membrane 1 (top, A…H)** and **Membrane 2 (bottom, 1…16)** trace paths, and offers plain-language **troubleshooting** hints. There is no cloud, database, or backend in v1—everything runs in the browser with files under `public/models/`.
 
 ---
 
@@ -100,7 +100,7 @@ If your distribution ships an older Node, install Node 20+ from [NodeSource](htt
 
 ### What you are looking at
 
-- A short **note** at the top explains that the map is **offline** (it does not read a physical keyboard), and that **blue** tints mean the same **vertical** trace, **amber** tints the same **horizontal** trace, as a simplified schematic.
+- A short **note** at the top explains that the map is **offline** (it does not read a physical keyboard), and that **blue** tints mean the same **Membrane 2 (bottom)** trace, **amber** tints the same **Membrane 1 (top)** trace, as a simplified schematic.
 
 ### Model selection
 
@@ -110,15 +110,15 @@ If your distribution ships an older Node, install Node 20+ from [NodeSource](htt
 
 ### Main diagram (center)
 
-- **Tail strip (“Vertical Traces” / “Horizontal Traces”)** — number **1…16** and letters **A…H** for the 1391401 sample; other models can define a different set of `ribbon_contacts` and `traces`. The highlighted box matches the traces currently used for the drawing.  
+- **Tail strip** — **Membrane 1 (top) A…H** (left) and **Membrane 2 (bottom) 1…16** (right) for the 1391401 sample; other models can define a different set of `ribbon_contacts` and `traces`. The highlighted box matches the traces currently used for the drawing.  
 - **Keyboard** — each key is clickable.
 - **Click a key** to mark it as **“dead”** (not registering). Click again to **clear**. Multiple keys can be selected.
-- **Tints** — keys that share the same vertical and/or horizontal trace as your selection (when those traces are visible) are tinted to show **electrical grouping** on the schematic.
-- **Line overlays** — paths run from the tail to keys. With **one** key selected, the app draws a straight run from the tail to that key for the vertical and horizontal path that meet at the key. With more keys (or from the panel) it can show longer paths in **reading order**.
+- **Tints** — keys that share the same M1 and/or M2 trace as your selection (when those traces are visible) are tinted to show **electrical grouping** on the schematic.
+- **Line overlays** — paths run from the tail to keys. With **one** key selected, the app draws a straight run from the tail to that key for the two paths that meet at the key. With more keys (or from the panel) it can show longer paths in **reading order**.
 
 ### Selection legend (under the page title, when it applies)
 
-- If **one** key is selected, a line like “**Bksp** uses: **Vertical: …** + **Horizontal: …**” with color swatches shows the two **trace names** for that key.
+- If **one** key is selected, a line with color swatches shows the two **membrane trace names** (M1 + M2) for that key.
 
 - If **several** keys are selected, a shorter multi-key hint is shown.
 
@@ -129,7 +129,7 @@ If your distribution ships an older Node, install Node 20+ from [NodeSource](htt
 ### Side panel — “Traces and checks” (when visible)
 
 - **Selected keys (not registering)**  
-  - Lists the keys you marked, with a short line naming their **vertical + horizontal** traces.  
+  - Lists the keys you marked, with a short line naming their **Membrane 1 + Membrane 2** traces.  
   - **Clear selected keys** removes all dead marks.
 
 - **Trace visibility**  
@@ -162,10 +162,10 @@ Each “keyboard model” is a **folder of YAML** files, listed in the manifest.
 | ---------------------- | ---- |
 | `manifest.yaml`        | Identity, version, and pointers to the other files. |
 | `keys.yaml`            | All key caps: positions in SVG space and labels. |
-| `traces.yaml`          | Every “wire” in the model (vertical, horizontal, etc.) with `displayName` and a `ribbonContactId`. |
+| `traces.yaml`          | Every “wire” in the model (Membrane 1 / Membrane 2, etc.) with `displayName` and a `ribbonContactId`. |
 | `trace_paths.yaml`     | One SVG path `d` per trace (used for validation/authoring; the on-screen line drawing is also computed in the app for clarity). |
 | `ribbon_contacts.yaml` | Tail / FFC “pin” positions so highlights and line starts line up. |
-| `key_trace_map.yaml`   | **Two** rows per key: `pathA` and `pathB`, each to one `traceId` (in the 1391401 build, pathA = vertical, pathB = horizontal). |
+| `key_trace_map.yaml`   | **Two** rows per key: `pathA` and `pathB` (1391401: `pathA` = Membrane 2 bottom, `pathB` = Membrane 1 top). |
 
 ---
 
@@ -180,7 +180,7 @@ The UI is **generic**: it does not hardcode “102 keys” or “16+8” traces.
 
 ### 2. Gather electrical truth
 
-You need, for every key, **which** vertical-trace and which horizontal-trace it belongs to, from:
+You need, for every key, which **Membrane 1 (top)** and **Membrane 2 (bottom)** trace it uses, from:
 
 - A published **scan matrix** or service manual for that board, **or**  
 - Your own **continuity / beep** mapping, **or**  
@@ -198,14 +198,14 @@ You need, for every key, **which** vertical-trace and which horizontal-trace it 
 
 ### 4. Build `traces.yaml` and `ribbon_contacts.yaml`
 
-- For each **trace** in your matrix, add a `trace` record with a stable `traceId` (e.g. `v_01` … or keep `solid_01` style) and a `displayName` (e.g. “Vertical trace 3”).  
-- `layerId` is **informational** for tints: `membrane_solid` uses the **cool/blue** family, `membrane_dashed` the **warm/amber** family in `src/lib/traceColor.ts`. The **first** per-key role in `key_trace_map` should be the one you want shown as the first path in the UI (sample uses pathA = vertical).  
+- For each **trace** in your matrix, add a `trace` record with a stable `traceId` (e.g. keep `solid_01` / `dashed_A` style) and a `displayName` (e.g. “Membrane 2 (bottom) — 3”).  
+- `layerId` is **informational** for tints: `membrane_solid` (M2) uses the **cool/blue** family, `membrane_dashed` (M1) the **warm/amber** family in `src/lib/traceColor.ts`. The **first** per-key role in `key_trace_map` should be the one you want shown as the first path in the UI (1391401 sample: pathA = M2, pathB = M1; the on-screen key legend shows **M1 then M2**).  
 - `ribbon_contacts` must have **one contact per trace** in the **same 2D system** as `keys`, so the SVG header strip and lines **line up** (the sample generator places pins in a 920px-wide band).
 
 ### 5. Build `key_trace_map.yaml`
 
 - For **every** `keyId`, **exactly two** entries: one `pathA`, one `pathB`, and **two different** `traceId` values.  
-- That is how the UI knows “this key sits at the crossing of this vertical and this horizontal” path for troubleshooting.
+- That is how the UI knows “this key sits at the crossing of this M1 and this M2” path for troubleshooting.
 
 ### 6. Build `trace_paths.yaml`
 
@@ -240,14 +240,15 @@ Select the new model. Fix any **red** “Package load” line until the diagram 
 
 ### 10. Optional: copy and adapt the 1391401 generator
 
-- `tools/generate-1391401-package.mjs` shows end-to-end generation: layout, kbupgrade **vertical** lines, JSON **horizontal** lines, and YAML emission. For **M122** or a **Unicomp** list, start by **duplicating** that script and **replacing** the matrix and layout sources with your own, rather than overloading a single 102-key script. Commit under a new filename so 1391401 and other models stay maintainable.
+- `tools/generate-1391401-package.mjs` shows end-to-end generation: **layout**, **JSON matrix** (unique `R#`+`C#` per key → pathA + pathB), and **YAML** emission. For **M122** or a **Unicomp** list, start by **duplicating** that script and **replacing** the matrix and layout sources with your own, rather than overloading a single 102-key script. Commit under a new filename so 1391401 and other models stay maintainable.
 
 ---
 
 ## The bundled 102-key ANSI (1391401) sample
 
-- **Vertical traces** (16) — from kbupgrade [1391401.matrix](https://raw.githubusercontent.com/rhomann/kbupgrade/master/matrices/1391401.matrix).  
-- **Horizontal traces** (A…H) — from `C0`…`C7` in `modelm-102-key-1391401/ansi-matrix.json` (see that folder’s README for caveats on duplicate (R,C) cells). The generator takes **row** from kbupgrade and **column** from the JSON.  
+- **Path A = Membrane 2 (bottom), traces 1…16** — from matrix **row** `R1`…`R16` in `modelm-102-key-1391401/ansi-matrix.json` (one key per `R#`+`C#` cell; the pair (M1, M2) is **unique** per key on the FFC in this model).  
+- **Path B = Membrane 1 (top), traces A…H** — from matrix **column** `C0`…`C7` in the same file.  
+- **Verify the matrix** against your hardware: numpad uses dedicated rows in the repo file so cells stay unique.  
 - Regenerate after layout/matrix changes:
 
   ```bash
@@ -277,11 +278,10 @@ Select the new model. Fix any **red** “Package load” line until the diagram 
 
 - Guidance text is a **checklist**, not a guarantee.  
 - Stroke colors are HSL-based per `traceId`, not brand-accurate ink.  
-- The 1391401 data includes a rarely used **“Intl”**-style key position in the layout for kbupgrade alignment; your board may not have that cap.  
 - No automated test suite in v1; `npm run build` type-checks the app.
 
 ---
 
 ## License
 
-Application code in this repository is part of the troubleshooting tool project. Third-party matrix references (e.g. kbupgrade) are described in `dataNotes` and documentation, not as product branding in the app UI.
+Application code in this repository is part of the troubleshooting tool project. The sample matrix in `modelm-102-key-1391401/` is maintainer data; it is not IBM product branding in the app UI.

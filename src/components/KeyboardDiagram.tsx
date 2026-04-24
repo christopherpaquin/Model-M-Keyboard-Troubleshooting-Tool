@@ -7,8 +7,13 @@ import { SvgRibbonGutter } from "./SvgRibbonGutter";
 
 export type SelectionTraceInfo = {
   keyLabel: string;
-  pathA: { id: string; name: string };
-  pathB: { id: string; name: string };
+  /** Membrane 1 (top) — pathB / lettered A–H */
+  membrane1Top: { id: string; name: string };
+  /** Membrane 2 (bottom) — pathA / numbered 1–16 */
+  membrane2Bottom: { id: string; name: string };
+  /** Tail pad labels (A–H and 1–16) for this key’s two ribbon contacts */
+  ribbonM1Contact: string;
+  ribbonM2Contact: string;
 };
 
 export function KeyboardDiagram(props: {
@@ -28,6 +33,8 @@ export function KeyboardDiagram(props: {
   ribbonDashed: RibbonContact[];
   onToggleKey: (keyId: string) => void;
   selectionTraces: SelectionTraceInfo | null;
+  /** When 2+ keys: explains common-trace (intersection) behavior */
+  multiSelectionTraceHint: string | null;
 }): React.ReactElement {
   const sortedKeys = [...props.keys].sort((a, b) => b.width * b.height - a.width * a.height);
 
@@ -62,31 +69,37 @@ export function KeyboardDiagram(props: {
   return (
     <div className="kbd-wrap">
       {props.selectionTraces ? (
-        <div className="kbd-trace-legend" aria-live="polite">
-          <span className="kbd-trace-legend__label">“{props.selectionTraces.keyLabel}”</span> uses:{" "}
-          <span className="kbd-trace-legend__row">
-            <span
-              className="swatch"
-              style={{ background: strokeForTrace(props.selectionTraces.pathA.id) }}
-              title="Vertical-trace layer (continuous paths)"
-            />
-            <span className="kbd-trace-legend__name">Vertical: {props.selectionTraces.pathA.name}</span>
-          </span>
-          <span className="kbd-trace-legend__sep" aria-hidden>
-            +
-          </span>
-          <span className="kbd-trace-legend__col">
-            <span
-              className="swatch"
-              style={{ background: strokeForTrace(props.selectionTraces.pathB.id) }}
-              title="Horizontal-trace layer (dotted side of membrane)"
-            />
-            <span className="kbd-trace-legend__name">Horizontal: {props.selectionTraces.pathB.name}</span>
-          </span>
+        <div>
+          <div className="kbd-trace-legend" aria-live="polite">
+            <span className="kbd-trace-legend__label">“{props.selectionTraces.keyLabel}”</span> uses:{" "}
+            <span className="kbd-trace-legend__row">
+              <span
+                className="swatch"
+                style={{ background: strokeForTrace(props.selectionTraces.membrane1Top.id) }}
+                title="Membrane 1 (top) — lettered A–H"
+              />
+              <span className="kbd-trace-legend__name">{props.selectionTraces.membrane1Top.name}</span>
+            </span>
+            <span className="kbd-trace-legend__sep" aria-hidden>
+              +
+            </span>
+            <span className="kbd-trace-legend__col">
+              <span
+                className="swatch"
+                style={{ background: strokeForTrace(props.selectionTraces.membrane2Bottom.id) }}
+                title="Membrane 2 (bottom) — numbered 1–16"
+              />
+              <span className="kbd-trace-legend__name">{props.selectionTraces.membrane2Bottom.name}</span>
+            </span>
+          </div>
+          <p className="subtle" style={{ margin: "0.3em 0 0 0.1em", fontSize: 12 }} role="note">
+            Ribbon: Membrane 1 = tail contact <code>{props.selectionTraces.ribbonM1Contact}</code> · Membrane 2 ={" "}
+            <code>{props.selectionTraces.ribbonM2Contact}</code> (see highlighted pads above).
+          </p>
         </div>
-      ) : props.deadKeyIds.size > 1 ? (
+      ) : props.deadKeyIds.size > 1 && props.multiSelectionTraceHint ? (
         <p className="kbd-trace-legend kbd-trace-legend--muted" role="note">
-          {props.deadKeyIds.size} keys — blue = vertical, amber = horizontal, per key.
+          {props.multiSelectionTraceHint}
         </p>
       ) : null}
 
@@ -94,7 +107,7 @@ export function KeyboardDiagram(props: {
         className="kbd-canvas"
         viewBox="0 0 920 520"
         role="img"
-        aria-label="Keyboard with membrane tail pins; trace lines start from the numbered boxes and letters"
+        aria-label="Keyboard with ribbon tail: Membrane 1 left (A…H) and Membrane 2 right (1…16); trace lines from each pin to keys"
         width="920"
         height="520"
         preserveAspectRatio="xMidYMin meet"
@@ -182,7 +195,7 @@ export function KeyboardDiagram(props: {
           })}
       </svg>
       <div className="kbd-legend subtle">
-        Lines go from the tail to keys (with one key selected, the vertical and horizontal meet there). Click a key to mark
+        Lines go from the tail to keys; at each key, Membrane 1 (top) and Membrane 2 (bottom) traces meet. Click a key to mark
         it dead; click again to clear.
       </div>
     </div>

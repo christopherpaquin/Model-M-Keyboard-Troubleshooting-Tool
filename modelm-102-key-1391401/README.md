@@ -1,19 +1,12 @@
 # 102-key ANSI matrix source (1391401 class)
 
-These files drive the **dashed (column) layer** in the generated model package `public/models/ibm-1391401-ansi/`.
+This folder provides `ansi-matrix.json` (and a CSV copy) for the model package in `public/models/ibm-1391401-ansi/`.
 
-- `ansi-matrix.json` — metadata and `matrix` of key label → `[row, column]` with rows `R2`…`R14` and columns `C0`…`C7`.
-- `ansi-matrix.csv` — same data in CSV form (optional copy for spreadsheets).
+- **Each key** maps to a **unique** `["R#","C#"]` cell.
+- **R1..R16** map to **Membrane 2 (bottom)** — numbered traces **1..16** in the app.
+- **C0..C7** map to **Membrane 1 (top)** — lettered traces **A..H** in the app.
+- A few **numpad** keys that previously shared a cell with the main block were moved to **R1** and **R15** in this repository so the table stays 1:1. **Re-verify against your FFC and controller** before high-stakes repairs.
 
-## Important: duplicate `(row, column)` cells
+`#` in JSON is the ISO “number sign” / `#` key (`intl_hash` in the UI layout) when the layout includes it.
 
-The JSON assigns the same `R#`+`C#` string to more than one key in several places (for example the main block and the numpad). A physical 16×8 matrix has **at most one key per intersection**, so the table cannot be read as a literal unique cell map as written.
-
-The **generator** therefore:
-
-1. Uses **kbupgrade** `1391401.matrix` **row lines** for the **solid** (pathA) trace per key.
-2. Uses only the **column** token (`C0`…`C7`) from this file for the **dashed** (pathB) trace, mapped to `dashed_A`…`dashed_H`.
-
-That yields a **unique (solid, dashed) pair** per key even when two keys share the same `R#C#` string in the source file.
-
-If you later produce a file where each key has a **unique** cell, you can extend the generator to validate rows as well; today the `R#` in this file is informational / for cross-checks only (except as noted in the app manifest).
+See `tools/generate-1391401-package.mjs` (`MATRIX_LABEL_TO_KEYID`, `rowTokenToSolid`, `colTokenToDashed`) and `dataNotes` in the generated `manifest.yaml`.

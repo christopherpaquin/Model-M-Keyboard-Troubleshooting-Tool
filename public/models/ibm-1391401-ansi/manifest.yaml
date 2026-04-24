@@ -2,27 +2,24 @@ modelId: ibm-1391401-ansi
 displayName: IBM Model M 102-key ANSI (1391401 / 1391404 class)
 family: IBM Model M
 layoutName: 102-key ANSI
-description: "IBM 102-key ANSI (1391401 class): 16 continuous vertical paths + 8
-  horizontal paths on the dotted-membrane layer. Vertical indices from kbupgrade
-  1391401.matrix; horizontal A..H from modelm-102-key-1391401/ansi-matrix.json
-  (C0..C7). Often compatible with 1391404; verify for your part."
+description: "IBM 102-key ANSI (1391401 class): each key is one (R,C) in
+  modelm-102-key-1391401/ansi-matrix.json — R1..R16 → Membrane 2 (bottom) traces
+  1..16, C0..C7 → Membrane 1 (top) A..H. Often compatible with 1391404; verify
+  the matrix for your part."
 schemaVersion: 1.0.0
-modelVersion: 0.3.7-ribbon-legend-layout
+modelVersion: 0.4.1-membrane-naming
 supportedFeatures:
   - trace_overlay
   - ribbon_highlight
   - comparison_keys
 dataNotes:
-  - "Vertical trace paths 1–16: key membership is from kbupgrade 1391401.matrix.
-    That is pathA in the data."
-  - "Horizontal trace paths A–H: each key’s C0..C7 in
-    modelm-102-key-1391401/ansi-matrix.json maps to pathB. The file’s (R,C)
-    pairs are not a unique 16×8 table; the generator uses kbupgrade for pathA
-    and column for pathB."
-  - On-screen key positions and trace line segments are schematic, not a
-    measured FFC. Package trace_paths use tail pin points plus key centers in
-    reading order. Replace the package art for a photo-accurate overlay if
-    needed.
+  - pathA / Membrane 2 (bottom, numbered 1..16) = matrix rows R1..R16. pathB /
+    Membrane 1 (top, lettered A..H) = matrix columns C0..C7. Every key has a
+    unique (R,C) in ansi-matrix.json.
+  - Numpad rows in the JSON were reserved so cells stay unique; confirm against
+    your FFC before repairs.
+  - Schematic on-screen key positions and polylines are for navigation; not
+    photo-accurate to the FFC shape.
 files:
   keys: keys.yaml
   traces: traces.yaml

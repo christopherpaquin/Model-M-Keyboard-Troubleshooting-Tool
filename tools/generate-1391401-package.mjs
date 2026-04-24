@@ -1,10 +1,9 @@
 /**
  * Generates YAML model files for IBM 1391401 102-key ANSI.
- * - Solid (pathA): kbupgrade 1391401.matrix row lines (one row trace per key).
- * - Dashed (pathB): column index C0..C7 from modelm-102-key-1391401/ansi-matrix.json
- *   mapped to dashed_A..dashed_H. The source file lists many duplicate (R,C) pairs for
- *   different keys; those cells are not unique. We use only the column letter for the
- *   dashed layer, with solid from kbupgrade, so each key still gets a unique (solid, dashed) pair.
+ * - pathA (membrane 2, bottom, numbered 1–16 / solid_*): matrix row R1..R16 → `solid_01`..`solid_16`
+ * - pathB (membrane 1, top, lettered A–H / dashed_*): column C0..C7 → `dashed_A`..`H`
+ * Each key uses one unique (R# C#) cell in `modelm-102-key-1391401/ansi-matrix.json`.
+ * Verify that file against your hardware; reassign numpad rows in the JSON if it differs.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -15,137 +14,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const outDir = path.join(root, "public", "models", "ibm-1391401-ansi");
 const MATRIX_JSON = path.join(root, "modelm-102-key-1391401", "ansi-matrix.json");
-
-/** kbupgrade token -> stable keyId */
-const TOKEN_MAP = {
-  KEY_esc: "esc",
-  KEY_grave: "backtick",
-  KEY_1: "digit_1",
-  KEY_2: "digit_2",
-  KEY_3: "digit_3",
-  KEY_4: "digit_4",
-  KEY_5: "digit_5",
-  KEY_6: "digit_6",
-  KEY_7: "digit_7",
-  KEY_8: "digit_8",
-  KEY_9: "digit_9",
-  KEY_0: "digit_0",
-  KEY_minus: "minus",
-  KEY_equal: "equal",
-  KEY_tab: "tab",
-  KEY_Q: "q",
-  KEY_W: "w",
-  KEY_E: "e",
-  KEY_R: "r",
-  KEY_T: "t",
-  KEY_Y: "y",
-  KEY_U: "u",
-  KEY_I: "i",
-  KEY_O: "o",
-  KEY_P: "p",
-  KEY_lbr: "bracket_left",
-  KEY_rbr: "bracket_right",
-  KEY_bckslsh: "backslash",
-  KEY_cpslck: "caps_lock",
-  KEY_A: "a",
-  KEY_S: "s",
-  KEY_D: "d",
-  KEY_F: "f",
-  KEY_G: "g",
-  KEY_H: "h",
-  KEY_J: "j",
-  KEY_K: "k",
-  KEY_L: "l",
-  KEY_smcol: "semicolon",
-  KEY_ping: "quote",
-  KEY_hash: "intl_hash",
-  KEY_Z: "z",
-  KEY_X: "x",
-  KEY_C: "c",
-  KEY_V: "v",
-  KEY_B: "b",
-  KEY_N: "n",
-  KEY_M: "m",
-  KEY_comma: "comma",
-  KEY_dot: "period",
-  KEY_slash: "slash",
-  MOD_LSHIFT: "left_shift",
-  MOD_RSHIFT: "right_shift",
-  MOD_LCTRL: "left_ctrl",
-  MOD_RCTRL: "right_ctrl",
-  MOD_LALT: "left_alt",
-  MOD_RALT: "right_alt",
-  KEY_spc: "space",
-  KEY_F1: "f1",
-  KEY_F2: "f2",
-  KEY_F3: "f3",
-  KEY_F4: "f4",
-  KEY_F5: "f5",
-  KEY_F6: "f6",
-  KEY_F7: "f7",
-  KEY_F8: "f8",
-  KEY_F9: "f9",
-  KEY_F10: "f10",
-  KEY_F11: "f11",
-  KEY_F12: "f12",
-  KEY_bckspc: "backspace",
-  KEY_enter: "enter_main",
-  KEY_ins: "insert",
-  KEY_home: "home",
-  KEY_pgup: "page_up",
-  KEY_del: "delete",
-  KEY_end: "end",
-  KEY_pgdn: "page_down",
-  KEY_uarr: "arrow_up",
-  KEY_darr: "arrow_down",
-  KEY_larr: "arrow_left",
-  KEY_rarr: "arrow_right",
-  KEY_PrtScr: "print_screen",
-  KEY_scrlck: "scroll_lock",
-  KEY_break: "pause_break",
-  KEY_numlock: "num_lock",
-  KEY_KPslash: "kp_slash",
-  KEY_KPast: "kp_asterisk",
-  KEY_KPminus: "kp_minus",
-  KEY_KPplus: "kp_plus",
-  KEY_KPenter: "kp_enter",
-  KEY_KPdot: "kp_decimal",
-  KEY_KP0: "kp_0",
-  KEY_KP1: "kp_1",
-  KEY_KP2: "kp_2",
-  KEY_KP3: "kp_3",
-  KEY_KP4: "kp_4",
-  KEY_KP5: "kp_5",
-  KEY_KP6: "kp_6",
-  KEY_KP7: "kp_7",
-  KEY_KP8: "kp_8",
-  KEY_KP9: "kp_9",
-  KEY_Euro: "intl_extra",
-};
-
-const ROW_LINES = [
-  ["KEY_Z", "KEY_tab", "KEY_Q", "KEY_A", "KEY_grave", "KEY_1", "KEY_esc"],
-  ["KEY_X", "KEY_S", "KEY_W", "KEY_2", "KEY_F1", "KEY_cpslck", "KEY_Euro"],
-  ["KEY_C", "KEY_D", "KEY_E", "KEY_3", "KEY_F2", "KEY_F3", "KEY_F4"],
-  ["KEY_B", "KEY_V", "KEY_G", "KEY_F", "KEY_T", "KEY_R", "KEY_5", "KEY_4"],
-  ["KEY_spc", "KEY_F5", "KEY_F9", "KEY_F10", "KEY_bckspc", "KEY_enter", "KEY_bckslsh"],
-  ["KEY_N", "KEY_M", "KEY_H", "KEY_J", "KEY_Y", "KEY_U", "KEY_6", "KEY_7"],
-  ["KEY_K", "KEY_I", "KEY_8", "KEY_F6", "KEY_comma", "KEY_equal", "KEY_rbr"],
-  ["KEY_dot", "KEY_L", "KEY_O", "KEY_9", "KEY_F7", "KEY_F8"],
-  ["KEY_P", "KEY_0", "KEY_lbr", "KEY_ping", "KEY_slash", "KEY_smcol", "KEY_minus", "KEY_hash"],
-  ["KEY_F11", "KEY_del", "KEY_KP1", "KEY_KP4", "KEY_KP7", "KEY_darr", "KEY_numlock"],
-  ["KEY_F12", "KEY_ins", "KEY_KP0", "KEY_KP2", "KEY_KP5", "KEY_KP8", "KEY_rarr", "KEY_KPslash"],
-  ["KEY_pgup", "KEY_pgdn", "KEY_KP3", "KEY_KP6", "KEY_KP9", "KEY_KPast", "KEY_KPdot", "KEY_KPminus"],
-  ["KEY_larr", "KEY_uarr", "KEY_end", "KEY_home", "KEY_break", "KEY_KPplus", "KEY_KPenter"],
-  ["MOD_LALT", "MOD_RALT", "KEY_PrtScr", "KEY_scrlck"],
-  ["MOD_LCTRL", "MOD_RCTRL"],
-  ["MOD_LSHIFT", "MOD_RSHIFT"],
-];
-
-function solidTraceId(rowIndex) {
-  const n = rowIndex + 1;
-  return `solid_${String(n).padStart(2, "0")}`;
-}
 
 /**
  * Pushes the key grid below the membrane/ribbon header (larger than before
@@ -168,10 +36,12 @@ const LAYOUT_RAW = {
   f10: [472, 56, 36, 32],
   f11: [512, 56, 36, 32],
   f12: [552, 56, 36, 32],
-  /** F-row system keys: wider spacing so labels do not stack (Prt/Scr/Pause / Int). */
-  print_screen: [588, 56, 40, 32],
-  scroll_lock: [636, 56, 40, 32],
-  pause_break: [684, 56, 40, 32],
+  /**
+   * System keys: 36w; x aligned with `insert` / `home` / `page_up` (nav column) so Prt/Scr/Pause read as stacked above.
+   */
+  print_screen: [630, 56, 36, 32],
+  scroll_lock: [670, 56, 36, 32],
+  pause_break: [710, 56, 36, 32],
   backtick: [16, 104, 36, 36],
   digit_1: [56, 104, 36, 36],
   digit_2: [96, 104, 36, 36],
@@ -226,8 +96,8 @@ const LAYOUT_RAW = {
   comma: [380, 236, 36, 36],
   period: [420, 236, 36, 36],
   slash: [460, 236, 36, 36],
-  /** Stops before the nav block at x≈612 */
-  right_shift: [480, 236, 100, 36],
+  /** After `slash` to x=496; 500–626 clears nav (Insert 630). */
+  right_shift: [500, 236, 126, 36],
   left_ctrl: [16, 280, 48, 36],
   left_alt: [72, 280, 48, 36],
   space: [128, 280, 260, 36],
@@ -244,34 +114,27 @@ const LAYOUT_RAW = {
   arrow_left: [630, 280, 36, 36],
   arrow_down: [670, 280, 36, 36],
   arrow_right: [710, 280, 36, 36],
-  /** Numpad: 4% wider keys + 5px gutters so adjacent labels do not read as one. */
-  num_lock: [750, 56, 38, 32],
-  kp_slash: [793, 56, 38, 32],
-  kp_asterisk: [836, 56, 38, 32],
-  kp_minus: [879, 56, 38, 32],
-  kp_7: [750, 104, 38, 36],
-  kp_8: [793, 104, 38, 36],
-  kp_9: [836, 104, 38, 36],
   /**
-   * Tall “+” spans 789 and 456 (two full key rows). Raw height = 2×36 + row gap, same as
-   * reading-order gap between 7-row and 4-row (8px).
+   * Numpad: top row (Num, /, *, -) y-aligned with `insert` / `home` / `page_up` (y=104, h=36).
+   * Stacked data rows h=36 with 0px gap; “+” / “Enter” h=72 = two rows (sits flush under prior row).
    */
-  kp_plus: [879, 104, 38, 120],
-  kp_4: [750, 188, 38, 36],
-  kp_5: [793, 188, 38, 36],
-  kp_6: [836, 188, 38, 36],
-  kp_1: [750, 240, 38, 36],
-  kp_2: [793, 240, 38, 36],
-  kp_3: [836, 240, 38, 36],
-  /** Two-row Enter beside 123 and 0. */
-  kp_enter: [879, 240, 38, 80],
-  kp_0: [750, 320, 80, 36],
-  kp_decimal: [838, 320, 36, 36],
-  /**
-   * Unusual key — kept in layout for matrix ID but off the F-row to avoid numpad overlap
-   * (place bottom-left, below the alpha block and away from the numpad).
-   */
-  intl_extra: [4, 360, 32, 16],
+  num_lock: [750, 104, 38, 36],
+  kp_slash: [793, 104, 38, 36],
+  kp_asterisk: [836, 104, 38, 36],
+  kp_minus: [879, 104, 38, 36],
+  kp_7: [750, 140, 38, 36],
+  kp_8: [793, 140, 38, 36],
+  kp_9: [836, 140, 38, 36],
+  kp_plus: [879, 140, 38, 72],
+  kp_4: [750, 176, 38, 36],
+  kp_5: [793, 176, 38, 36],
+  kp_6: [836, 176, 38, 36],
+  kp_1: [750, 212, 38, 36],
+  kp_2: [793, 212, 38, 36],
+  kp_3: [836, 212, 38, 36],
+  kp_enter: [879, 212, 38, 72],
+  kp_0: [750, 248, 80, 36],
+  kp_decimal: [838, 248, 36, 36],
 };
 
 const LAYOUT = Object.fromEntries(
@@ -381,7 +244,6 @@ const DISPLAY = {
   kp_8: "8",
   kp_9: "9",
   kp_decimal: ".",
-  intl_extra: "Intl",
 };
 
 const SECTION = {
@@ -443,25 +305,6 @@ function sectionFor(keyId) {
   return "main";
 }
 
-function dashedFromX(x, w) {
-  const cx = x + w / 2;
-  const bands = [
-    [0, 120],
-    [120, 200],
-    [200, 280],
-    [280, 360],
-    [360, 440],
-    [440, 520],
-    [520, 640],
-    [640, 920],
-  ];
-  for (let i = 0; i < bands.length; i++) {
-    const [a, b] = bands[i];
-    if (cx >= a && cx < b) return `dashed_${String.fromCharCode("A".charCodeAt(0) + i)}`;
-  }
-  return "dashed_H";
-}
-
 /** Keys in ansi-matrix.json (labels) -> keyId used in LAYOUT / keys.yaml */
 const MATRIX_LABEL_TO_KEYID = {
   ESC: "esc",
@@ -521,6 +364,7 @@ const MATRIX_LABEL_TO_KEYID = {
   ";": "semicolon",
   "'": "quote",
   ENTER: "enter_main",
+  "#": "intl_hash",
   SHIFT_L: "left_shift",
   Z: "z",
   X: "x",
@@ -573,20 +417,39 @@ function colTokenToDashed(c) {
   return `dashed_${String.fromCharCode(65 + parseInt(m[1], 10))}`;
 }
 
-function loadDashedFromMatrixFile() {
+function rowTokenToSolid(r) {
+  const m = /^R([0-9]+)$/.exec(r);
+  if (!m) throw new Error(`Invalid row token: ${r}`);
+  const n = parseInt(m[1], 10);
+  if (n < 1 || n > 16) throw new Error(`Row out of range 1..16: ${r}`);
+  return `solid_${String(n).padStart(2, "0")}`;
+}
+
+/**
+ * @returns {{ solidByKeyId: Map<string, string>, dashedByKeyId: Map<string, string>, metadata: unknown, ignoredLabels: string[] }}
+ */
+function loadMatrixTraces() {
   if (!fs.existsSync(MATRIX_JSON)) {
     throw new Error(`Missing matrix file: ${MATRIX_JSON}`);
   }
   const raw = JSON.parse(fs.readFileSync(MATRIX_JSON, "utf8"));
-  /** @type {Map<string, string>} */
-  const byKeyId = new Map();
+  const solidByKeyId = new Map();
+  const dashedByKeyId = new Map();
+  const ignoredLabels = [];
   for (const [label, pair] of Object.entries(raw.matrix ?? {})) {
     const keyId = MATRIX_LABEL_TO_KEYID[label];
-    if (!keyId) continue;
-    if (!Array.isArray(pair) || pair.length < 2) continue;
-    byKeyId.set(keyId, colTokenToDashed(pair[1]));
+    if (!keyId) {
+      ignoredLabels.push(label);
+      continue;
+    }
+    if (!Array.isArray(pair) || pair.length < 2) {
+      throw new Error(`Bad matrix cell for ${label}: ${JSON.stringify(pair)}`);
+    }
+    const [r, c] = pair;
+    solidByKeyId.set(keyId, rowTokenToSolid(r));
+    dashedByKeyId.set(keyId, colTokenToDashed(c));
   }
-  return { metadata: raw.metadata, byKeyId };
+  return { solidByKeyId, dashedByKeyId, metadata: raw.metadata, ignoredLabels };
 }
 
 function recognitionRank(keyId) {
@@ -631,28 +494,21 @@ function buildKeys(modelId) {
   return keys;
 }
 
-function buildSolidAssignments() {
-  /** @type {Map<string, string>} */
-  const map = new Map();
-  ROW_LINES.forEach((tokens, idx) => {
-    const tid = solidTraceId(idx);
-    for (const tok of tokens) {
-      const kid = TOKEN_MAP[tok];
-      if (!kid) throw new Error(`Unknown token ${tok}`);
-      map.set(kid, tid);
-    }
-  });
-  return map;
-}
-
-function buildKeyTraceMap(modelId, keys, solidMap, dashedByKeyId) {
+function buildKeyTraceMap(modelId, keys, solidByKeyId, dashedByKeyId) {
   const rows = [];
   for (const k of keys) {
-    const solid = solidMap.get(k.keyId);
+    const solid = solidByKeyId.get(k.keyId);
+    const dashed = dashedByKeyId.get(k.keyId);
     if (!solid) {
-      throw new Error(`Missing solid trace for ${k.keyId}`);
+      throw new Error(
+        `No matrix row for keyId "${k.keyId}" — add it to modelm-102-key-1391401/ansi-matrix.json and MATRIX_LABEL_TO_KEYID`,
+      );
     }
-    const dashed = dashedByKeyId.get(k.keyId) ?? dashedFromX(k.x, k.width);
+    if (!dashed) {
+      throw new Error(
+        `No matrix column for keyId "${k.keyId}" — add it to modelm-102-key-1391401/ansi-matrix.json and MATRIX_LABEL_TO_KEYID`,
+      );
+    }
     rows.push(
       { modelId, keyId: k.keyId, traceId: solid, role: "pathA" },
       { modelId, keyId: k.keyId, traceId: dashed, role: "pathB" },
@@ -663,38 +519,22 @@ function buildKeyTraceMap(modelId, keys, solidMap, dashedByKeyId) {
 
 /**
  * Pin boxes in the same 920px-wide space as the keyboard (see `SvgRibbonGutter` in the app; keep in sync).
+ * Left group: Membrane 1 (top) — lettered A..H. Right group: Membrane 2 (bottom) — numbered 1..16.
  */
 function ribbonContacts(modelId) {
   const contacts = [];
-  /** Pin boxes sit below the section titles in the SVG (see SvgRibbonGutter) so labels do not overlap. */
   const y = 32;
   const h = 32;
   const wSolid = 24;
   const gSolid = 4;
-  for (let i = 1; i <= 16; i++) {
-    const id = `ribbon_s_${String(i).padStart(2, "0")}`;
-    const x = 8 + (i - 1) * (wSolid + gSolid);
-    contacts.push({
-      modelId,
-      contactId: id,
-      layerId: "membrane_solid",
-      contactNumber: String(i),
-      x,
-      y,
-      width: wSolid,
-      height: h,
-      label: `Vertical tail contact ${i}`,
-    });
-  }
-  const gapBetweenBands = 16;
-  const solidRight = 8 + 16 * (wSolid + gSolid) - gSolid; // 452
-  const dashStartX = solidRight + gapBetweenBands; // 468
   const wDash = 28;
   const gDash = 6;
+  const gapBetweenBands = 16;
+  const m1StartX = 8;
   for (let i = 0; i < 8; i++) {
     const letter = String.fromCharCode("A".charCodeAt(0) + i);
     const id = `ribbon_d_${letter}`;
-    const x = dashStartX + i * (wDash + gDash);
+    const x = m1StartX + i * (wDash + gDash);
     contacts.push({
       modelId,
       contactId: id,
@@ -704,7 +544,24 @@ function ribbonContacts(modelId) {
       y,
       width: wDash,
       height: h,
-      label: `Horizontal tail contact ${letter}`,
+      label: `Membrane 1 (top) — trace ${letter}`,
+    });
+  }
+  const m1End = m1StartX + 8 * (wDash + gDash) - gDash;
+  const m2StartX = m1End + gapBetweenBands;
+  for (let i = 1; i <= 16; i++) {
+    const id = `ribbon_s_${String(i).padStart(2, "0")}`;
+    const x = m2StartX + (i - 1) * (wSolid + gSolid);
+    contacts.push({
+      modelId,
+      contactId: id,
+      layerId: "membrane_solid",
+      contactNumber: String(i),
+      x,
+      y,
+      width: wSolid,
+      height: h,
+      label: `Membrane 2 (bottom) — trace ${i}`,
     });
   }
   return contacts;
@@ -712,27 +569,27 @@ function ribbonContacts(modelId) {
 
 function traces(modelId) {
   const t = [];
-  for (let i = 1; i <= 16; i++) {
-    const tid = `solid_${String(i).padStart(2, "0")}`;
-    t.push({
-      modelId,
-      traceId: tid,
-      displayName: `Vertical trace ${i}`,
-      layerId: "membrane_solid",
-      ribbonContactId: `ribbon_s_${String(i).padStart(2, "0")}`,
-      description: `Continuous vertical path ${i} of 16 (kbupgrade row line ${i} → model pathA).`,
-    });
-  }
   for (let i = 0; i < 8; i++) {
     const letter = String.fromCharCode("A".charCodeAt(0) + i);
     const tid = `dashed_${letter}`;
     t.push({
       modelId,
       traceId: tid,
-      displayName: `Horizontal trace ${letter}`,
+      displayName: `Membrane 1 (top) — ${letter}`,
       layerId: "membrane_dashed",
       ribbonContactId: `ribbon_d_${letter}`,
-      description: `Horizontal (dotted-line layer) path ${letter} of 8 (C${i} in modelm-102-key-1391401/ansi-matrix.json → model pathB).`,
+      description: `Top membrane (lettered path ${letter} of 8; matrix column C${i} in ansi-matrix.json, pathB).`,
+    });
+  }
+  for (let i = 1; i <= 16; i++) {
+    const tid = `solid_${String(i).padStart(2, "0")}`;
+    t.push({
+      modelId,
+      traceId: tid,
+      displayName: `Membrane 2 (bottom) — ${i}`,
+      layerId: "membrane_solid",
+      ribbonContactId: `ribbon_s_${String(i).padStart(2, "0")}`,
+      description: `Bottom membrane (numbered path ${i} of 16; matrix row R${i} in ansi-matrix.json, pathA).`,
     });
   }
   return t;
@@ -748,13 +605,15 @@ function polylineThroughPoints(points) {
   return d;
 }
 
-function buildTracePaths(modelId, keys, tracesList, solidMap, dashedByKeyId, contactById) {
+function buildTracePaths(modelId, keys, tracesList, solidByKeyId, dashedByKeyId, contactById) {
   /** @type {Map<string, string[]>} */
   const keysByTrace = new Map();
   for (const tr of tracesList) keysByTrace.set(tr.traceId, []);
   for (const k of keys) {
-    const d = dashedByKeyId.get(k.keyId) ?? dashedFromX(k.x, k.width);
-    keysByTrace.get(solidMap.get(k.keyId))?.push(k.keyId);
+    const s = solidByKeyId.get(k.keyId);
+    const d = dashedByKeyId.get(k.keyId);
+    if (!s || !d) throw new Error(`buildTracePaths: missing matrix for ${k.keyId}`);
+    keysByTrace.get(s)?.push(k.keyId);
     keysByTrace.get(d)?.push(k.keyId);
   }
   const paths = [];
@@ -795,14 +654,14 @@ function manifest(modelId) {
     family: "IBM Model M",
     layoutName: "102-key ANSI",
     description:
-      "IBM 102-key ANSI (1391401 class): 16 continuous vertical paths + 8 horizontal paths on the dotted-membrane layer. Vertical indices from kbupgrade 1391401.matrix; horizontal A..H from modelm-102-key-1391401/ansi-matrix.json (C0..C7). Often compatible with 1391404; verify for your part.",
+      "IBM 102-key ANSI (1391401 class): each key is one (R,C) in modelm-102-key-1391401/ansi-matrix.json — R1..R16 → Membrane 2 (bottom) traces 1..16, C0..C7 → Membrane 1 (top) A..H. Often compatible with 1391404; verify the matrix for your part.",
     schemaVersion: "1.0.0",
-    modelVersion: "0.3.7-ribbon-legend-layout",
+    modelVersion: "0.4.1-membrane-naming",
     supportedFeatures: ["trace_overlay", "ribbon_highlight", "comparison_keys"],
     dataNotes: [
-      "Vertical trace paths 1–16: key membership is from kbupgrade 1391401.matrix. That is pathA in the data.",
-      "Horizontal trace paths A–H: each key’s C0..C7 in modelm-102-key-1391401/ansi-matrix.json maps to pathB. The file’s (R,C) pairs are not a unique 16×8 table; the generator uses kbupgrade for pathA and column for pathB.",
-      "On-screen key positions and trace line segments are schematic, not a measured FFC. Package trace_paths use tail pin points plus key centers in reading order. Replace the package art for a photo-accurate overlay if needed.",
+      "pathA / Membrane 2 (bottom, numbered 1..16) = matrix rows R1..R16. pathB / Membrane 1 (top, lettered A..H) = matrix columns C0..C7. Every key has a unique (R,C) in ansi-matrix.json.",
+      "Numpad rows in the JSON were reserved so cells stay unique; confirm against your FFC before repairs.",
+      "Schematic on-screen key positions and polylines are for navigation; not photo-accurate to the FFC shape.",
     ],
     files: {
       keys: "keys.yaml",
@@ -822,14 +681,31 @@ function writeYaml(name, data) {
 }
 
 fs.mkdirSync(outDir, { recursive: true });
-const { byKeyId: dashedByKeyId, metadata: matrixFileMeta } = loadDashedFromMatrixFile();
+const { solidByKeyId, dashedByKeyId, metadata: matrixFileMeta, ignoredLabels } = loadMatrixTraces();
+if (ignoredLabels.length > 0) {
+  console.warn("Matrix labels with no keyId in MATRIX_LABEL_TO_KEYID (ignored):", ignoredLabels.join(", "));
+}
 const keys = buildKeys(MODEL_ID);
-const solidMap = buildSolidAssignments();
 const traceList = traces(MODEL_ID);
 const ribbon = ribbonContacts(MODEL_ID);
 const contactById = new Map(ribbon.map((c) => [c.contactId, c]));
-const paths = buildTracePaths(MODEL_ID, keys, traceList, solidMap, dashedByKeyId, contactById);
-const kmap = buildKeyTraceMap(MODEL_ID, keys, solidMap, dashedByKeyId);
+const paths = buildTracePaths(MODEL_ID, keys, traceList, solidByKeyId, dashedByKeyId, contactById);
+const kmap = buildKeyTraceMap(MODEL_ID, keys, solidByKeyId, dashedByKeyId);
+
+/** (solid, dashed) pairs are unique for troubleshooting. */
+const pairToKey = new Map();
+for (const k of keys) {
+  const s = solidByKeyId.get(k.keyId);
+  const d = dashedByKeyId.get(k.keyId);
+  if (!s || !d) continue;
+  const label = `${s} + ${d}`;
+  if (pairToKey.has(label)) {
+    throw new Error(
+      `Non-unique (row,column) mapping: keys "${pairToKey.get(label)}" and "${k.keyId}" both map to ${label}`,
+    );
+  }
+  pairToKey.set(label, k.keyId);
+}
 
 writeYaml("manifest.yaml", manifest(MODEL_ID));
 writeYaml("keys.yaml", { keys });
@@ -854,4 +730,4 @@ console.log("Wrote model package to", outDir);
 if (matrixFileMeta?.model) {
   console.log("Matrix file:", matrixFileMeta.model, matrixFileMeta.description ?? "");
 }
-console.log("Dashed columns mapped for", dashedByKeyId.size, "keys (fallback for intl_*)");
+console.log("Matrix: solid + dashed for", solidByKeyId.size, "keys; unique (pathA, pathB) pairs checked.");
