@@ -1,0 +1,121 @@
+traces:
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_A
+    displayName: Membrane 1 (top) — col 0 A
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_A
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_B
+    displayName: Membrane 1 (top) — col 1 B
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_B
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_C
+    displayName: Membrane 1 (top) — col 2 C
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_C
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_D
+    displayName: Membrane 1 (top) — col 3 D
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_D
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_E
+    displayName: Membrane 1 (top) — col 4 E
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_E
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_F
+    displayName: Membrane 1 (top) — col 5 F
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_F
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_G
+    displayName: Membrane 1 (top) — col 6 G
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_G
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_H
+    displayName: Membrane 1 (top) — col 7 H
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_H
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_I
+    displayName: Membrane 1 (top) — col 8 I
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_I
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_J
+    displayName: Membrane 1 (top) — col 9 J
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_J
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_K
+    displayName: Membrane 1 (top) — col 10 K
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_K
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_L
+    displayName: Membrane 1 (top) — col 11 L
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_L
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_M
+    displayName: Membrane 1 (top) — col 12 M
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_M
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_N
+    displayName: Membrane 1 (top) — col 13 N
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_N
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_O
+    displayName: Membrane 1 (top) — col 14 O
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_O
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_P
+    displayName: Membrane 1 (top) — col 15 P
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_P
+  - modelId: ibm-m-104-ssk
+    traceId: solid_01
+    displayName: Membrane 2 (bottom) — row 1
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_01
+  - modelId: ibm-m-104-ssk
+    traceId: solid_02
+    displayName: Membrane 2 (bottom) — row 2
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_02
+  - modelId: ibm-m-104-ssk
+    traceId: solid_03
+    displayName: Membrane 2 (bottom) — row 3
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_03
+  - modelId: ibm-m-104-ssk
+    traceId: solid_04
+    displayName: Membrane 2 (bottom) — row 4
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_04
+  - modelId: ibm-m-104-ssk
+    traceId: solid_05
+    displayName: Membrane 2 (bottom) — row 5
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_05
+  - modelId: ibm-m-104-ssk
+    traceId: solid_06
+    displayName: Membrane 2 (bottom) — row 6
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_06
+  - modelId: ibm-m-104-ssk
+    traceId: solid_07
+    displayName: Membrane 2 (bottom) — row 7
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_07
+  - modelId: ibm-m-104-ssk
+    traceId: solid_08
+    displayName: Membrane 2 (bottom) — row 8
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_08

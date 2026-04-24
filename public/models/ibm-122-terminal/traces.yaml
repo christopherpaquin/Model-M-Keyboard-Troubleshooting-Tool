@@ -1,0 +1,169 @@
+traces:
+  - modelId: ibm-122-terminal
+    traceId: dashed_A
+    displayName: Membrane 1 (top) — col 0 A
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_A
+    description: "8×20 matrix: column index 0 (tail pad A of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_B
+    displayName: Membrane 1 (top) — col 1 B
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_B
+    description: "8×20 matrix: column index 1 (tail pad B of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_C
+    displayName: Membrane 1 (top) — col 2 C
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_C
+    description: "8×20 matrix: column index 2 (tail pad C of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_D
+    displayName: Membrane 1 (top) — col 3 D
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_D
+    description: "8×20 matrix: column index 3 (tail pad D of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_E
+    displayName: Membrane 1 (top) — col 4 E
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_E
+    description: "8×20 matrix: column index 4 (tail pad E of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_F
+    displayName: Membrane 1 (top) — col 5 F
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_F
+    description: "8×20 matrix: column index 5 (tail pad F of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_G
+    displayName: Membrane 1 (top) — col 6 G
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_G
+    description: "8×20 matrix: column index 6 (tail pad G of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_H
+    displayName: Membrane 1 (top) — col 7 H
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_H
+    description: "8×20 matrix: column index 7 (tail pad H of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_I
+    displayName: Membrane 1 (top) — col 8 I
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_I
+    description: "8×20 matrix: column index 8 (tail pad I of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_J
+    displayName: Membrane 1 (top) — col 9 J
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_J
+    description: "8×20 matrix: column index 9 (tail pad J of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_K
+    displayName: Membrane 1 (top) — col 10 K
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_K
+    description: "8×20 matrix: column index 10 (tail pad K of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_L
+    displayName: Membrane 1 (top) — col 11 L
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_L
+    description: "8×20 matrix: column index 11 (tail pad L of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_M
+    displayName: Membrane 1 (top) — col 12 M
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_M
+    description: "8×20 matrix: column index 12 (tail pad M of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_N
+    displayName: Membrane 1 (top) — col 13 N
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_N
+    description: "8×20 matrix: column index 13 (tail pad N of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_O
+    displayName: Membrane 1 (top) — col 14 O
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_O
+    description: "8×20 matrix: column index 14 (tail pad O of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_P
+    displayName: Membrane 1 (top) — col 15 P
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_P
+    description: "8×20 matrix: column index 15 (tail pad P of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_Q
+    displayName: Membrane 1 (top) — col 16 Q
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_Q
+    description: "8×20 matrix: column index 16 (tail pad Q of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_R
+    displayName: Membrane 1 (top) — col 17 R
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_R
+    description: "8×20 matrix: column index 17 (tail pad R of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_S
+    displayName: Membrane 1 (top) — col 18 S
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_S
+    description: "8×20 matrix: column index 18 (tail pad S of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: dashed_T
+    displayName: Membrane 1 (top) — col 19 T
+    layerId: membrane_dashed
+    ribbonContactId: ribbon_d_T
+    description: "8×20 matrix: column index 19 (tail pad T of 0–9,A–J). pathB"
+  - modelId: ibm-122-terminal
+    traceId: solid_01
+    displayName: Membrane 2 (bottom) — row line 1
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_01
+    description: "8×20 matrix: row index 0 (tail pin 8 or B5…D4 per your harness). pathA"
+  - modelId: ibm-122-terminal
+    traceId: solid_02
+    displayName: Membrane 2 (bottom) — row line 2
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_02
+    description: "8×20 matrix: row index 1 (tail pin 7 or B5…D4 per your harness). pathA"
+  - modelId: ibm-122-terminal
+    traceId: solid_03
+    displayName: Membrane 2 (bottom) — row line 3
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_03
+    description: "8×20 matrix: row index 2 (tail pin 6 or B5…D4 per your harness). pathA"
+  - modelId: ibm-122-terminal
+    traceId: solid_04
+    displayName: Membrane 2 (bottom) — row line 4
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_04
+    description: "8×20 matrix: row index 3 (tail pin 5 or B5…D4 per your harness). pathA"
+  - modelId: ibm-122-terminal
+    traceId: solid_05
+    displayName: Membrane 2 (bottom) — row line 5
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_05
+    description: "8×20 matrix: row index 4 (tail pin 4 or B5…D4 per your harness). pathA"
+  - modelId: ibm-122-terminal
+    traceId: solid_06
+    displayName: Membrane 2 (bottom) — row line 6
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_06
+    description: "8×20 matrix: row index 5 (tail pin 3 or B5…D4 per your harness). pathA"
+  - modelId: ibm-122-terminal
+    traceId: solid_07
+    displayName: Membrane 2 (bottom) — row line 7
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_07
+    description: "8×20 matrix: row index 6 (tail pin 2 or B5…D4 per your harness). pathA"
+  - modelId: ibm-122-terminal
+    traceId: solid_08
+    displayName: Membrane 2 (bottom) — row line 8
+    layerId: membrane_solid
+    ribbonContactId: ribbon_s_08
+    description: "8×20 matrix: row index 7 (tail pin 1 or B5…D4 per your harness). pathA"

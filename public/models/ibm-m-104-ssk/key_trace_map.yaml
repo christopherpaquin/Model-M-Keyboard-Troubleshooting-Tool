@@ -1,0 +1,689 @@
+keyTraceMap:
+  - modelId: ibm-m-104-ssk
+    keyId: a
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: a
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_down
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_down
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_left
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_left
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_right
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_right
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_up
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_up
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: b
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: b
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: backslash
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: backslash
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: backspace
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: backspace
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: backtick
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: backtick
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: bracket_left
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: bracket_left
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: bracket_right
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: bracket_right
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: c
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: c
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: caps_lock
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: caps_lock
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: comma
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: comma
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: d
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: d
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: delete
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: delete
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_0
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_0
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_1
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_1
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_2
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_2
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_3
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_3
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_4
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_4
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_5
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_5
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_6
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_6
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_7
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_7
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_8
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_8
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: digit_9
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: digit_9
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: e
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: e
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: end
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: end
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: enter_main
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: enter_main
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: equal
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: equal
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: esc
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: esc
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: euro1
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: euro1
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f1
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f1
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f10
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f10
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f11
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f11
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f12
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f12
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f2
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f2
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f3
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f3
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f4
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f4
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f5
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f5
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f6
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f6
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f7
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f7
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f8
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f8
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: f9
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: f9
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: g
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: g
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: h
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: h
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: home
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: home
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: i
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: i
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: insert
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: insert
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: intl_backslash
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: intl_backslash
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: j
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: j
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: k
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: k
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: l
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: l
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: left_alt
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: left_alt
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: left_ctrl
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: left_ctrl
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: left_shift
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: left_shift
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: m
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: m
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: minus
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: minus
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: n
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: n
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: o
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: o
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: p
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: p
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: page_down
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: page_down
+    traceId: dashed_N
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: page_up
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: page_up
+    traceId: dashed_N
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: pause_break
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: pause_break
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: period
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: period
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: print_screen
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: print_screen
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: q
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: q
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: quote
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: quote
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: r
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: r
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: right_alt
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: right_alt
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: right_ctrl
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: right_ctrl
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: right_shift
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: right_shift
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: s
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: s
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: scroll_lock
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: scroll_lock
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: semicolon
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: semicolon
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: slash
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: slash
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: space
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: space
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: t
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: t
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: tab
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: tab
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: u
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: u
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: v
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: v
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: w
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: w
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: x
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: x
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: y
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: y
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-m-104-ssk
+    keyId: z
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-m-104-ssk
+    keyId: z
+    traceId: dashed_C
+    role: pathB

@@ -7,11 +7,11 @@ import { SvgRibbonGutter } from "./SvgRibbonGutter";
 
 export type SelectionTraceInfo = {
   keyLabel: string;
-  /** Membrane 1 (top) — pathB / lettered A–H */
+  /** Membrane 1 (top) — pathB / column scan */
   membrane1Top: { id: string; name: string };
-  /** Membrane 2 (bottom) — pathA / numbered 1–16 */
+  /** Membrane 2 (bottom) — pathA / row scan */
   membrane2Bottom: { id: string; name: string };
-  /** Tail pad labels (A–H and 1–16) for this key’s two ribbon contacts */
+  /** Tail pad labels for this key’s two ribbon contacts */
   ribbonM1Contact: string;
   ribbonM2Contact: string;
 };
@@ -66,6 +66,18 @@ export function KeyboardDiagram(props: {
     return out;
   }, [props.focusKeyId, props.keyTraceMap, props.ribbonById, props.traces, props.visibleTraceIds, keyById]);
 
+  const canvasSize = useMemo(() => {
+    const padX = 24;
+    const padY = 20;
+    let w = 920;
+    let h = 520;
+    for (const k of props.keys) {
+      w = Math.max(w, k.x + k.width + padX);
+      h = Math.max(h, k.y + k.height + padY);
+    }
+    return { w, h };
+  }, [props.keys]);
+
   return (
     <div className="kbd-wrap">
       {props.selectionTraces ? (
@@ -76,7 +88,7 @@ export function KeyboardDiagram(props: {
               <span
                 className="swatch"
                 style={{ background: strokeForTrace(props.selectionTraces.membrane1Top.id) }}
-                title="Membrane 1 (top) — lettered A–H"
+                title="Membrane 1 (top) / column trace"
               />
               <span className="kbd-trace-legend__name">{props.selectionTraces.membrane1Top.name}</span>
             </span>
@@ -87,7 +99,7 @@ export function KeyboardDiagram(props: {
               <span
                 className="swatch"
                 style={{ background: strokeForTrace(props.selectionTraces.membrane2Bottom.id) }}
-                title="Membrane 2 (bottom) — numbered 1–16"
+                title="Membrane 2 (bottom) / row trace"
               />
               <span className="kbd-trace-legend__name">{props.selectionTraces.membrane2Bottom.name}</span>
             </span>
@@ -105,21 +117,22 @@ export function KeyboardDiagram(props: {
 
       <svg
         className="kbd-canvas"
-        viewBox="0 0 920 520"
+        viewBox={`0 0 ${canvasSize.w} ${canvasSize.h}`}
         role="img"
-        aria-label="Keyboard with ribbon tail: Membrane 1 left (A…H) and Membrane 2 right (1…16); trace lines from each pin to keys"
-        width="920"
-        height="520"
+        aria-label="Keyboard with ribbon tail: Membrane 1 column traces and Membrane 2 row traces; trace lines from each pin to keys"
+        width={String(canvasSize.w)}
+        height={String(canvasSize.h)}
         preserveAspectRatio="xMidYMin meet"
       >
-        <rect x="0" y="0" width="920" height="520" fill="#0a0b0f" stroke="#232733" />
+        <rect x="0" y="0" width={canvasSize.w} height={canvasSize.h} fill="#0a0b0f" stroke="#232733" />
         <SvgRibbonGutter
+          stripWidth={canvasSize.w}
           ribbonSolid={props.ribbonSolid}
           ribbonDashed={props.ribbonDashed}
           ribbonHighlights={props.ribbonHighlights}
           traceByContactId={traceByContact}
         />
-        <line x1="0" y1="100" x2="920" y2="100" stroke="#2e3444" strokeWidth="1" />
+        <line x1="0" y1="100" x2={canvasSize.w} y2="100" stroke="#2e3444" strokeWidth="1" />
         {[...props.visibleTraceIds]
             .map((id) => ({ id, d: pathDByTrace.get(id) ?? "" }))
             .filter((x) => x.d.length > 0)

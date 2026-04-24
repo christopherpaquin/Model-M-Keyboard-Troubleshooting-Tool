@@ -1,0 +1,985 @@
+keyTraceMap:
+  - modelId: unicomp-pc-122
+    keyId: a
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: a
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: arrow_down
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: arrow_down
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: arrow_left
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: arrow_left
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: arrow_right
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: arrow_right
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: arrow_up
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: arrow_up
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: b
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: b
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: backslash
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: backslash
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: backspace
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: backspace
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: backtick
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: backtick
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: bracket_left
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: bracket_left
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: bracket_right
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: bracket_right
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: c
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: c
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: caps_lock
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: caps_lock
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: comma
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: comma
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: d
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: d
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: delete
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: delete
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_0
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_0
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_1
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_1
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_2
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_2
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_3
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_3
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_4
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_4
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_5
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_5
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_6
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_6
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_7
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_7
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_8
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_8
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: digit_9
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: digit_9
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: e
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: e
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: end
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: end
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: enter_main
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: enter_main
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: equal
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: equal
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: euro1
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: euro1
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex1
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex1
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex10
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex10
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex2
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex2
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex3
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex3
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex4
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex4
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex5
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex5
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex6
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex6
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex7
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex7
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex8
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex8
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: ex9
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: ex9
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f1
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f1
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f10
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f10
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f11
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f11
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f12
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f12
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f13
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f13
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f14
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f14
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f15
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f15
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f16
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f16
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f17
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f17
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f18
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f18
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f19
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f19
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f2
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f2
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f20
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f20
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f21
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f21
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f22
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f22
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f23
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f23
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f24
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f24
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f3
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f3
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f4
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f4
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f5
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f5
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f6
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f6
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f7
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f7
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f8
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f8
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: f9
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: f9
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: g
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: g
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: h
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: h
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: home
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: home
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: i
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: i
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: insert
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: insert
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: intl_backslash
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: intl_backslash
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: j
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: j
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: k
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: k
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_0
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_0
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_1
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_1
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_2
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_2
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_3
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_3
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_4
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_4
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_5
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_5
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_6
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_6
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_7
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_7
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_8
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_8
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_9
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_9
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_asterisk
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_asterisk
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_decimal
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_decimal
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_enter
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_enter
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_plus
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_plus
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: kp_slash
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: kp_slash
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: l
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: l
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: left_alt
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: left_alt
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: left_ctrl
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: left_ctrl
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: left_shift
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: left_shift
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: m
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: m
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: matrix_aux_kp_plus
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: matrix_aux_kp_plus
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: minus
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: minus
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: n
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: n
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: nav_center
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: nav_center
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: num_lock
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: num_lock
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: o
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: o
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: p
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: p
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: page_down
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: page_down
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: page_up
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: page_up
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: period
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: period
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: q
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: q
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: qmk_raw_kp_minus
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: qmk_raw_kp_minus
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: quote
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: quote
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: r
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: r
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: right_alt
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: right_alt
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: right_ctrl
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: right_ctrl
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: right_shift
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: right_shift
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: s
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: s
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: semicolon
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: semicolon
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: slash
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: slash
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: space
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: space
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: t
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: t
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: tab
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: tab
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: u
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: u
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: v
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: v
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: w
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: w
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: x
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: x
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: y
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: y
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-pc-122
+    keyId: z
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-pc-122
+    keyId: z
+    traceId: dashed_A
+    role: pathB

@@ -2,6 +2,8 @@ modelId: ibm-1391401-ansi
 displayName: IBM Model M 102-key ANSI (1391401 / 1391404 class)
 family: IBM Model M
 layoutName: 102-key ANSI
+subtitle: IBM Model M 102-key ANSI (1391401 / 1391404 class) ·
+  0.4.1-membrane-naming · 102-key ANSI
 description: "IBM 102-key ANSI (1391401 class): each key is one (R,C) in
   modelm-102-key-1391401/ansi-matrix.json — R1..R16 → Membrane 2 (bottom) traces
   1..16, C0..C7 → Membrane 1 (top) A..H. Often compatible with 1391404; verify

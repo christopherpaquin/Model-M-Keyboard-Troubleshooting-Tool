@@ -7,6 +7,11 @@ export interface KeyboardModelManifest {
   displayName: string;
   family: string;
   layoutName: string;
+  /**
+   * Single line under the app title (e.g. model name, data version, layout).
+   * If omitted, the app joins displayName, modelVersion, and layoutName.
+   */
+  subtitle?: string;
   description: string;
   schemaVersion: string;
   modelVersion: string;

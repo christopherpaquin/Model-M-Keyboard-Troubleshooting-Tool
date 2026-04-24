@@ -1,0 +1,253 @@
+ribbonContacts:
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_A
+    layerId: membrane_dashed
+    contactNumber: A
+    x: 6
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 0 (A)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_B
+    layerId: membrane_dashed
+    contactNumber: B
+    x: 22
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 1 (B)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_C
+    layerId: membrane_dashed
+    contactNumber: C
+    x: 38
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 2 (C)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_D
+    layerId: membrane_dashed
+    contactNumber: D
+    x: 54
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 3 (D)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_E
+    layerId: membrane_dashed
+    contactNumber: E
+    x: 70
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 4 (E)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_F
+    layerId: membrane_dashed
+    contactNumber: F
+    x: 86
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 5 (F)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_G
+    layerId: membrane_dashed
+    contactNumber: G
+    x: 102
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 6 (G)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_H
+    layerId: membrane_dashed
+    contactNumber: H
+    x: 118
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 7 (H)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_I
+    layerId: membrane_dashed
+    contactNumber: I
+    x: 134
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 8 (I)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_J
+    layerId: membrane_dashed
+    contactNumber: J
+    x: 150
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 9 (J)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_K
+    layerId: membrane_dashed
+    contactNumber: K
+    x: 166
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 10 (K)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_L
+    layerId: membrane_dashed
+    contactNumber: L
+    x: 182
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 11 (L)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_M
+    layerId: membrane_dashed
+    contactNumber: M
+    x: 198
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 12 (M)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_N
+    layerId: membrane_dashed
+    contactNumber: N
+    x: 214
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 13 (N)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_O
+    layerId: membrane_dashed
+    contactNumber: O
+    x: 230
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 14 (O)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_P
+    layerId: membrane_dashed
+    contactNumber: P
+    x: 246
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 15 (P)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_Q
+    layerId: membrane_dashed
+    contactNumber: Q
+    x: 262
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 16 (Q)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_R
+    layerId: membrane_dashed
+    contactNumber: R
+    x: 278
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 17 (R)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_S
+    layerId: membrane_dashed
+    contactNumber: S
+    x: 294
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 18 (S)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_d_T
+    layerId: membrane_dashed
+    contactNumber: T
+    x: 310
+    y: 32
+    width: 14
+    height: 30
+    label: M1 top — col 19 (T)
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_01
+    layerId: membrane_solid
+    contactNumber: "1"
+    x: 346
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 1
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_02
+    layerId: membrane_solid
+    contactNumber: "2"
+    x: 366
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 2
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_03
+    layerId: membrane_solid
+    contactNumber: "3"
+    x: 386
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 3
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_04
+    layerId: membrane_solid
+    contactNumber: "4"
+    x: 406
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 4
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_05
+    layerId: membrane_solid
+    contactNumber: "5"
+    x: 426
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 5
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_06
+    layerId: membrane_solid
+    contactNumber: "6"
+    x: 446
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 6
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_07
+    layerId: membrane_solid
+    contactNumber: "7"
+    x: 466
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 7
+  - modelId: ibm-122-terminal
+    contactId: ribbon_s_08
+    layerId: membrane_solid
+    contactNumber: "8"
+    x: 486
+    y: 32
+    width: 18
+    height: 30
+    label: M2 bottom — row 8

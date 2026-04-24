@@ -1,0 +1,253 @@
+ribbonContacts:
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_A
+    layerId: membrane_dashed
+    contactNumber: A
+    x: 6
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 0
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_B
+    layerId: membrane_dashed
+    contactNumber: B
+    x: 20
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 1
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_C
+    layerId: membrane_dashed
+    contactNumber: C
+    x: 34
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 2
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_D
+    layerId: membrane_dashed
+    contactNumber: D
+    x: 48
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 3
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_E
+    layerId: membrane_dashed
+    contactNumber: E
+    x: 62
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 4
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_F
+    layerId: membrane_dashed
+    contactNumber: F
+    x: 76
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 5
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_G
+    layerId: membrane_dashed
+    contactNumber: G
+    x: 90
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 6
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_H
+    layerId: membrane_dashed
+    contactNumber: H
+    x: 104
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 7
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_I
+    layerId: membrane_dashed
+    contactNumber: I
+    x: 118
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 8
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_J
+    layerId: membrane_dashed
+    contactNumber: J
+    x: 132
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 9
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_K
+    layerId: membrane_dashed
+    contactNumber: K
+    x: 146
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 10
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_L
+    layerId: membrane_dashed
+    contactNumber: L
+    x: 160
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 11
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_M
+    layerId: membrane_dashed
+    contactNumber: M
+    x: 174
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 12
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_N
+    layerId: membrane_dashed
+    contactNumber: N
+    x: 188
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 13
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_O
+    layerId: membrane_dashed
+    contactNumber: O
+    x: 202
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 14
+  - modelId: unicomp-mini-m
+    contactId: ribbon_d_P
+    layerId: membrane_dashed
+    contactNumber: P
+    x: 216
+    y: 32
+    width: 12
+    height: 28
+    label: M1 top col 15
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_01
+    layerId: membrane_solid
+    contactNumber: "1"
+    x: 242
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 1
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_02
+    layerId: membrane_solid
+    contactNumber: "2"
+    x: 260
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 2
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_03
+    layerId: membrane_solid
+    contactNumber: "3"
+    x: 278
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 3
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_04
+    layerId: membrane_solid
+    contactNumber: "4"
+    x: 296
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 4
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_05
+    layerId: membrane_solid
+    contactNumber: "5"
+    x: 314
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 5
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_06
+    layerId: membrane_solid
+    contactNumber: "6"
+    x: 332
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 6
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_07
+    layerId: membrane_solid
+    contactNumber: "7"
+    x: 350
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 7
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_08
+    layerId: membrane_solid
+    contactNumber: "8"
+    x: 368
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 8
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_09
+    layerId: membrane_solid
+    contactNumber: "9"
+    x: 386
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 9
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_10
+    layerId: membrane_solid
+    contactNumber: "10"
+    x: 404
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 10
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_11
+    layerId: membrane_solid
+    contactNumber: "11"
+    x: 422
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 11
+  - modelId: unicomp-mini-m
+    contactId: ribbon_s_12
+    layerId: membrane_solid
+    contactNumber: "12"
+    x: 440
+    y: 32
+    width: 16
+    height: 28
+    label: M2 bottom row 12

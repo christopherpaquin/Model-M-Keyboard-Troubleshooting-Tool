@@ -1,0 +1,729 @@
+keyTraceMap:
+  - modelId: unicomp-mini-m
+    keyId: a
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: a
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: app_menu
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: app_menu
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: arrow_down
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: arrow_down
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: arrow_left
+    traceId: solid_10
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: arrow_left
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: arrow_right
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: arrow_right
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: arrow_up
+    traceId: solid_09
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: arrow_up
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: b
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: b
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: backslash
+    traceId: solid_10
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: backslash
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: backspace
+    traceId: solid_09
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: backspace
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: backtick
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: backtick
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: bracket_left
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: bracket_left
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: bracket_right
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: bracket_right
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: c
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: c
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: caps_lock
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: caps_lock
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: comma
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: comma
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: d
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: d
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: delete
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: delete
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_0
+    traceId: solid_09
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_0
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_1
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_1
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_2
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_2
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_3
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_3
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_4
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_4
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_5
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_5
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_6
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_6
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_7
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_7
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_8
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_8
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: digit_9
+    traceId: solid_10
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: digit_9
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: e
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: e
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: end
+    traceId: solid_09
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: end
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: enter_main
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: enter_main
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: equal
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: equal
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: esc
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: esc
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f1
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f1
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f10
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f10
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f11
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f11
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f12
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f12
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f2
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f2
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f3
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f3
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f4
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f4
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f5
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f5
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f6
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f6
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f7
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f7
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f8
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f8
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: f9
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: f9
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: g
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: g
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: h
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: h
+    traceId: dashed_F
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: home
+    traceId: solid_10
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: home
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: i
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: i
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: insert
+    traceId: solid_09
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: insert
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: j
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: j
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: k
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: k
+    traceId: dashed_G
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: l
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: l
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: left_alt
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: left_alt
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: left_ctrl
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: left_ctrl
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: left_shift
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: left_shift
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: m
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: m
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_bsp
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_bsp
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_enter
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_enter
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_lsh
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_lsh
+    traceId: dashed_B
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_rsh
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: matrix_aux_rsh
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: minus
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: minus
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: n
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: n
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: o
+    traceId: solid_05
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: o
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: os_left
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: os_left
+    traceId: dashed_L
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: os_right
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: os_right
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: p
+    traceId: solid_01
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: p
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: page_down
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: page_down
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: page_up
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: page_up
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: pause_break
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: pause_break
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: period
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: period
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: print_screen
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: print_screen
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: q
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: q
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: quote
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: quote
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: r
+    traceId: solid_10
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: r
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: right_alt
+    traceId: solid_10
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: right_alt
+    traceId: dashed_D
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: right_ctrl
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: right_ctrl
+    traceId: dashed_O
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: right_shift
+    traceId: solid_02
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: right_shift
+    traceId: dashed_P
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: s
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: s
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: scroll_lock
+    traceId: solid_08
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: scroll_lock
+    traceId: dashed_N
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: semicolon
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: semicolon
+    traceId: dashed_K
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: slash
+    traceId: solid_12
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: slash
+    traceId: dashed_E
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: space
+    traceId: solid_11
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: space
+    traceId: dashed_A
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: t
+    traceId: solid_09
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: t
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: tab
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: tab
+    traceId: dashed_M
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: u
+    traceId: solid_07
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: u
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: v
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: v
+    traceId: dashed_J
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: w
+    traceId: solid_06
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: w
+    traceId: dashed_C
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: x
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: x
+    traceId: dashed_I
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: y
+    traceId: solid_04
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: y
+    traceId: dashed_H
+    role: pathB
+  - modelId: unicomp-mini-m
+    keyId: z
+    traceId: solid_03
+    role: pathA
+  - modelId: unicomp-mini-m
+    keyId: z
+    traceId: dashed_F
+    role: pathB

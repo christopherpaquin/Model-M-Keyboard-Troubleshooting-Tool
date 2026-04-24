@@ -10,17 +10,36 @@ export function SvgRibbonGutter(props: {
   ribbonDashed: RibbonContact[];
   ribbonHighlights: Set<string>;
   traceByContactId: Map<string, KeyboardTrace>;
+  /** Gutter + background width (should match canvas width). */
+  stripWidth?: number;
 }): React.ReactElement {
   const m1Left = props.ribbonDashed[0]?.x ?? 8;
   const m2Left = props.ribbonSolid[0]?.x ?? 290;
+  const d0 = props.ribbonDashed[0]?.contactNumber;
+  const d1 = props.ribbonDashed[props.ribbonDashed.length - 1]?.contactNumber;
+  const s0 = props.ribbonSolid[0]?.contactNumber;
+  const s1 = props.ribbonSolid[props.ribbonSolid.length - 1]?.contactNumber;
+  const m1label =
+    props.ribbonDashed.length === 0
+      ? "Membrane 1 (top)"
+      : d0 != null && d1 != null && d0 !== d1
+        ? `Membrane 1 (top) — ${d0}…${d1}`
+        : `Membrane 1 (top) — ${props.ribbonDashed.length} column traces`;
+  const m2label =
+    props.ribbonSolid.length === 0
+      ? "Membrane 2 (bottom)"
+      : s0 != null && s1 != null && s0 !== s1
+        ? `Membrane 2 (bottom) — ${s0}…${s1}`
+        : `Membrane 2 (bottom) — ${props.ribbonSolid.length} row traces`;
+  const w = props.stripWidth ?? 920;
   return (
-    <g aria-label="Ribbon tail: Membrane 1 top (A–H) then Membrane 2 bottom (1–16)" role="group">
-      <rect x="0" y="0" width="920" height="100" fill="#0e1016" stroke="#2a3040" strokeWidth="1" />
+    <g aria-label="Ribbon tail: column traces (Membrane 1) and row traces (Membrane 2)" role="group">
+      <rect x="0" y="0" width={w} height="100" fill="#0e1016" stroke="#2a3040" strokeWidth="1" />
       <text x={m1Left} y="16" fontSize="12" fill="#9aa3b2" style={{ userSelect: "none" }}>
-        Membrane 1 (top) — A…H
+        {m1label}
       </text>
       <text x={m2Left} y="16" fontSize="12" fill="#9aa3b2" style={{ userSelect: "none" }}>
-        Membrane 2 (bottom) — 1…16
+        {m2label}
       </text>
       {props.ribbonDashed.map((c) => {
         const hot = props.ribbonHighlights.has(c.contactId);

@@ -1,0 +1,1011 @@
+keys:
+  - modelId: unicomp-endurapro
+    keyId: a
+    displayName: A
+    section: main
+    x: 6
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208006
+  - modelId: unicomp-endurapro
+    keyId: app_menu
+    displayName: Menu
+    section: main
+    x: 35
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208036
+  - modelId: unicomp-endurapro
+    keyId: arrow_down
+    displayName: arrow_down
+    section: navigation
+    x: 64
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208066
+  - modelId: unicomp-endurapro
+    keyId: arrow_left
+    displayName: arrow_left
+    section: navigation
+    x: 93
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208096
+  - modelId: unicomp-endurapro
+    keyId: arrow_right
+    displayName: arrow_right
+    section: navigation
+    x: 122
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208126
+  - modelId: unicomp-endurapro
+    keyId: arrow_up
+    displayName: arrow_up
+    section: navigation
+    x: 151
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208156
+  - modelId: unicomp-endurapro
+    keyId: b
+    displayName: B
+    section: main
+    x: 180
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208186
+  - modelId: unicomp-endurapro
+    keyId: backslash
+    displayName: backslash
+    section: main
+    x: 209
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208216
+  - modelId: unicomp-endurapro
+    keyId: backspace
+    displayName: backspace
+    section: main
+    x: 238
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208246
+  - modelId: unicomp-endurapro
+    keyId: backtick
+    displayName: backtick
+    section: main
+    x: 267
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208276
+  - modelId: unicomp-endurapro
+    keyId: bracket_left
+    displayName: bracket_left
+    section: main
+    x: 296
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208306
+  - modelId: unicomp-endurapro
+    keyId: bracket_right
+    displayName: bracket_right
+    section: main
+    x: 325
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208336
+  - modelId: unicomp-endurapro
+    keyId: c
+    displayName: C
+    section: main
+    x: 354
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208366
+  - modelId: unicomp-endurapro
+    keyId: caps_lock
+    displayName: caps_lock
+    section: main
+    x: 383
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208396
+  - modelId: unicomp-endurapro
+    keyId: comma
+    displayName: comma
+    section: main
+    x: 412
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208426
+  - modelId: unicomp-endurapro
+    keyId: d
+    displayName: D
+    section: main
+    x: 441
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208456
+  - modelId: unicomp-endurapro
+    keyId: delete
+    displayName: delete
+    section: navigation
+    x: 470
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208486
+  - modelId: unicomp-endurapro
+    keyId: digit_0
+    displayName: digit_0
+    section: main
+    x: 499
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208516
+  - modelId: unicomp-endurapro
+    keyId: digit_1
+    displayName: digit_1
+    section: main
+    x: 528
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208546
+  - modelId: unicomp-endurapro
+    keyId: digit_2
+    displayName: digit_2
+    section: main
+    x: 557
+    y: 104
+    width: 28
+    height: 28
+    sortOrder: 208576
+  - modelId: unicomp-endurapro
+    keyId: digit_3
+    displayName: digit_3
+    section: main
+    x: 6
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266026
+  - modelId: unicomp-endurapro
+    keyId: digit_4
+    displayName: digit_4
+    section: main
+    x: 35
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266056
+  - modelId: unicomp-endurapro
+    keyId: digit_5
+    displayName: digit_5
+    section: main
+    x: 64
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266086
+  - modelId: unicomp-endurapro
+    keyId: digit_6
+    displayName: digit_6
+    section: main
+    x: 93
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266116
+  - modelId: unicomp-endurapro
+    keyId: digit_7
+    displayName: digit_7
+    section: main
+    x: 122
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266146
+  - modelId: unicomp-endurapro
+    keyId: digit_8
+    displayName: digit_8
+    section: main
+    x: 151
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266176
+  - modelId: unicomp-endurapro
+    keyId: digit_9
+    displayName: digit_9
+    section: main
+    x: 180
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266206
+  - modelId: unicomp-endurapro
+    keyId: e
+    displayName: E
+    section: main
+    x: 209
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266236
+  - modelId: unicomp-endurapro
+    keyId: end
+    displayName: end
+    section: navigation
+    x: 238
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266266
+  - modelId: unicomp-endurapro
+    keyId: enter_main
+    displayName: enter_main
+    section: main
+    x: 267
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266296
+  - modelId: unicomp-endurapro
+    keyId: equal
+    displayName: equal
+    section: main
+    x: 296
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266326
+  - modelId: unicomp-endurapro
+    keyId: esc
+    displayName: Esc
+    section: main
+    x: 325
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266356
+  - modelId: unicomp-endurapro
+    keyId: euro1
+    displayName: EUR
+    section: main
+    x: 354
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266386
+  - modelId: unicomp-endurapro
+    keyId: f
+    displayName: F
+    section: main
+    x: 383
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266416
+  - modelId: unicomp-endurapro
+    keyId: f1
+    displayName: F1
+    section: function
+    x: 412
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266446
+  - modelId: unicomp-endurapro
+    keyId: f10
+    displayName: F10
+    section: function
+    x: 441
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266476
+  - modelId: unicomp-endurapro
+    keyId: f11
+    displayName: F11
+    section: function
+    x: 470
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266506
+  - modelId: unicomp-endurapro
+    keyId: f12
+    displayName: F12
+    section: function
+    x: 499
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266536
+  - modelId: unicomp-endurapro
+    keyId: f2
+    displayName: F2
+    section: function
+    x: 528
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266566
+  - modelId: unicomp-endurapro
+    keyId: f3
+    displayName: F3
+    section: function
+    x: 557
+    y: 133
+    width: 28
+    height: 28
+    sortOrder: 266596
+  - modelId: unicomp-endurapro
+    keyId: f4
+    displayName: F4
+    section: function
+    x: 6
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324046
+  - modelId: unicomp-endurapro
+    keyId: f5
+    displayName: F5
+    section: function
+    x: 35
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324076
+  - modelId: unicomp-endurapro
+    keyId: f6
+    displayName: F6
+    section: function
+    x: 64
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324106
+  - modelId: unicomp-endurapro
+    keyId: f7
+    displayName: F7
+    section: function
+    x: 93
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324136
+  - modelId: unicomp-endurapro
+    keyId: f8
+    displayName: F8
+    section: function
+    x: 122
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324166
+  - modelId: unicomp-endurapro
+    keyId: f9
+    displayName: F9
+    section: function
+    x: 151
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324196
+  - modelId: unicomp-endurapro
+    keyId: g
+    displayName: G
+    section: main
+    x: 180
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324226
+  - modelId: unicomp-endurapro
+    keyId: h
+    displayName: H
+    section: main
+    x: 209
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324256
+  - modelId: unicomp-endurapro
+    keyId: home
+    displayName: home
+    section: navigation
+    x: 238
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324286
+  - modelId: unicomp-endurapro
+    keyId: i
+    displayName: I
+    section: main
+    x: 267
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324316
+  - modelId: unicomp-endurapro
+    keyId: insert
+    displayName: insert
+    section: navigation
+    x: 296
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324346
+  - modelId: unicomp-endurapro
+    keyId: intl_backslash
+    displayName: |-
+      #
+      `
+    section: main
+    x: 325
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324376
+  - modelId: unicomp-endurapro
+    keyId: j
+    displayName: J
+    section: main
+    x: 354
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324406
+  - modelId: unicomp-endurapro
+    keyId: k
+    displayName: K
+    section: main
+    x: 383
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324436
+  - modelId: unicomp-endurapro
+    keyId: kp_0
+    displayName: kp_0
+    section: numpad
+    x: 412
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324466
+  - modelId: unicomp-endurapro
+    keyId: kp_1
+    displayName: kp_1
+    section: numpad
+    x: 441
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324496
+  - modelId: unicomp-endurapro
+    keyId: kp_2
+    displayName: kp_2
+    section: numpad
+    x: 470
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324526
+  - modelId: unicomp-endurapro
+    keyId: kp_3
+    displayName: kp_3
+    section: numpad
+    x: 499
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324556
+  - modelId: unicomp-endurapro
+    keyId: kp_4
+    displayName: kp_4
+    section: numpad
+    x: 528
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324586
+  - modelId: unicomp-endurapro
+    keyId: kp_5
+    displayName: kp_5
+    section: numpad
+    x: 557
+    y: 162
+    width: 28
+    height: 28
+    sortOrder: 324616
+  - modelId: unicomp-endurapro
+    keyId: kp_6
+    displayName: kp_6
+    section: numpad
+    x: 6
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382066
+  - modelId: unicomp-endurapro
+    keyId: kp_7
+    displayName: kp_7
+    section: numpad
+    x: 35
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382096
+  - modelId: unicomp-endurapro
+    keyId: kp_8
+    displayName: kp_8
+    section: numpad
+    x: 64
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382126
+  - modelId: unicomp-endurapro
+    keyId: kp_9
+    displayName: kp_9
+    section: numpad
+    x: 93
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382156
+  - modelId: unicomp-endurapro
+    keyId: kp_asterisk
+    displayName: kp_asterisk
+    section: numpad
+    x: 122
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382186
+  - modelId: unicomp-endurapro
+    keyId: kp_decimal
+    displayName: kp_decimal
+    section: numpad
+    x: 151
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382216
+  - modelId: unicomp-endurapro
+    keyId: kp_enter
+    displayName: kp_enter
+    section: numpad
+    x: 180
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382246
+  - modelId: unicomp-endurapro
+    keyId: kp_plus
+    displayName: kp_plus
+    section: numpad
+    x: 209
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382276
+  - modelId: unicomp-endurapro
+    keyId: kp_slash
+    displayName: kp_slash
+    section: numpad
+    x: 238
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382306
+  - modelId: unicomp-endurapro
+    keyId: l
+    displayName: L
+    section: main
+    x: 267
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382336
+  - modelId: unicomp-endurapro
+    keyId: lang5_code
+    displayName: Code
+    section: main
+    x: 296
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382366
+  - modelId: unicomp-endurapro
+    keyId: left_alt
+    displayName: left_alt
+    section: main
+    x: 325
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382396
+  - modelId: unicomp-endurapro
+    keyId: left_ctrl
+    displayName: left_ctrl
+    section: main
+    x: 354
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382426
+  - modelId: unicomp-endurapro
+    keyId: left_shift
+    displayName: left_shift
+    section: main
+    x: 383
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382456
+  - modelId: unicomp-endurapro
+    keyId: m
+    displayName: M
+    section: main
+    x: 412
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382486
+  - modelId: unicomp-endurapro
+    keyId: matrix_aux_bsp
+    displayName: Bsp*
+    section: main
+    x: 441
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382516
+  - modelId: unicomp-endurapro
+    keyId: matrix_aux_kp_0
+    displayName: matrix_aux_kp_0
+    section: main
+    x: 470
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382546
+  - modelId: unicomp-endurapro
+    keyId: matrix_aux_kp_plus
+    displayName: +*
+    section: main
+    x: 499
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382576
+  - modelId: unicomp-endurapro
+    keyId: matrix_aux_rsh
+    displayName: Sh*
+    section: main
+    x: 528
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382606
+  - modelId: unicomp-endurapro
+    keyId: minus
+    displayName: minus
+    section: main
+    x: 557
+    y: 191
+    width: 28
+    height: 28
+    sortOrder: 382636
+  - modelId: unicomp-endurapro
+    keyId: n
+    displayName: N
+    section: main
+    x: 6
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440086
+  - modelId: unicomp-endurapro
+    keyId: num_lock
+    displayName: num_lock
+    section: numpad
+    x: 35
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440116
+  - modelId: unicomp-endurapro
+    keyId: o
+    displayName: O
+    section: main
+    x: 64
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440146
+  - modelId: unicomp-endurapro
+    keyId: os_left
+    displayName: Win
+    section: main
+    x: 93
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440176
+  - modelId: unicomp-endurapro
+    keyId: os_right
+    displayName: Win
+    section: main
+    x: 122
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440206
+  - modelId: unicomp-endurapro
+    keyId: p
+    displayName: P
+    section: main
+    x: 151
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440236
+  - modelId: unicomp-endurapro
+    keyId: page_down
+    displayName: page_down
+    section: navigation
+    x: 180
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440266
+  - modelId: unicomp-endurapro
+    keyId: page_up
+    displayName: page_up
+    section: navigation
+    x: 209
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440296
+  - modelId: unicomp-endurapro
+    keyId: pause_break
+    displayName: Pause
+    section: main
+    x: 238
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440326
+  - modelId: unicomp-endurapro
+    keyId: period
+    displayName: period
+    section: main
+    x: 267
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440356
+  - modelId: unicomp-endurapro
+    keyId: print_screen
+    displayName: PrtSc
+    section: main
+    x: 296
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440386
+  - modelId: unicomp-endurapro
+    keyId: q
+    displayName: Q
+    section: main
+    x: 325
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440416
+  - modelId: unicomp-endurapro
+    keyId: qmk_raw_kp_enter_hidden
+    displayName: qmk_raw_kp_enter_hidden
+    section: numpad
+    x: 354
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440446
+  - modelId: unicomp-endurapro
+    keyId: qmk_raw_kp_minus
+    displayName: qmk_raw_kp_minus
+    section: numpad
+    x: 383
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440476
+  - modelId: unicomp-endurapro
+    keyId: quote
+    displayName: quote
+    section: main
+    x: 412
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440506
+  - modelId: unicomp-endurapro
+    keyId: r
+    displayName: R
+    section: main
+    x: 441
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440536
+  - modelId: unicomp-endurapro
+    keyId: right_alt
+    displayName: right_alt
+    section: main
+    x: 470
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440566
+  - modelId: unicomp-endurapro
+    keyId: right_ctrl
+    displayName: right_ctrl
+    section: main
+    x: 499
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440596
+  - modelId: unicomp-endurapro
+    keyId: right_shift
+    displayName: right_shift
+    section: main
+    x: 528
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440626
+  - modelId: unicomp-endurapro
+    keyId: s
+    displayName: S
+    section: main
+    x: 557
+    y: 220
+    width: 28
+    height: 28
+    sortOrder: 440656
+  - modelId: unicomp-endurapro
+    keyId: scroll_lock
+    displayName: ScrLk
+    section: main
+    x: 6
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498106
+  - modelId: unicomp-endurapro
+    keyId: semicolon
+    displayName: semicolon
+    section: main
+    x: 35
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498136
+  - modelId: unicomp-endurapro
+    keyId: slash
+    displayName: slash
+    section: main
+    x: 64
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498166
+  - modelId: unicomp-endurapro
+    keyId: space
+    displayName: space
+    section: main
+    x: 93
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498196
+  - modelId: unicomp-endurapro
+    keyId: t
+    displayName: T
+    section: main
+    x: 122
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498226
+  - modelId: unicomp-endurapro
+    keyId: tab
+    displayName: tab
+    section: main
+    x: 151
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498256
+  - modelId: unicomp-endurapro
+    keyId: u
+    displayName: U
+    section: main
+    x: 180
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498286
+  - modelId: unicomp-endurapro
+    keyId: v
+    displayName: V
+    section: main
+    x: 209
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498316
+  - modelId: unicomp-endurapro
+    keyId: w
+    displayName: W
+    section: main
+    x: 238
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498346
+  - modelId: unicomp-endurapro
+    keyId: x
+    displayName: X
+    section: main
+    x: 267
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498376
+  - modelId: unicomp-endurapro
+    keyId: y
+    displayName: Y
+    section: main
+    x: 296
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498406
+  - modelId: unicomp-endurapro
+    keyId: z
+    displayName: Z
+    section: main
+    x: 325
+    y: 249
+    width: 28
+    height: 28
+    sortOrder: 498436

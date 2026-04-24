@@ -1,0 +1,22 @@
+modelId: unicomp-endurapro
+displayName: Unicomp Endurapro (104) — QMK (sharktastica)
+family: Unicomp
+layoutName: "104"
+subtitle: Unicomp Endurapro (104) — QMK (sharktastica)
+description: From matrix_endurapro.csv. Includes hidden-matrix keys (qmk_*) for routing.
+schemaVersion: 1.0.0
+modelVersion: 0.2.0-sharktastica-csv
+supportedFeatures:
+  - trace_overlay
+  - ribbon_highlight
+  - comparison_keys
+dataNotes:
+  - "Endurapro: includes k_bsp_hidden etc. as aux keyIds."
+  - Generated from sharktastica QMK CSV; key positions are a coarse grid—edit
+    keys.yaml to match a photo.
+files:
+  keys: keys.yaml
+  traces: traces.yaml
+  tracePaths: trace_paths.yaml
+  ribbonContacts: ribbon_contacts.yaml
+  keyTraceMap: key_trace_map.yaml

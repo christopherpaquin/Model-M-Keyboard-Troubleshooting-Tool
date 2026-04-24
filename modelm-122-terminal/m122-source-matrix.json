@@ -1,0 +1,625 @@
+{
+  "metadata": {
+    "model": "IBM Model M 122 8x20 (QMK / converged reference)",
+    "rows": 8,
+    "columns": 20,
+    "note": "keyId and row/col; verify against FFC"
+  },
+  "keyCells": {
+    "left_alt": {
+      "row": 0,
+      "col": 0,
+      "qmk": "k_lalt"
+    },
+    "space": {
+      "row": 0,
+      "col": 1,
+      "qmk": "k_space"
+    },
+    "right_ctrl": {
+      "row": 0,
+      "col": 2,
+      "qmk": "k_rctrl"
+    },
+    "left_shift": {
+      "row": 0,
+      "col": 3,
+      "qmk": "k_lshift"
+    },
+    "euro1": {
+      "row": 0,
+      "col": 4,
+      "qmk": "k_nubs"
+    },
+    "b": {
+      "row": 0,
+      "col": 5,
+      "qmk": "k_b"
+    },
+    "n": {
+      "row": 0,
+      "col": 6,
+      "qmk": "k_n"
+    },
+    "f23": {
+      "row": 0,
+      "col": 7,
+      "qmk": "k_f23"
+    },
+    "f24": {
+      "row": 0,
+      "col": 8,
+      "qmk": "k_f24"
+    },
+    "f12": {
+      "row": 0,
+      "col": 9,
+      "qmk": "k_f12"
+    },
+    "slash": {
+      "row": 0,
+      "col": 10,
+      "qmk": "k_fwslash"
+    },
+    "kp_0": {
+      "row": 0,
+      "col": 11,
+      "qmk": "kp_0"
+    },
+    "kp_decimal": {
+      "row": 0,
+      "col": 12,
+      "qmk": "kp_dot"
+    },
+    "kp_enter": {
+      "row": 0,
+      "col": 13,
+      "qmk": "kp_enter"
+    },
+    "arrow_left": {
+      "row": 1,
+      "col": 0,
+      "qmk": "k_left"
+    },
+    "kp_1": {
+      "row": 1,
+      "col": 1,
+      "qmk": "kp_1"
+    },
+    "caps_lock": {
+      "row": 1,
+      "col": 2,
+      "qmk": "k_caps"
+    },
+    "right_shift": {
+      "row": 1,
+      "col": 3,
+      "qmk": "k_rshift"
+    },
+    "z": {
+      "row": 1,
+      "col": 4,
+      "qmk": "k_z"
+    },
+    "x": {
+      "row": 1,
+      "col": 5,
+      "qmk": "k_x"
+    },
+    "c": {
+      "row": 1,
+      "col": 6,
+      "qmk": "k_c"
+    },
+    "v": {
+      "row": 1,
+      "col": 7,
+      "qmk": "k_v"
+    },
+    "m": {
+      "row": 1,
+      "col": 8,
+      "qmk": "k_m"
+    },
+    "f22": {
+      "row": 1,
+      "col": 9,
+      "qmk": "k_f22"
+    },
+    "f10": {
+      "row": 1,
+      "col": 10,
+      "qmk": "k_f10"
+    },
+    "f11": {
+      "row": 1,
+      "col": 11,
+      "qmk": "k_f11"
+    },
+    "comma": {
+      "row": 1,
+      "col": 12,
+      "qmk": "k_cm"
+    },
+    "period": {
+      "row": 1,
+      "col": 13,
+      "qmk": "k_period"
+    },
+    "intl_backslash": {
+      "row": 1,
+      "col": 14,
+      "qmk": "k_nuhs"
+    },
+    "enter_main": {
+      "row": 1,
+      "col": 15,
+      "qmk": "k_return"
+    },
+    "kp_2": {
+      "row": 1,
+      "col": 16,
+      "qmk": "kp_2"
+    },
+    "kp_3": {
+      "row": 1,
+      "col": 17,
+      "qmk": "kp_3"
+    },
+    "ex5": {
+      "row": 2,
+      "col": 0,
+      "qmk": "k_lb5"
+    },
+    "ex6": {
+      "row": 2,
+      "col": 1,
+      "qmk": "k_lb6"
+    },
+    "t": {
+      "row": 2,
+      "col": 2,
+      "qmk": "k_t"
+    },
+    "y": {
+      "row": 2,
+      "col": 3,
+      "qmk": "k_y"
+    },
+    "f20": {
+      "row": 2,
+      "col": 4,
+      "qmk": "k_f20"
+    },
+    "f21": {
+      "row": 2,
+      "col": 5,
+      "qmk": "k_f21"
+    },
+    "f9": {
+      "row": 2,
+      "col": 6,
+      "qmk": "k_f9"
+    },
+    "bracket_right": {
+      "row": 2,
+      "col": 7,
+      "qmk": "k_rbrc"
+    },
+    "bracket_left": {
+      "row": 2,
+      "col": 8,
+      "qmk": "k_lbrc"
+    },
+    "backslash": {
+      "row": 2,
+      "col": 9,
+      "qmk": "k_backsl"
+    },
+    "end": {
+      "row": 2,
+      "col": 10,
+      "qmk": "k_end"
+    },
+    "kp_plus": {
+      "row": 3,
+      "col": 0,
+      "qmk": "kp_plus"
+    },
+    "ex4": {
+      "row": 3,
+      "col": 1,
+      "qmk": "k_lb4"
+    },
+    "tab": {
+      "row": 3,
+      "col": 2,
+      "qmk": "k_tab"
+    },
+    "q": {
+      "row": 3,
+      "col": 3,
+      "qmk": "k_q"
+    },
+    "w": {
+      "row": 3,
+      "col": 4,
+      "qmk": "k_w"
+    },
+    "e": {
+      "row": 3,
+      "col": 5,
+      "qmk": "k_e"
+    },
+    "r": {
+      "row": 3,
+      "col": 6,
+      "qmk": "k_r"
+    },
+    "u": {
+      "row": 3,
+      "col": 7,
+      "qmk": "k_u"
+    },
+    "f19": {
+      "row": 3,
+      "col": 8,
+      "qmk": "k_f19"
+    },
+    "f7": {
+      "row": 3,
+      "col": 9,
+      "qmk": "k_f7"
+    },
+    "f8": {
+      "row": 3,
+      "col": 10,
+      "qmk": "k_f8"
+    },
+    "i": {
+      "row": 3,
+      "col": 11,
+      "qmk": "k_i"
+    },
+    "o": {
+      "row": 3,
+      "col": 12,
+      "qmk": "k_o"
+    },
+    "p": {
+      "row": 3,
+      "col": 13,
+      "qmk": "k_p"
+    },
+    "kp_7": {
+      "row": 3,
+      "col": 14,
+      "qmk": "kp_7"
+    },
+    "page_down": {
+      "row": 3,
+      "col": 15,
+      "qmk": "k_pgdn"
+    },
+    "kp_8": {
+      "row": 3,
+      "col": 16,
+      "qmk": "kp_8"
+    },
+    "kp_9": {
+      "row": 3,
+      "col": 17,
+      "qmk": "kp_9"
+    },
+    "ex1": {
+      "row": 4,
+      "col": 0,
+      "qmk": "k_lb1"
+    },
+    "ex2": {
+      "row": 4,
+      "col": 1,
+      "qmk": "k_lb2"
+    },
+    "backtick": {
+      "row": 4,
+      "col": 2,
+      "qmk": "k_tild"
+    },
+    "digit_5": {
+      "row": 4,
+      "col": 3,
+      "qmk": "k_5"
+    },
+    "digit_6": {
+      "row": 4,
+      "col": 4,
+      "qmk": "k_6"
+    },
+    "f17": {
+      "row": 4,
+      "col": 5,
+      "qmk": "k_f17"
+    },
+    "f18": {
+      "row": 4,
+      "col": 6,
+      "qmk": "k_f18"
+    },
+    "f6": {
+      "row": 4,
+      "col": 7,
+      "qmk": "k_f6"
+    },
+    "equal": {
+      "row": 4,
+      "col": 8,
+      "qmk": "k_equals"
+    },
+    "minus": {
+      "row": 4,
+      "col": 9,
+      "qmk": "k_minus"
+    },
+    "backspace": {
+      "row": 4,
+      "col": 10,
+      "qmk": "k_backspace"
+    },
+    "insert": {
+      "row": 4,
+      "col": 11,
+      "qmk": "k_ins"
+    },
+    "home": {
+      "row": 4,
+      "col": 12,
+      "qmk": "k_home"
+    },
+    "kp_minus": {
+      "row": 5,
+      "col": 0,
+      "qmk": "kp_minus"
+    },
+    "ex3": {
+      "row": 5,
+      "col": 1,
+      "qmk": "k_lb3"
+    },
+    "digit_1": {
+      "row": 5,
+      "col": 2,
+      "qmk": "k_1"
+    },
+    "digit_2": {
+      "row": 5,
+      "col": 3,
+      "qmk": "k_2"
+    },
+    "digit_3": {
+      "row": 5,
+      "col": 4,
+      "qmk": "k_3"
+    },
+    "digit_4": {
+      "row": 5,
+      "col": 5,
+      "qmk": "k_4"
+    },
+    "digit_7": {
+      "row": 5,
+      "col": 6,
+      "qmk": "k_7"
+    },
+    "f16": {
+      "row": 5,
+      "col": 7,
+      "qmk": "k_f16"
+    },
+    "f4": {
+      "row": 5,
+      "col": 8,
+      "qmk": "k_f4"
+    },
+    "f5": {
+      "row": 5,
+      "col": 9,
+      "qmk": "k_f5"
+    },
+    "digit_8": {
+      "row": 5,
+      "col": 10,
+      "qmk": "k_8"
+    },
+    "digit_9": {
+      "row": 5,
+      "col": 11,
+      "qmk": "k_9"
+    },
+    "digit_0": {
+      "row": 5,
+      "col": 12,
+      "qmk": "k_0"
+    },
+    "num_lock": {
+      "row": 5,
+      "col": 13,
+      "qmk": "kp_nl"
+    },
+    "page_up": {
+      "row": 5,
+      "col": 14,
+      "qmk": "k_pgup"
+    },
+    "kp_slash": {
+      "row": 5,
+      "col": 15,
+      "qmk": "kp_div"
+    },
+    "kp_asterisk": {
+      "row": 5,
+      "col": 16,
+      "qmk": "kp_mult"
+    },
+    "matrix_aux_plus": {
+      "row": 6,
+      "col": 0,
+      "qmk": "kp_plus_hidden"
+    },
+    "ex7": {
+      "row": 6,
+      "col": 1,
+      "qmk": "k_lb7"
+    },
+    "ex8": {
+      "row": 6,
+      "col": 2,
+      "qmk": "k_lb8"
+    },
+    "a": {
+      "row": 6,
+      "col": 3,
+      "qmk": "k_a"
+    },
+    "s": {
+      "row": 6,
+      "col": 4,
+      "qmk": "k_s"
+    },
+    "d": {
+      "row": 6,
+      "col": 5,
+      "qmk": "k_d"
+    },
+    "f": {
+      "row": 6,
+      "col": 6,
+      "qmk": "k_f"
+    },
+    "j": {
+      "row": 6,
+      "col": 7,
+      "qmk": "k_j"
+    },
+    "f14": {
+      "row": 6,
+      "col": 8,
+      "qmk": "k_f14"
+    },
+    "f15": {
+      "row": 6,
+      "col": 9,
+      "qmk": "k_f15"
+    },
+    "f3": {
+      "row": 6,
+      "col": 10,
+      "qmk": "k_f3"
+    },
+    "k": {
+      "row": 6,
+      "col": 11,
+      "qmk": "k_k"
+    },
+    "l": {
+      "row": 6,
+      "col": 12,
+      "qmk": "k_l"
+    },
+    "semicolon": {
+      "row": 6,
+      "col": 13,
+      "qmk": "k_semicolon"
+    },
+    "kp_4": {
+      "row": 6,
+      "col": 14,
+      "qmk": "kp_4"
+    },
+    "delete": {
+      "row": 6,
+      "col": 15,
+      "qmk": "k_del"
+    },
+    "kp_5": {
+      "row": 6,
+      "col": 16,
+      "qmk": "kp_5"
+    },
+    "kp_6": {
+      "row": 6,
+      "col": 17,
+      "qmk": "kp_6"
+    },
+    "arrow_right": {
+      "row": 6,
+      "col": 18,
+      "qmk": "k_right"
+    },
+    "left_ctrl": {
+      "row": 7,
+      "col": 0,
+      "qmk": "k_lctrl"
+    },
+    "ex9": {
+      "row": 7,
+      "col": 1,
+      "qmk": "k_lb9"
+    },
+    "ex10": {
+      "row": 7,
+      "col": 2,
+      "qmk": "k_lb10"
+    },
+    "right_alt": {
+      "row": 7,
+      "col": 3,
+      "qmk": "k_ralt"
+    },
+    "g": {
+      "row": 7,
+      "col": 4,
+      "qmk": "k_g"
+    },
+    "h": {
+      "row": 7,
+      "col": 5,
+      "qmk": "k_h"
+    },
+    "f13": {
+      "row": 7,
+      "col": 6,
+      "qmk": "k_f13"
+    },
+    "f1": {
+      "row": 7,
+      "col": 7,
+      "qmk": "k_f1"
+    },
+    "f2": {
+      "row": 7,
+      "col": 8,
+      "qmk": "k_f2"
+    },
+    "quote": {
+      "row": 7,
+      "col": 9,
+      "qmk": "k_singlequote"
+    },
+    "arrow_down": {
+      "row": 7,
+      "col": 10,
+      "qmk": "k_down"
+    },
+    "arrow_up": {
+      "row": 7,
+      "col": 11,
+      "qmk": "k_up"
+    },
+    "nav_center": {
+      "row": 7,
+      "col": 12,
+      "qmk": "k_navmid"
+    }
+  }
+}

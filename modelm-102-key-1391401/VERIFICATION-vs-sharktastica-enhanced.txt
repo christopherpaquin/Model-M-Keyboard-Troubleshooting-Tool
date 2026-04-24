@@ -1,0 +1,117 @@
+## 102-key ansi-matrix.json vs sharktastica matrix_enhanced.csv
+
+Enhanced CSV: 8 row(s) × 16 column(s) (QMK table).
+Repo: 16 R1..R16 × 8 C0..C7 (FFC-oriented trace IDs in this tool).
+
+### Per-key (same logical key, both sources)
+OK: 0  ansi=R4C3  enhanced_csv=(4,10)  k_0
+OK: 1  ansi=R3C1  enhanced_csv=(4,2)  k_1
+OK: 2  ansi=R3C2  enhanced_csv=(4,3)  k_2
+OK: 3  ansi=R3C3  enhanced_csv=(4,4)  k_3
+OK: 4  ansi=R3C4  enhanced_csv=(4,5)  k_4
+OK: 5  ansi=R3C5  enhanced_csv=(5,5)  k_5
+OK: 6  ansi=R3C6  enhanced_csv=(5,7)  k_6
+OK: 7  ansi=R3C7  enhanced_csv=(4,7)  k_7
+OK: 8  ansi=R4C1  enhanced_csv=(4,8)  k_8
+OK: 9  ansi=R4C2  enhanced_csv=(4,9)  k_9
+OK: ESC  ansi=R2C0  enhanced_csv=(7,2)  k_esc
+OK: F1  ansi=R5C1  enhanced_csv=(5,3)  k_f1
+OK: F2  ansi=R5C2  enhanced_csv=(5,4)  k_f2
+OK: F3  ansi=R5C3  enhanced_csv=(6,4)  k_f3
+OK: F4  ansi=R5C4  enhanced_csv=(7,4)  k_f4
+OK: F5  ansi=R6C1  enhanced_csv=(7,6)  k_f5
+OK: F6  ansi=R6C2  enhanced_csv=(7,8)  k_f6
+OK: F7  ansi=R6C3  enhanced_csv=(6,9)  k_f7
+OK: F8  ansi=R6C4  enhanced_csv=(5,9)  k_f8
+OK: F9  ansi=R7C1  enhanced_csv=(5,6)  k_f9
+OK: F10  ansi=R7C2  enhanced_csv=(4,6)  k_f10
+OK: F11  ansi=R7C3  enhanced_csv=(4,11)  k_f11
+OK: F12  ansi=R7C4  enhanced_csv=(4,12)  k_f12
+OK: PRINT_SCREEN  ansi=R7C5  enhanced_csv=(4,15)  k_prscr
+OK: SCROLL_LOCK  ansi=R7C6  enhanced_csv=(3,15)  k_scrl
+OK: PAUSE  ansi=R7C7  enhanced_csv=(1,14)  k_pause
+OK: `  ansi=R2C1  enhanced_csv=(5,2)  k_tild
+OK: -  ansi=R4C4  enhanced_csv=(5,10)  k_minus
+OK: =  ansi=R4C5  enhanced_csv=(5,8)  k_equals
+OK: BACKSPACE  ansi=R4C6  enhanced_csv=(6,6)  k_backspace
+OK: TAB  ansi=R8C0  enhanced_csv=(6,2)  k_tab
+OK: Q  ansi=R8C1  enhanced_csv=(3,2)  k_q
+OK: W  ansi=R8C2  enhanced_csv=(3,3)  k_w
+OK: E  ansi=R8C3  enhanced_csv=(3,4)  k_e
+OK: R  ansi=R8C4  enhanced_csv=(3,5)  k_r
+OK: T  ansi=R8C5  enhanced_csv=(6,5)  k_t
+OK: Y  ansi=R8C6  enhanced_csv=(6,7)  k_y
+OK: U  ansi=R8C7  enhanced_csv=(3,7)  k_u
+OK: I  ansi=R9C1  enhanced_csv=(3,8)  k_i
+OK: O  ansi=R9C2  enhanced_csv=(3,9)  k_o
+OK: P  ansi=R9C3  enhanced_csv=(3,10)  k_p
+OK: [  ansi=R9C4  enhanced_csv=(6,10)  k_lbrc
+OK: ]  ansi=R9C5  enhanced_csv=(6,8)  k_rbrc
+OK: \  ansi=R9C6  enhanced_csv=(2,6)  k_backsl
+OK: CAPS_LOCK  ansi=R10C0  enhanced_csv=(6,3)  k_caps
+OK: A  ansi=R10C1  enhanced_csv=(2,2)  k_a
+OK: S  ansi=R10C2  enhanced_csv=(2,3)  k_s
+OK: D  ansi=R10C3  enhanced_csv=(2,4)  k_d
+OK: F  ansi=R10C4  enhanced_csv=(2,5)  k_f
+OK: G  ansi=R10C5  enhanced_csv=(7,5)  k_g
+OK: H  ansi=R10C6  enhanced_csv=(7,7)  k_h
+OK: J  ansi=R10C7  enhanced_csv=(2,7)  k_j
+OK: K  ansi=R11C1  enhanced_csv=(2,8)  k_k
+OK: L  ansi=R11C2  enhanced_csv=(2,9)  k_l
+OK: ;  ansi=R11C3  enhanced_csv=(2,10)  k_semicolon
+OK: '  ansi=R11C4  enhanced_csv=(7,10)  k_singlequote
+OK: ENTER  ansi=R11C5  enhanced_csv=(1,6)  k_return
+OK: #  ansi=R11C6  enhanced_csv=(1,10)  k_nuhs
+OK: SHIFT_L  ansi=R12C0  enhanced_csv=(6,1)  k_lshift
+OK: Z  ansi=R12C1  enhanced_csv=(1,2)  k_z
+OK: X  ansi=R12C2  enhanced_csv=(1,3)  k_x
+OK: C  ansi=R12C3  enhanced_csv=(1,4)  k_c
+OK: V  ansi=R12C4  enhanced_csv=(1,5)  k_v
+OK: B  ansi=R12C5  enhanced_csv=(0,5)  k_b
+OK: N  ansi=R12C6  enhanced_csv=(0,7)  k_n
+OK: M  ansi=R12C7  enhanced_csv=(1,7)  k_m
+OK: ,  ansi=R13C1  enhanced_csv=(1,8)  k_cm
+OK: .  ansi=R13C2  enhanced_csv=(1,9)  k_period
+OK: /  ansi=R13C3  enhanced_csv=(0,10)  k_fwslash
+OK: SHIFT_R  ansi=R13C4  enhanced_csv=(1,1)  k_rshift
+OK: CTRL_L  ansi=R14C0  enhanced_csv=(5,0)  k_lctrl
+OK: ALT_L  ansi=R14C2  enhanced_csv=(7,15)  k_lalt
+OK: SPACE  ansi=R14C4  enhanced_csv=(0,6)  k_space
+OK: ALT_R  ansi=R14C6  enhanced_csv=(0,15)  k_ralt
+OK: CTRL_R  ansi=R14C7  enhanced_csv=(1,0)  k_rctrl
+OK: INSERT  ansi=R6C5  enhanced_csv=(5,12)  k_ins
+OK: DELETE  ansi=R6C6  enhanced_csv=(5,11)  k_del
+OK: HOME  ansi=R5C5  enhanced_csv=(5,14)  k_home
+OK: END  ansi=R5C6  enhanced_csv=(4,14)  k_end
+OK: PAGE_UP  ansi=R5C7  enhanced_csv=(5,13)  k_pgup
+OK: PAGE_DOWN  ansi=R6C7  enhanced_csv=(4,13)  k_pgdn
+OK: ARROW_UP  ansi=R13C5  enhanced_csv=(7,14)  k_up
+OK: ARROW_LEFT  ansi=R13C6  enhanced_csv=(0,14)  k_left
+OK: ARROW_DOWN  ansi=R13C7  enhanced_csv=(0,11)  k_down
+OK: ARROW_RIGHT  ansi=R14C5  enhanced_csv=(0,12)  k_right
+OK: NUM_LOCK  ansi=R1C0  enhanced_csv=(1,11)  kp_nl
+OK: KP_DIVIDE  ansi=R1C1  enhanced_csv=(1,12)  kp_div
+OK: KP_MULTIPLY  ansi=R1C2  enhanced_csv=(1,13)  kp_mult
+OK: KP_MINUS  ansi=R1C3  enhanced_csv=(0,13)  kp_minus
+OK: KP_7  ansi=R1C4  enhanced_csv=(3,11)  kp_7
+OK: KP_8  ansi=R9C7  enhanced_csv=(3,12)  kp_8
+OK: KP_9  ansi=R1C5  enhanced_csv=(3,13)  kp_9
+OK: KP_PLUS  ansi=R1C6  enhanced_csv=(3,14)  kp_plus
+OK: KP_4  ansi=R1C7  enhanced_csv=(6,11)  kp_4
+OK: KP_5  ansi=R15C0  enhanced_csv=(6,12)  kp_5
+OK: KP_6  ansi=R15C6  enhanced_csv=(6,13)  kp_6
+OK: KP_1  ansi=R11C7  enhanced_csv=(2,11)  kp_1
+OK: KP_2  ansi=R15C1  enhanced_csv=(2,12)  kp_2
+OK: KP_3  ansi=R15C2  enhanced_csv=(2,13)  kp_3
+OK: KP_ENTER  ansi=R15C3  enhanced_csv=(2,14)  kp_enter
+OK: KP_0  ansi=R15C4  enhanced_csv=(7,12)  kp_0
+OK: KP_DECIMAL  ansi=R15C5  enhanced_csv=(7,13)  kp_dot
+
+### Keys without LABEL_TO_SHARK / excluded
+
+### CSV k_* with no entry in ansi-matrix (after label map)
+—
+
+### Numpad + ISO note
+This repo numpad/ISO cells may use R1/R15/R16 assignments that differ from QMK row
+so FFC uniqueness holds — see modelm-102-key-1391401 README.

@@ -1,3 +1,15 @@
 models:
+  - modelId: ibm-122-converged
+    packagePath: ibm-122-converged
+  - modelId: ibm-122-terminal
+    packagePath: ibm-122-terminal
   - modelId: ibm-1391401-ansi
     packagePath: ibm-1391401-ansi
+  - modelId: ibm-m-104-ssk
+    packagePath: ibm-m-104-ssk
+  - modelId: unicomp-endurapro
+    packagePath: unicomp-endurapro
+  - modelId: unicomp-mini-m
+    packagePath: unicomp-mini-m
+  - modelId: unicomp-pc-122
+    packagePath: unicomp-pc-122

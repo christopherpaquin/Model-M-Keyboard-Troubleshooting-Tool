@@ -1,0 +1,8 @@
+k_esc,k_pause,k_f3,k_f1,k_ins,k_3,k_4,k_6,k_f5,k_f7,k_f9,k_f11,k_prscr,k_right,k_scrl,KC_NO
+k_tab,KC_NO,k_del,k_pgdn,KC_NO,k_e,k_t,k_u,k_backspace,k_minus,k_down,k_end,k_home,k_rwin,KC_NO,k_caps
+k_1,k_bsp_hidden,kp_nl,k_pgup,k_code,k_i,k_r,k_y,k_equals,k_9,k_0,kp_mult,kp_div,k_up,k_lwin,KC_NO
+k_q,k_lshift,kp_9,k_2,KC_NO,k_k,k_f,k_h,k_rbrc,k_o,k_semicolon,kp_8,kp_7,KC_NO,KC_NO,k_lctrl
+k_a,KC_NO,kp_6,k_w,k_lalt,k_d,k_g,k_j,k_backsl,k_lbrc,k_singlequote,kp_5,kp_4,k_rshift_hidden,kp_plus_hidden,KC_NO
+k_z,k_rshift,kp_dot,k_x,KC_NO,k_cm,k_b,k_m,k_return,k_period,k_p,kp_0,kp_1,KC_NO,kp_0_hidden,k_rctrl
+k_nubs,KC_NO,kp_3,k_s,k_ralt,k_c,k_v,k_n,k_left,k_l,k_fwslash,kp_2,kp_plus,k_nuhs,kp_enter_hidden,KC_NO
+k_tild,KC_NO,kp_minus,k_f2,k_f4,k_8,k_5,k_7,k_f6,k_f8,k_f10,k_f12,k_rmenu,k_space,kp_enter,KC_NO

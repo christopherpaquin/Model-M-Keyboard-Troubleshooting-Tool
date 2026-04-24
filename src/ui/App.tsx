@@ -154,52 +154,69 @@ export function App(): React.ReactElement {
   return (
     <div className={showPanel ? "app-shell" : "app-shell app-shell--no-panel"}>
       <main className="workspace">
-            <div className="tools-row" style={{ justifyContent: "space-between" }}>
-              <div>
-                <h1>IBM Model M – dead key map</h1>
-                <div className="subtle" style={{ marginTop: 2, maxWidth: 720 }}>
-                  {model.manifest.displayName} · {model.manifest.modelVersion} · {model.manifest.layoutName}
+            <header className="app-header">
+              <div className="app-header__top">
+                <div className="app-header__title-block">
+                  <h1>IBM Model M Keyboard - Membrane Trace Mapper</h1>
+                </div>
+                <div className="app-header__actions">
+                  <div className="btn-row" style={{ justifyContent: "flex-end" }}>
+                    <button
+                      type="button"
+                      onClick={() => setShowPanel((v) => !v)}
+                      title={showPanel ? "Widen the keyboard diagram" : "Show analysis and trace controls"}
+                    >
+                      {showPanel ? "Hide side panel" : "Show side panel"}
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div className="subtle" style={{ fontSize: 0.85, textAlign: "right" as const }}>
-                <div className="btn-row" style={{ justifyContent: "flex-end" }}>
-                  <button
-                    type="button"
-                    onClick={() => setShowPanel((v) => !v)}
-                    title={showPanel ? "Widen the keyboard diagram" : "Show analysis and trace controls"}
-                  >
-                    {showPanel ? "Hide side panel" : "Show side panel"}
-                  </button>
+              <div className="app-header__toolbar">
+                <div className="field">
+                  <label htmlFor="app-model-select">
+                    Keyboard model {registry ? null : <span className="subtle">(no registry yet)</span>}
+                  </label>
+                  {registry && (
+                    <select
+                      id="app-model-select"
+                      value={modelId}
+                      onChange={(e) => {
+                        const v = e.target.value;
+                        if (v) void reload(v);
+                      }}
+                      aria-label="Model"
+                    >
+                      {registry.models.map((m) => (
+                        <option value={m.modelId} key={m.modelId}>
+                          {m.modelId}
+                        </option>
+                      ))}
+                    </select>
+                  )}
+                  {loadError ? <p className="danger" style={{ margin: "0.2em 0" }}>Package load: {loadError}</p> : null}
                 </div>
               </div>
-            </div>
-            <div className="panel" style={{ marginTop: 8 }}>
-              <div className="field">
-                <label>Keyboard model {registry ? null : <span className="subtle">(no registry yet)</span>}</label>
-                {registry && (
-                  <select
-                    value={modelId}
-                    onChange={(e) => {
-                      const v = e.target.value;
-                      if (v) void reload(v);
-                    }}
-                    aria-label="Model"
-                  >
-                    {registry.models.map((m) => (
-                      <option value={m.modelId} key={m.modelId}>
-                        {m.modelId}
-                      </option>
-                    ))}
-                  </select>
-                )}
-                {loadError ? <p className="danger" style={{ margin: "0.2em 0" }}>Package load: {loadError}</p> : null}
+              <div
+                className="app-header__blurb"
+                role="note"
+                aria-label="Map source and behavior"
+              >
+                <p className="app-header__blurb--lead">
+                  Offline only — the diagram does <strong>not</strong> read your board.
+                </p>
+                <p className="app-header__blurb--body">
+                  <strong>One key selected:</strong> both M1 and M2 traces and tail pads
+                </p>
+                <p className="app-header__blurb--body app-header__blurb--body-tight">
+                  <strong>Several keys:</strong> only <strong>traces common to every</strong> selected key are drawn.
+                </p>
+                <p className="app-header__blurb--body app-header__blurb--body-tight">
+                  <strong>Tints:</strong> <span className="app-header__tint app-header__tint--m2">blue</span> = Membrane
+                  2 (1…16), <span className="app-header__tint app-header__tint--m1">amber</span> = Membrane 1 (A…H) on
+                  unselected keys.
+                </p>
               </div>
-            </div>
-            <p className="manifest-notes manifest-notes__lead" role="note" aria-label="Map source">
-              Offline only — the diagram does <strong>not</strong> read your board. One key selected: both M1 and M2 traces
-              and tail pads. Several keys: only <strong>traces common to every</strong> selected key are drawn. Tints:{" "}
-              <strong>blue</strong> = Membrane 2 (1…16), <strong>amber</strong> = Membrane 1 (A…H) on unselected keys.
-            </p>
+            </header>
             <KeyboardDiagram
               keys={model.keys}
               deadKeyIds={dead}

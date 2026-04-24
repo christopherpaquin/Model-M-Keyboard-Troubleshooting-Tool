@@ -1,0 +1,24 @@
+modelId: unicomp-mini-m
+displayName: Unicomp Mini M — sharktastica (display labels → keyId)
+family: Unicomp
+layoutName: Mini M
+subtitle: Unicomp Mini M — sharktastica (display labels → keyId)
+description: 12×~20 from matrix_minim.csv; keyIds resolved via
+  tools/minimSharkLabels.mjs (not k_* QMK codes).
+schemaVersion: 1.0.0
+modelVersion: 0.2.0-sharktastica-csv
+supportedFeatures:
+  - trace_overlay
+  - ribbon_highlight
+  - comparison_keys
+dataNotes:
+  - Matrix uses Grv, LShiftHid, FwSlash, etc.; M2=rows, M1=cols in CSV scan
+    order.
+  - Generated from sharktastica QMK CSV; key positions are a coarse grid—edit
+    keys.yaml to match a photo.
+files:
+  keys: keys.yaml
+  traces: traces.yaml
+  tracePaths: trace_paths.yaml
+  ribbonContacts: ribbon_contacts.yaml
+  keyTraceMap: key_trace_map.yaml

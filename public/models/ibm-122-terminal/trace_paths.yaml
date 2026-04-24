@@ -1,0 +1,195 @@
+tracePaths:
+  - modelId: ibm-122-terminal
+    traceId: dashed_A
+    pathId: path_000
+    geometry: M 13 47 L 738 112 L 738 157 L 15 181 L 515 212 L 117 236 L 154 236 L
+      15 237 L 814 350
+    pathType: overlay
+    label: Membrane 1 (top) — col 0 A
+  - modelId: ibm-122-terminal
+    traceId: dashed_B
+    pathId: path_001
+    geometry: M 29 47 L 49 181 L 636 202 L 15 209 L 49 209 L 308 236 L 49 237 L 15
+      265 L 15 293
+    pathType: overlay
+    label: Membrane 1 (top) — col 1 B
+  - modelId: ibm-122-terminal
+    traceId: dashed_C
+    pathId: path_002
+    geometry: M 45 47 L 116 117 L 147 117 L 121 147 L 289 147 L 125 177 L 466 236 L
+      49 265 L 49 293
+    pathType: overlay
+    label: Membrane 1 (top) — col 2 C
+  - modelId: ibm-122-terminal
+    traceId: dashed_D
+    pathId: path_003
+    geometry: M 61 47 L 179 117 L 275 117 L 161 147 L 321 147 L 169 177 L 125 207 L
+      531 207 L 428 236
+    pathType: overlay
+    label: Membrane 1 (top) — col 3 D
+  - modelId: ibm-122-terminal
+    traceId: dashed_E
+    pathId: path_004
+    geometry: M 77 47 L 262 112 L 211 117 L 307 117 L 193 147 L 201 177 L 297 177 L
+      169 207 L 187 236
+    pathType: overlay
+    label: Membrane 1 (top) — col 4 E
+  - modelId: ibm-122-terminal
+    traceId: dashed_F
+    pathId: path_005
+    geometry: M 93 47 L 160 112 L 296 112 L 243 117 L 225 147 L 233 177 L 329 177 L
+      201 207 L 297 207
+    pathType: overlay
+    label: Membrane 1 (top) — col 5 F
+  - modelId: ibm-122-terminal
+    traceId: dashed_G
+    pathId: path_006
+    geometry: M 109 47 L 24 112 L 194 112 L 339 117 L 296 142 L 257 147 L 265 177 L
+      233 207 L 329 207
+    pathType: overlay
+    label: Membrane 1 (top) — col 6 G
+  - modelId: ibm-122-terminal
+    traceId: dashed_H
+    pathId: path_007
+    geometry: M 125 47 L 126 112 L 364 112 L 24 142 L 194 142 L 353 147 L 513 147 L
+      361 177 L 265 207
+    pathType: overlay
+    label: Membrane 1 (top) — col 7 H
+  - modelId: ibm-122-terminal
+    traceId: dashed_I
+    pathId: path_008
+    geometry: M 141 47 L 58 112 L 228 112 L 398 112 L 499 117 L 58 142 L 126 142 L
+      481 147 L 361 207
+    pathType: overlay
+    label: Membrane 1 (top) — col 8 I
+  - modelId: ibm-122-terminal
+    traceId: dashed_J
+    pathId: path_009
+    geometry: M 157 47 L 92 112 L 330 112 L 467 117 L 160 142 L 228 142 L 398 142 L
+      550 147 L 489 177
+    pathType: overlay
+    label: Membrane 1 (top) — col 9 J
+  - modelId: ibm-122-terminal
+    traceId: dashed_K
+    pathId: path_010
+    geometry: M 173 47 L 371 117 L 548 117 L 92 142 L 262 142 L 330 142 L 547 144 L
+      457 207 L 547 244
+    pathType: overlay
+    label: Membrane 1 (top) — col 10 K
+  - modelId: ibm-122-terminal
+    traceId: dashed_L
+    pathId: path_011
+    geometry: M 189 47 L 515 112 L 403 117 L 364 142 L 385 147 L 393 177 L 547 180 L
+      644 232
+    pathType: overlay
+    label: Membrane 1 (top) — col 11 L
+  - modelId: ibm-122-terminal
+    traceId: dashed_M
+    pathId: path_012
+    geometry: M 205 47 L 547 112 L 435 117 L 417 147 L 425 177 L 393 207 L 547 212 L
+      688 232
+    pathType: overlay
+    label: Membrane 1 (top) — col 12 M
+  - modelId: ibm-122-terminal
+    traceId: dashed_N
+    pathId: path_013
+    geometry: M 221 47 L 636 112 L 449 147 L 457 177 L 738 204 L 425 207
+    pathType: overlay
+    label: Membrane 1 (top) — col 13 N
+  - modelId: ibm-122-terminal
+    traceId: dashed_O
+    pathId: path_014
+    geometry: M 237 47 L 579 112 L 636 144 L 636 176 L 490 207
+    pathType: overlay
+    label: Membrane 1 (top) — col 14 O
+  - modelId: ibm-122-terminal
+    traceId: dashed_P
+    pathId: path_015
+    geometry: M 253 47 L 670 112 L 515 144 L 579 144 L 532 177
+    pathType: overlay
+    label: Membrane 1 (top) — col 15 P
+  - modelId: ibm-122-terminal
+    traceId: dashed_Q
+    pathId: path_016
+    geometry: M 269 47 L 704 112 L 670 144 L 670 176 L 670 202
+    pathType: overlay
+    label: Membrane 1 (top) — col 16 Q
+  - modelId: ibm-122-terminal
+    traceId: dashed_R
+    pathId: path_017
+    geometry: M 285 47 L 704 144 L 704 176 L 704 202
+    pathType: overlay
+    label: Membrane 1 (top) — col 17 R
+  - modelId: ibm-122-terminal
+    traceId: dashed_S
+    pathId: path_018
+    geometry: M 301 47 L 579 212
+    pathType: overlay
+    label: Membrane 1 (top) — col 18 S
+  - modelId: ibm-122-terminal
+    traceId: dashed_T
+    pathId: path_019
+    geometry: M 317 47
+    pathType: overlay
+    label: Membrane 1 (top) — col 19 T
+  - modelId: ibm-122-terminal
+    traceId: solid_01
+    pathId: path_020
+    geometry: M 355 47 L 364 112 L 398 112 L 398 142 L 738 204 L 125 207 L 297 207 L
+      329 207 L 457 207 L 644 232 L 688 232 L 154 236 L 187 236 L 308 236 L 466
+      236
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 1
+  - modelId: ibm-122-terminal
+    traceId: solid_02
+    pathId: path_021
+    geometry: M 375 47 L 330 112 L 330 142 L 364 142 L 125 177 L 532 177 L 636 202 L
+      670 202 L 704 202 L 169 207 L 201 207 L 233 207 L 265 207 L 361 207 L 393
+      207 L 425 207 L 490 207 L 531 207 L 515 212
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 2
+  - modelId: ibm-122-terminal
+    traceId: solid_03
+    pathId: path_022
+    geometry: M 395 47 L 262 112 L 296 112 L 296 142 L 547 144 L 289 147 L 321 147 L
+      481 147 L 513 147 L 550 147 L 15 237 L 49 237
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 3
+  - modelId: ibm-122-terminal
+    traceId: solid_04
+    pathId: path_023
+    geometry: M 415 47 L 228 112 L 228 142 L 262 142 L 579 144 L 636 144 L 670 144 L
+      704 144 L 121 147 L 161 147 L 193 147 L 225 147 L 257 147 L 353 147 L 385
+      147 L 417 147 L 449 147 L 738 157 L 49 209
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 4
+  - modelId: ibm-122-terminal
+    traceId: solid_05
+    pathId: path_024
+    geometry: M 435 47 L 160 112 L 194 112 L 515 112 L 547 112 L 116 117 L 275 117 L
+      307 117 L 467 117 L 499 117 L 548 117 L 194 142 L 15 181 L 49 181
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 5
+  - modelId: ibm-122-terminal
+    traceId: solid_06
+    pathId: path_025
+    geometry: M 455 47 L 126 112 L 579 112 L 636 112 L 670 112 L 704 112 L 738 112 L
+      147 117 L 179 117 L 211 117 L 243 117 L 339 117 L 371 117 L 403 117 L 435
+      117 L 126 142 L 160 142 L 15 209
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 6
+  - modelId: ibm-122-terminal
+    traceId: solid_07
+    pathId: path_026
+    geometry: M 475 47 L 58 112 L 92 112 L 92 142 L 515 144 L 636 176 L 670 176 L
+      704 176 L 169 177 L 201 177 L 233 177 L 265 177 L 361 177 L 393 177 L 425
+      177 L 457 177 L 579 212 L 15 265 L 49 265 L 814 350
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 7
+  - modelId: ibm-122-terminal
+    traceId: solid_08
+    pathId: path_027
+    geometry: M 495 47 L 24 112 L 24 142 L 58 142 L 297 177 L 329 177 L 489 177 L
+      547 180 L 547 212 L 117 236 L 428 236 L 547 244 L 15 293 L 49 293
+    pathType: overlay
+    label: Membrane 2 (bottom) — row line 8

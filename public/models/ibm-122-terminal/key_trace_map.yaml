@@ -1,0 +1,985 @@
+keyTraceMap:
+  - modelId: ibm-122-terminal
+    keyId: a
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: a
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: arrow_down
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: arrow_down
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: arrow_left
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: arrow_left
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: arrow_right
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: arrow_right
+    traceId: dashed_S
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: arrow_up
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: arrow_up
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: b
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: b
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: backslash
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: backslash
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: backspace
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: backspace
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: backtick
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: backtick
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: bracket_left
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: bracket_left
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: bracket_right
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: bracket_right
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: c
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: c
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: caps_lock
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: caps_lock
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: comma
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: comma
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: d
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: d
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: delete
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: delete
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_0
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_0
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_1
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_1
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_2
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_2
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_3
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_3
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_4
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_4
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_5
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_5
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_6
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_6
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_7
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_7
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_8
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_8
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: digit_9
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: digit_9
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: e
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: e
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: end
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: end
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: enter_main
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: enter_main
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: equal
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: equal
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: euro1
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: euro1
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex1
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex1
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex10
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex10
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex2
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex2
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex3
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex3
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex4
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex4
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex5
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex5
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex6
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex6
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex7
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex7
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex8
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex8
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: ex9
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: ex9
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f1
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f1
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f10
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f10
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f11
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f11
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f12
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f12
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f13
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f13
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f14
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f14
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f15
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f15
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f16
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f16
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f17
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f17
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f18
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f18
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f19
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f19
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f2
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f2
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f20
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f20
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f21
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f21
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f22
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f22
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f23
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f23
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f24
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f24
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f3
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f3
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f4
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f4
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f5
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f5
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f6
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f6
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f7
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f7
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f8
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f8
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: f9
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: f9
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: g
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: g
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: h
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: h
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: home
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: home
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: i
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: i
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: insert
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: insert
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: intl_backslash
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: intl_backslash
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: j
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: j
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: k
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: k
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_0
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_0
+    traceId: dashed_L
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_1
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_1
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_2
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_2
+    traceId: dashed_Q
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_3
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_3
+    traceId: dashed_R
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_4
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_4
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_5
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_5
+    traceId: dashed_Q
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_6
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_6
+    traceId: dashed_R
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_7
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_7
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_8
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_8
+    traceId: dashed_Q
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_9
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_9
+    traceId: dashed_R
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_asterisk
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_asterisk
+    traceId: dashed_Q
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_decimal
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_decimal
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_enter
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_enter
+    traceId: dashed_N
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_minus
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_minus
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_plus
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_plus
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: kp_slash
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: kp_slash
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: l
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: l
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: left_alt
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: left_alt
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: left_ctrl
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: left_ctrl
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: left_shift
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: left_shift
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: m
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: m
+    traceId: dashed_I
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: matrix_aux_plus
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: matrix_aux_plus
+    traceId: dashed_A
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: minus
+    traceId: solid_05
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: minus
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: n
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: n
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: nav_center
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: nav_center
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: num_lock
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: num_lock
+    traceId: dashed_N
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: o
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: o
+    traceId: dashed_M
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: p
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: p
+    traceId: dashed_N
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: page_down
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: page_down
+    traceId: dashed_P
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: page_up
+    traceId: solid_06
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: page_up
+    traceId: dashed_O
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: period
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: period
+    traceId: dashed_N
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: q
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: q
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: quote
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: quote
+    traceId: dashed_J
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: r
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: r
+    traceId: dashed_G
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: right_alt
+    traceId: solid_08
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: right_alt
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: right_ctrl
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: right_ctrl
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: right_shift
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: right_shift
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: s
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: s
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: semicolon
+    traceId: solid_07
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: semicolon
+    traceId: dashed_N
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: slash
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: slash
+    traceId: dashed_K
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: space
+    traceId: solid_01
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: space
+    traceId: dashed_B
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: t
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: t
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: tab
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: tab
+    traceId: dashed_C
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: u
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: u
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: v
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: v
+    traceId: dashed_H
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: w
+    traceId: solid_04
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: w
+    traceId: dashed_E
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: x
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: x
+    traceId: dashed_F
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: y
+    traceId: solid_03
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: y
+    traceId: dashed_D
+    role: pathB
+  - modelId: ibm-122-terminal
+    keyId: z
+    traceId: solid_02
+    role: pathA
+  - modelId: ibm-122-terminal
+    keyId: z
+    traceId: dashed_E
+    role: pathB

@@ -1,0 +1,22 @@
+modelId: unicomp-pc-122
+displayName: Unicomp PC 122 — QMK (sharktastica)
+family: Unicomp / IBM Class
+layoutName: 122 PC
+subtitle: Unicomp PC 122 — QMK (sharktastica)
+description: 8×16 from matrix_pc122.csv. Extra column keys F21–F24, LB* cluster.
+schemaVersion: 1.0.0
+modelVersion: 0.2.0-sharktastica-csv
+supportedFeatures:
+  - trace_overlay
+  - ribbon_highlight
+  - comparison_keys
+dataNotes:
+  - "PC 122: 8 scan rows, 16 columns; confirm Unicomp revision."
+  - Generated from sharktastica QMK CSV; key positions are a coarse grid—edit
+    keys.yaml to match a photo.
+files:
+  keys: keys.yaml
+  traces: traces.yaml
+  tracePaths: trace_paths.yaml
+  ribbonContacts: ribbon_contacts.yaml
+  keyTraceMap: key_trace_map.yaml

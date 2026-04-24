@@ -9,6 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
+import { upsertModelRegistryEntry } from "./model-registry.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -648,15 +649,19 @@ function buildTracePaths(modelId, keys, tracesList, solidByKeyId, dashedByKeyId,
 }
 
 function manifest(modelId) {
+  const displayName = "IBM Model M 102-key ANSI (1391401 / 1391404 class)";
+  const layoutName = "102-key ANSI";
+  const modelVersion = "0.4.1-membrane-naming";
   return {
     modelId,
-    displayName: "IBM Model M 102-key ANSI (1391401 / 1391404 class)",
+    displayName,
     family: "IBM Model M",
-    layoutName: "102-key ANSI",
+    layoutName,
+    subtitle: `${displayName} · ${modelVersion} · ${layoutName}`,
     description:
       "IBM 102-key ANSI (1391401 class): each key is one (R,C) in modelm-102-key-1391401/ansi-matrix.json — R1..R16 → Membrane 2 (bottom) traces 1..16, C0..C7 → Membrane 1 (top) A..H. Often compatible with 1391404; verify the matrix for your part.",
     schemaVersion: "1.0.0",
-    modelVersion: "0.4.1-membrane-naming",
+    modelVersion,
     supportedFeatures: ["trace_overlay", "ribbon_highlight", "comparison_keys"],
     dataNotes: [
       "pathA / Membrane 2 (bottom, numbered 1..16) = matrix rows R1..R16. pathB / Membrane 1 (top, lettered A..H) = matrix columns C0..C7. Every key has a unique (R,C) in ansi-matrix.json.",
@@ -714,17 +719,7 @@ writeYaml("trace_paths.yaml", { tracePaths: paths });
 writeYaml("ribbon_contacts.yaml", { ribbonContacts: ribbon });
 writeYaml("key_trace_map.yaml", { keyTraceMap: kmap });
 
-const registryPath = path.join(root, "public", "models", "registry.yaml");
-fs.mkdirSync(path.dirname(registryPath), { recursive: true });
-fs.writeFileSync(
-  registryPath,
-  String(
-    new YAML.Document({
-      models: [{ modelId: MODEL_ID, packagePath: "ibm-1391401-ansi" }],
-    }),
-  ),
-  "utf8",
-);
+upsertModelRegistryEntry(MODEL_ID, "ibm-1391401-ansi");
 
 console.log("Wrote model package to", outDir);
 if (matrixFileMeta?.model) {

@@ -1,0 +1,26 @@
+modelId: ibm-122-terminal
+displayName: IBM Model M 122-key (terminal / converged class)
+family: IBM Model M
+layoutName: 122-key terminal
+subtitle: IBM Model M 122-key (terminal / converged class) ·
+  0.1.0-m122-qmk-table · 8×20 matrix
+description: 8 rows × 20 columns (0–7 / 0–J) per M122 “converged” style table;
+  Membrane2 = row scan (8 lines), Membrane1 = column scan (20 lines). Re-verify
+  the matrix and FFC for your part.
+schemaVersion: 1.0.0
+modelVersion: 0.1.0-m122-qmk-table
+supportedFeatures:
+  - trace_overlay
+  - ribbon_highlight
+  - comparison_keys
+dataNotes:
+  - QMK-style 8×20 table from the community 122 (5250) matrix — not a substitute
+    for an OEM sheet on your FFC.
+  - pathA / solid = row side (8), pathB / dashed = column side (20).
+  - Diagram positions are schematic; nudge keys.yaml after visual check.
+files:
+  keys: keys.yaml
+  traces: traces.yaml
+  tracePaths: trace_paths.yaml
+  ribbonContacts: ribbon_contacts.yaml
+  keyTraceMap: key_trace_map.yaml

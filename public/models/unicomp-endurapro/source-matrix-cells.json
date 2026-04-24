@@ -1,0 +1,572 @@
+{
+  "source": "sharktastica-csv/matrix_endurapro.csv",
+  "modelId": "unicomp-endurapro",
+  "rows": 8,
+  "cols": 16,
+  "canvas": {
+    "suggestedViewWidth": 920,
+    "suggestedViewHeight": 400
+  },
+  "byQmk": {
+    "k_esc": {
+      "row": 0,
+      "col": 0,
+      "keyId": "esc"
+    },
+    "k_pause": {
+      "row": 0,
+      "col": 1,
+      "keyId": "pause_break"
+    },
+    "k_f3": {
+      "row": 0,
+      "col": 2,
+      "keyId": "f3"
+    },
+    "k_f1": {
+      "row": 0,
+      "col": 3,
+      "keyId": "f1"
+    },
+    "k_ins": {
+      "row": 0,
+      "col": 4,
+      "keyId": "insert"
+    },
+    "k_3": {
+      "row": 0,
+      "col": 5,
+      "keyId": "digit_3"
+    },
+    "k_4": {
+      "row": 0,
+      "col": 6,
+      "keyId": "digit_4"
+    },
+    "k_6": {
+      "row": 0,
+      "col": 7,
+      "keyId": "digit_6"
+    },
+    "k_f5": {
+      "row": 0,
+      "col": 8,
+      "keyId": "f5"
+    },
+    "k_f7": {
+      "row": 0,
+      "col": 9,
+      "keyId": "f7"
+    },
+    "k_f9": {
+      "row": 0,
+      "col": 10,
+      "keyId": "f9"
+    },
+    "k_f11": {
+      "row": 0,
+      "col": 11,
+      "keyId": "f11"
+    },
+    "k_prscr": {
+      "row": 0,
+      "col": 12,
+      "keyId": "print_screen"
+    },
+    "k_right": {
+      "row": 0,
+      "col": 13,
+      "keyId": "arrow_right"
+    },
+    "k_scrl": {
+      "row": 0,
+      "col": 14,
+      "keyId": "scroll_lock"
+    },
+    "k_tab": {
+      "row": 1,
+      "col": 0,
+      "keyId": "tab"
+    },
+    "k_del": {
+      "row": 1,
+      "col": 2,
+      "keyId": "delete"
+    },
+    "k_pgdn": {
+      "row": 1,
+      "col": 3,
+      "keyId": "page_down"
+    },
+    "k_e": {
+      "row": 1,
+      "col": 5,
+      "keyId": "e"
+    },
+    "k_t": {
+      "row": 1,
+      "col": 6,
+      "keyId": "t"
+    },
+    "k_u": {
+      "row": 1,
+      "col": 7,
+      "keyId": "u"
+    },
+    "k_backspace": {
+      "row": 1,
+      "col": 8,
+      "keyId": "backspace"
+    },
+    "k_minus": {
+      "row": 1,
+      "col": 9,
+      "keyId": "minus"
+    },
+    "k_down": {
+      "row": 1,
+      "col": 10,
+      "keyId": "arrow_down"
+    },
+    "k_end": {
+      "row": 1,
+      "col": 11,
+      "keyId": "end"
+    },
+    "k_home": {
+      "row": 1,
+      "col": 12,
+      "keyId": "home"
+    },
+    "k_rwin": {
+      "row": 1,
+      "col": 13,
+      "keyId": "os_right"
+    },
+    "k_caps": {
+      "row": 1,
+      "col": 15,
+      "keyId": "caps_lock"
+    },
+    "k_1": {
+      "row": 2,
+      "col": 0,
+      "keyId": "digit_1"
+    },
+    "k_bsp_hidden": {
+      "row": 2,
+      "col": 1,
+      "keyId": "matrix_aux_bsp"
+    },
+    "kp_nl": {
+      "row": 2,
+      "col": 2,
+      "keyId": "num_lock"
+    },
+    "k_pgup": {
+      "row": 2,
+      "col": 3,
+      "keyId": "page_up"
+    },
+    "k_code": {
+      "row": 2,
+      "col": 4,
+      "keyId": "lang5_code"
+    },
+    "k_i": {
+      "row": 2,
+      "col": 5,
+      "keyId": "i"
+    },
+    "k_r": {
+      "row": 2,
+      "col": 6,
+      "keyId": "r"
+    },
+    "k_y": {
+      "row": 2,
+      "col": 7,
+      "keyId": "y"
+    },
+    "k_equals": {
+      "row": 2,
+      "col": 8,
+      "keyId": "equal"
+    },
+    "k_9": {
+      "row": 2,
+      "col": 9,
+      "keyId": "digit_9"
+    },
+    "k_0": {
+      "row": 2,
+      "col": 10,
+      "keyId": "digit_0"
+    },
+    "kp_mult": {
+      "row": 2,
+      "col": 11,
+      "keyId": "kp_asterisk"
+    },
+    "kp_div": {
+      "row": 2,
+      "col": 12,
+      "keyId": "kp_slash"
+    },
+    "k_up": {
+      "row": 2,
+      "col": 13,
+      "keyId": "arrow_up"
+    },
+    "k_lwin": {
+      "row": 2,
+      "col": 14,
+      "keyId": "os_left"
+    },
+    "k_q": {
+      "row": 3,
+      "col": 0,
+      "keyId": "q"
+    },
+    "k_lshift": {
+      "row": 3,
+      "col": 1,
+      "keyId": "left_shift"
+    },
+    "kp_9": {
+      "row": 3,
+      "col": 2,
+      "keyId": "kp_9"
+    },
+    "k_2": {
+      "row": 3,
+      "col": 3,
+      "keyId": "digit_2"
+    },
+    "k_k": {
+      "row": 3,
+      "col": 5,
+      "keyId": "k"
+    },
+    "k_f": {
+      "row": 3,
+      "col": 6,
+      "keyId": "f"
+    },
+    "k_h": {
+      "row": 3,
+      "col": 7,
+      "keyId": "h"
+    },
+    "k_rbrc": {
+      "row": 3,
+      "col": 8,
+      "keyId": "bracket_right"
+    },
+    "k_o": {
+      "row": 3,
+      "col": 9,
+      "keyId": "o"
+    },
+    "k_semicolon": {
+      "row": 3,
+      "col": 10,
+      "keyId": "semicolon"
+    },
+    "kp_8": {
+      "row": 3,
+      "col": 11,
+      "keyId": "kp_8"
+    },
+    "kp_7": {
+      "row": 3,
+      "col": 12,
+      "keyId": "kp_7"
+    },
+    "k_lctrl": {
+      "row": 3,
+      "col": 15,
+      "keyId": "left_ctrl"
+    },
+    "k_a": {
+      "row": 4,
+      "col": 0,
+      "keyId": "a"
+    },
+    "kp_6": {
+      "row": 4,
+      "col": 2,
+      "keyId": "kp_6"
+    },
+    "k_w": {
+      "row": 4,
+      "col": 3,
+      "keyId": "w"
+    },
+    "k_lalt": {
+      "row": 4,
+      "col": 4,
+      "keyId": "left_alt"
+    },
+    "k_d": {
+      "row": 4,
+      "col": 5,
+      "keyId": "d"
+    },
+    "k_g": {
+      "row": 4,
+      "col": 6,
+      "keyId": "g"
+    },
+    "k_j": {
+      "row": 4,
+      "col": 7,
+      "keyId": "j"
+    },
+    "k_backsl": {
+      "row": 4,
+      "col": 8,
+      "keyId": "backslash"
+    },
+    "k_lbrc": {
+      "row": 4,
+      "col": 9,
+      "keyId": "bracket_left"
+    },
+    "k_singlequote": {
+      "row": 4,
+      "col": 10,
+      "keyId": "quote"
+    },
+    "kp_5": {
+      "row": 4,
+      "col": 11,
+      "keyId": "kp_5"
+    },
+    "kp_4": {
+      "row": 4,
+      "col": 12,
+      "keyId": "kp_4"
+    },
+    "k_rshift_hidden": {
+      "row": 4,
+      "col": 13,
+      "keyId": "matrix_aux_rsh"
+    },
+    "kp_plus_hidden": {
+      "row": 4,
+      "col": 14,
+      "keyId": "matrix_aux_kp_plus"
+    },
+    "k_z": {
+      "row": 5,
+      "col": 0,
+      "keyId": "z"
+    },
+    "k_rshift": {
+      "row": 5,
+      "col": 1,
+      "keyId": "right_shift"
+    },
+    "kp_dot": {
+      "row": 5,
+      "col": 2,
+      "keyId": "kp_decimal"
+    },
+    "k_x": {
+      "row": 5,
+      "col": 3,
+      "keyId": "x"
+    },
+    "k_cm": {
+      "row": 5,
+      "col": 5,
+      "keyId": "comma"
+    },
+    "k_b": {
+      "row": 5,
+      "col": 6,
+      "keyId": "b"
+    },
+    "k_m": {
+      "row": 5,
+      "col": 7,
+      "keyId": "m"
+    },
+    "k_return": {
+      "row": 5,
+      "col": 8,
+      "keyId": "enter_main"
+    },
+    "k_period": {
+      "row": 5,
+      "col": 9,
+      "keyId": "period"
+    },
+    "k_p": {
+      "row": 5,
+      "col": 10,
+      "keyId": "p"
+    },
+    "kp_0": {
+      "row": 5,
+      "col": 11,
+      "keyId": "kp_0"
+    },
+    "kp_1": {
+      "row": 5,
+      "col": 12,
+      "keyId": "kp_1"
+    },
+    "kp_0_hidden": {
+      "row": 5,
+      "col": 14,
+      "keyId": "matrix_aux_kp_0"
+    },
+    "k_rctrl": {
+      "row": 5,
+      "col": 15,
+      "keyId": "right_ctrl"
+    },
+    "k_nubs": {
+      "row": 6,
+      "col": 0,
+      "keyId": "euro1"
+    },
+    "kp_3": {
+      "row": 6,
+      "col": 2,
+      "keyId": "kp_3"
+    },
+    "k_s": {
+      "row": 6,
+      "col": 3,
+      "keyId": "s"
+    },
+    "k_ralt": {
+      "row": 6,
+      "col": 4,
+      "keyId": "right_alt"
+    },
+    "k_c": {
+      "row": 6,
+      "col": 5,
+      "keyId": "c"
+    },
+    "k_v": {
+      "row": 6,
+      "col": 6,
+      "keyId": "v"
+    },
+    "k_n": {
+      "row": 6,
+      "col": 7,
+      "keyId": "n"
+    },
+    "k_left": {
+      "row": 6,
+      "col": 8,
+      "keyId": "arrow_left"
+    },
+    "k_l": {
+      "row": 6,
+      "col": 9,
+      "keyId": "l"
+    },
+    "k_fwslash": {
+      "row": 6,
+      "col": 10,
+      "keyId": "slash"
+    },
+    "kp_2": {
+      "row": 6,
+      "col": 11,
+      "keyId": "kp_2"
+    },
+    "kp_plus": {
+      "row": 6,
+      "col": 12,
+      "keyId": "kp_plus"
+    },
+    "k_nuhs": {
+      "row": 6,
+      "col": 13,
+      "keyId": "intl_backslash"
+    },
+    "kp_enter_hidden": {
+      "row": 6,
+      "col": 14,
+      "keyId": "qmk_raw_kp_enter_hidden"
+    },
+    "k_tild": {
+      "row": 7,
+      "col": 0,
+      "keyId": "backtick"
+    },
+    "kp_minus": {
+      "row": 7,
+      "col": 2,
+      "keyId": "qmk_raw_kp_minus"
+    },
+    "k_f2": {
+      "row": 7,
+      "col": 3,
+      "keyId": "f2"
+    },
+    "k_f4": {
+      "row": 7,
+      "col": 4,
+      "keyId": "f4"
+    },
+    "k_8": {
+      "row": 7,
+      "col": 5,
+      "keyId": "digit_8"
+    },
+    "k_5": {
+      "row": 7,
+      "col": 6,
+      "keyId": "digit_5"
+    },
+    "k_7": {
+      "row": 7,
+      "col": 7,
+      "keyId": "digit_7"
+    },
+    "k_f6": {
+      "row": 7,
+      "col": 8,
+      "keyId": "f6"
+    },
+    "k_f8": {
+      "row": 7,
+      "col": 9,
+      "keyId": "f8"
+    },
+    "k_f10": {
+      "row": 7,
+      "col": 10,
+      "keyId": "f10"
+    },
+    "k_f12": {
+      "row": 7,
+      "col": 11,
+      "keyId": "f12"
+    },
+    "k_rmenu": {
+      "row": 7,
+      "col": 12,
+      "keyId": "app_menu"
+    },
+    "k_space": {
+      "row": 7,
+      "col": 13,
+      "keyId": "space"
+    },
+    "kp_enter": {
+      "row": 7,
+      "col": 14,
+      "keyId": "kp_enter"
+    }
+  }
+}

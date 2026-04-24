@@ -7,6 +7,9 @@
     "dev": "vite",
     "build": "tsc -p tsconfig.json --noEmit && vite build",
     "generate:model": "node tools/generate-1391401-package.mjs",
+    "generate:model:122": "node tools/generate-m122-package.mjs",
+    "generate:model:shark": "node tools/generate-shark-csv-model.mjs",
+    "verify:102-enhanced": "node tools/verify-102-enhanced.mjs",
     "preview": "vite preview",
     "lint": "eslint ."
   },

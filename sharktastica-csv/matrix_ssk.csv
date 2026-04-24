@@ -1,0 +1,8 @@
+,,,,,k_b,k_space,k_n,KC_NO,,k_fwslash,k_down,k_right,,k_left,k_ralt
+k_rctrl,k_rshift,k_z,k_x,k_c,k_v,k_return,k_m,k_cm,k_period,k_nuhs,,,,k_pause,
+,,k_a,k_s,k_d,k_f,k_backsl,k_j,k_k,k_l,k_semicolon,,,,,
+,,k_q,k_w,k_e,k_r,KC_NO,k_u,k_i,k_o,k_p,,,,,k_scrl
+,,k_1,k_2,k_3,k_4,k_f10,k_7,k_8,k_9,k_0,k_f11,k_f12,k_pgdn,k_end,k_prscr
+k_lctrl,,k_tild,k_f1,k_f2,k_5,k_f9,k_6,k_equals,k_f8,k_minus,k_del,k_ins,k_pgup,k_home,
+,k_lshift,k_tab,k_caps,k_f3,k_t,k_backspace,k_y,k_rbrc,k_f7,k_lbrc,,,,,
+,,k_esc,k_nubs,k_f4,k_g,k_f5,k_h,k_f6,,k_singlequote,,,,k_up,k_lalt

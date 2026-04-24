@@ -1,0 +1,163 @@
+tracePaths:
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_A
+    pathId: path_000
+    geometry: M 12 46 L 455 176 L 339 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 0 A
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_B
+    pathId: path_001
+    geometry: M 26 46 L 484 176 L 368 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 1 B
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_C
+    pathId: path_002
+    geometry: M 40 46 L 20 118 L 252 118 L 513 118 L 310 147 L 223 205 L 571 205 L
+      165 234
+    pathType: overlay
+    label: Membrane 1 (top) — col 2 C
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_D
+    pathId: path_003
+    geometry: M 54 46 L 368 118 L 542 118 L 339 147 L 397 147 L 397 205 L 78 234 L
+      107 234
+    pathType: overlay
+    label: Membrane 1 (top) — col 3 D
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_E
+    pathId: path_004
+    geometry: M 68 46 L 339 118 L 426 118 L 571 118 L 194 147 L 513 147 L 542 147 L
+      571 147
+    pathType: overlay
+    label: Membrane 1 (top) — col 4 E
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_F
+    pathId: path_005
+    geometry: M 82 46 L 165 118 L 20 147 L 49 147 L 368 147 L 165 176 L 281 205 L
+      542 205 L 49 234
+    pathType: overlay
+    label: Membrane 1 (top) — col 5 F
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_G
+    pathId: path_006
+    geometry: M 96 46 L 194 118 L 223 118 L 252 147 L 426 147 L 20 176 L 136 176 L
+      513 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 6 G
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_H
+    pathId: path_007
+    geometry: M 110 46 L 78 147 L 107 147 L 194 176 L 339 176 L 513 176 L 571 176 L
+      20 234 L 136 234
+    pathType: overlay
+    label: Membrane 1 (top) — col 7 H
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_I
+    pathId: path_008
+    geometry: M 124 46 L 310 118 L 397 118 L 136 147 L 281 147 L 49 176 L 252 176 L
+      368 176
+    pathType: overlay
+    label: Membrane 1 (top) — col 8 I
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_J
+    pathId: path_009
+    geometry: M 138 46 L 165 147 L 78 176 L 107 176 L 397 176 L 20 205 L 165 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 9 J
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_K
+    pathId: path_010
+    geometry: M 152 46 L 281 118 L 484 118 L 310 176 L 542 176 L 49 205 L 252 205 L
+      455 205 L 484 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 10 K
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_L
+    pathId: path_011
+    geometry: M 166 46 L 49 118 L 455 118 L 455 147
+    pathType: overlay
+    label: Membrane 1 (top) — col 11 L
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_M
+    pathId: path_012
+    geometry: M 180 46 L 107 118 L 484 147 L 281 176
+    pathType: overlay
+    label: Membrane 1 (top) — col 12 M
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_N
+    pathId: path_013
+    geometry: M 194 46 L 78 205 L 107 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 13 N
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_O
+    pathId: path_014
+    geometry: M 208 46 L 78 118 L 136 118 L 223 147 L 223 176 L 136 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 14 O
+  - modelId: ibm-m-104-ssk
+    traceId: dashed_P
+    pathId: path_015
+    geometry: M 222 46 L 426 176 L 194 205 L 310 205 L 426 205
+    pathType: overlay
+    label: Membrane 1 (top) — col 15 P
+  - modelId: ibm-m-104-ssk
+    traceId: solid_01
+    pathId: path_016
+    geometry: M 250 46 L 49 118 L 78 118 L 107 118 L 165 118 L 571 176 L 310 205 L
+      484 205 L 513 205
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 1
+  - modelId: ibm-m-104-ssk
+    traceId: solid_02
+    pathId: path_017
+    geometry: M 268 46 L 339 118 L 397 118 L 252 147 L 310 176 L 513 176 L 136 205 L
+      165 205 L 339 205 L 368 205 L 49 234 L 107 234 L 165 234
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 2
+  - modelId: ibm-m-104-ssk
+    traceId: solid_03
+    pathId: path_018
+    geometry: M 286 46 L 20 118 L 194 118 L 426 118 L 368 147 L 339 176 L 368 176 L
+      397 176 L 397 205 L 455 205
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 3
+  - modelId: ibm-m-104-ssk
+    traceId: solid_04
+    pathId: path_019
+    geometry: M 304 46 L 194 147 L 252 176 L 20 205 L 49 205 L 223 205 L 281 205 L
+      426 205 L 20 234 L 78 234
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 4
+  - modelId: ibm-m-104-ssk
+    traceId: solid_05
+    pathId: path_020
+    geometry: M 322 46 L 484 118 L 513 118 L 542 118 L 571 118 L 20 147 L 107 147 L
+      136 147 L 165 147 L 223 147 L 426 147 L 455 147 L 484 147 L 78 205 L 194
+      205
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 5
+  - modelId: ibm-m-104-ssk
+    traceId: solid_06
+    pathId: path_021
+    geometry: M 340 46 L 252 118 L 455 118 L 49 147 L 78 147 L 281 147 L 397 147 L
+      513 147 L 107 176 L 136 176 L 223 176 L 281 176 L 455 176 L 542 176 L 107
+      205
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 6
+  - modelId: ibm-m-104-ssk
+    traceId: solid_07
+    pathId: path_022
+    geometry: M 358 46 L 223 118 L 281 118 L 310 118 L 368 118 L 542 147 L 78 176 L
+      484 176 L 542 205 L 571 205 L 136 234
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 7
+  - modelId: ibm-m-104-ssk
+    traceId: solid_08
+    pathId: path_023
+    geometry: M 376 46 L 136 118 L 310 147 L 339 147 L 571 147 L 20 176 L 49 176 L
+      165 176 L 194 176 L 426 176 L 252 205
+    pathType: overlay
+    label: Membrane 2 (bottom) — row 8

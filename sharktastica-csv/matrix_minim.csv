@@ -1,0 +1,12 @@
+Grv,Esc,5,RShiftHid,F2,F3,F4,P,,,,,Lalt,Enter,,
+Caps,LShiftHid,Q,,,,,6,F5,,,,,EnterHid,Rctrl,RShift
+S,D,F1,F,G,Z,C,,X,V,B,A,Tab,,,
+,,1,,,,,Y,F6,,,Lwin,,,,
+,,4,,,,,O,F7,,,,,,Lctrl,LShift
+,,W,,,,,7,F8,[,Rwin,,,,,
+,,2,,,,,U,F9,=,F10,F11,-,PrtScrn,,
+,,3,,,,,I,,,,F12,BackspcHid,ScrLck,,
+,,T,,,,,0,,Backspace,Up,End,Ins,,,
+,,R,Ralt,Left,,,9,,BackSlash,,,,Home,,
+Space,,E,,Rmenu,,,8,,],Right,Down,Pgup,PgDn,,
+M,",",,.,FwSlash,H,K,,J,L,;,N,',Del,,PauseBr

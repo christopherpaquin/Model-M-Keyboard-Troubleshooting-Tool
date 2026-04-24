@@ -1,0 +1,467 @@
+{
+  "source": "sharktastica-csv/matrix_minim.csv",
+  "modelId": "unicomp-mini-m",
+  "rows": 12,
+  "cols": 16,
+  "canvas": {
+    "suggestedViewWidth": 920,
+    "suggestedViewHeight": 400
+  },
+  "byQmk": {
+    "0": {
+      "row": 8,
+      "col": 7,
+      "keyId": "digit_0"
+    },
+    "1": {
+      "row": 3,
+      "col": 2,
+      "keyId": "digit_1"
+    },
+    "2": {
+      "row": 6,
+      "col": 2,
+      "keyId": "digit_2"
+    },
+    "3": {
+      "row": 7,
+      "col": 2,
+      "keyId": "digit_3"
+    },
+    "4": {
+      "row": 4,
+      "col": 2,
+      "keyId": "digit_4"
+    },
+    "5": {
+      "row": 0,
+      "col": 2,
+      "keyId": "digit_5"
+    },
+    "6": {
+      "row": 1,
+      "col": 7,
+      "keyId": "digit_6"
+    },
+    "7": {
+      "row": 5,
+      "col": 7,
+      "keyId": "digit_7"
+    },
+    "8": {
+      "row": 10,
+      "col": 7,
+      "keyId": "digit_8"
+    },
+    "9": {
+      "row": 9,
+      "col": 7,
+      "keyId": "digit_9"
+    },
+    "Grv": {
+      "row": 0,
+      "col": 0,
+      "keyId": "backtick"
+    },
+    "Esc": {
+      "row": 0,
+      "col": 1,
+      "keyId": "esc"
+    },
+    "RShiftHid": {
+      "row": 0,
+      "col": 3,
+      "keyId": "matrix_aux_rsh"
+    },
+    "F2": {
+      "row": 0,
+      "col": 4,
+      "keyId": "f2"
+    },
+    "F3": {
+      "row": 0,
+      "col": 5,
+      "keyId": "f3"
+    },
+    "F4": {
+      "row": 0,
+      "col": 6,
+      "keyId": "f4"
+    },
+    "P": {
+      "row": 0,
+      "col": 7,
+      "keyId": "p"
+    },
+    "Lalt": {
+      "row": 0,
+      "col": 12,
+      "keyId": "left_alt"
+    },
+    "Enter": {
+      "row": 0,
+      "col": 13,
+      "keyId": "enter_main"
+    },
+    "Caps": {
+      "row": 1,
+      "col": 0,
+      "keyId": "caps_lock"
+    },
+    "LShiftHid": {
+      "row": 1,
+      "col": 1,
+      "keyId": "matrix_aux_lsh"
+    },
+    "Q": {
+      "row": 1,
+      "col": 2,
+      "keyId": "q"
+    },
+    "F5": {
+      "row": 1,
+      "col": 8,
+      "keyId": "f5"
+    },
+    "EnterHid": {
+      "row": 1,
+      "col": 13,
+      "keyId": "matrix_aux_enter"
+    },
+    "Rctrl": {
+      "row": 1,
+      "col": 14,
+      "keyId": "right_ctrl"
+    },
+    "RShift": {
+      "row": 1,
+      "col": 15,
+      "keyId": "right_shift"
+    },
+    "S": {
+      "row": 2,
+      "col": 0,
+      "keyId": "s"
+    },
+    "D": {
+      "row": 2,
+      "col": 1,
+      "keyId": "d"
+    },
+    "F1": {
+      "row": 2,
+      "col": 2,
+      "keyId": "f1"
+    },
+    "F": {
+      "row": 2,
+      "col": 3,
+      "keyId": "f"
+    },
+    "G": {
+      "row": 2,
+      "col": 4,
+      "keyId": "g"
+    },
+    "Z": {
+      "row": 2,
+      "col": 5,
+      "keyId": "z"
+    },
+    "C": {
+      "row": 2,
+      "col": 6,
+      "keyId": "c"
+    },
+    "X": {
+      "row": 2,
+      "col": 8,
+      "keyId": "x"
+    },
+    "V": {
+      "row": 2,
+      "col": 9,
+      "keyId": "v"
+    },
+    "B": {
+      "row": 2,
+      "col": 10,
+      "keyId": "b"
+    },
+    "A": {
+      "row": 2,
+      "col": 11,
+      "keyId": "a"
+    },
+    "Tab": {
+      "row": 2,
+      "col": 12,
+      "keyId": "tab"
+    },
+    "Y": {
+      "row": 3,
+      "col": 7,
+      "keyId": "y"
+    },
+    "F6": {
+      "row": 3,
+      "col": 8,
+      "keyId": "f6"
+    },
+    "Lwin": {
+      "row": 3,
+      "col": 11,
+      "keyId": "os_left"
+    },
+    "O": {
+      "row": 4,
+      "col": 7,
+      "keyId": "o"
+    },
+    "F7": {
+      "row": 4,
+      "col": 8,
+      "keyId": "f7"
+    },
+    "Lctrl": {
+      "row": 4,
+      "col": 14,
+      "keyId": "left_ctrl"
+    },
+    "LShift": {
+      "row": 4,
+      "col": 15,
+      "keyId": "left_shift"
+    },
+    "W": {
+      "row": 5,
+      "col": 2,
+      "keyId": "w"
+    },
+    "F8": {
+      "row": 5,
+      "col": 8,
+      "keyId": "f8"
+    },
+    "[": {
+      "row": 5,
+      "col": 9,
+      "keyId": "bracket_left"
+    },
+    "Rwin": {
+      "row": 5,
+      "col": 10,
+      "keyId": "os_right"
+    },
+    "U": {
+      "row": 6,
+      "col": 7,
+      "keyId": "u"
+    },
+    "F9": {
+      "row": 6,
+      "col": 8,
+      "keyId": "f9"
+    },
+    "=": {
+      "row": 6,
+      "col": 9,
+      "keyId": "equal"
+    },
+    "F10": {
+      "row": 6,
+      "col": 10,
+      "keyId": "f10"
+    },
+    "F11": {
+      "row": 6,
+      "col": 11,
+      "keyId": "f11"
+    },
+    "-": {
+      "row": 6,
+      "col": 12,
+      "keyId": "minus"
+    },
+    "PrtScrn": {
+      "row": 6,
+      "col": 13,
+      "keyId": "print_screen"
+    },
+    "I": {
+      "row": 7,
+      "col": 7,
+      "keyId": "i"
+    },
+    "F12": {
+      "row": 7,
+      "col": 11,
+      "keyId": "f12"
+    },
+    "BackspcHid": {
+      "row": 7,
+      "col": 12,
+      "keyId": "matrix_aux_bsp"
+    },
+    "ScrLck": {
+      "row": 7,
+      "col": 13,
+      "keyId": "scroll_lock"
+    },
+    "T": {
+      "row": 8,
+      "col": 2,
+      "keyId": "t"
+    },
+    "Backspace": {
+      "row": 8,
+      "col": 9,
+      "keyId": "backspace"
+    },
+    "Up": {
+      "row": 8,
+      "col": 10,
+      "keyId": "arrow_up"
+    },
+    "End": {
+      "row": 8,
+      "col": 11,
+      "keyId": "end"
+    },
+    "Ins": {
+      "row": 8,
+      "col": 12,
+      "keyId": "insert"
+    },
+    "R": {
+      "row": 9,
+      "col": 2,
+      "keyId": "r"
+    },
+    "Ralt": {
+      "row": 9,
+      "col": 3,
+      "keyId": "right_alt"
+    },
+    "Left": {
+      "row": 9,
+      "col": 4,
+      "keyId": "arrow_left"
+    },
+    "BackSlash": {
+      "row": 9,
+      "col": 9,
+      "keyId": "backslash"
+    },
+    "Home": {
+      "row": 9,
+      "col": 13,
+      "keyId": "home"
+    },
+    "Space": {
+      "row": 10,
+      "col": 0,
+      "keyId": "space"
+    },
+    "E": {
+      "row": 10,
+      "col": 2,
+      "keyId": "e"
+    },
+    "Rmenu": {
+      "row": 10,
+      "col": 4,
+      "keyId": "app_menu"
+    },
+    "]": {
+      "row": 10,
+      "col": 9,
+      "keyId": "bracket_right"
+    },
+    "Right": {
+      "row": 10,
+      "col": 10,
+      "keyId": "arrow_right"
+    },
+    "Down": {
+      "row": 10,
+      "col": 11,
+      "keyId": "arrow_down"
+    },
+    "Pgup": {
+      "row": 10,
+      "col": 12,
+      "keyId": "page_up"
+    },
+    "PgDn": {
+      "row": 10,
+      "col": 13,
+      "keyId": "page_down"
+    },
+    "M": {
+      "row": 11,
+      "col": 0,
+      "keyId": "m"
+    },
+    ",": {
+      "row": 11,
+      "col": 1,
+      "keyId": "comma"
+    },
+    ".": {
+      "row": 11,
+      "col": 3,
+      "keyId": "period"
+    },
+    "FwSlash": {
+      "row": 11,
+      "col": 4,
+      "keyId": "slash"
+    },
+    "H": {
+      "row": 11,
+      "col": 5,
+      "keyId": "h"
+    },
+    "K": {
+      "row": 11,
+      "col": 6,
+      "keyId": "k"
+    },
+    "J": {
+      "row": 11,
+      "col": 8,
+      "keyId": "j"
+    },
+    "L": {
+      "row": 11,
+      "col": 9,
+      "keyId": "l"
+    },
+    ";": {
+      "row": 11,
+      "col": 10,
+      "keyId": "semicolon"
+    },
+    "N": {
+      "row": 11,
+      "col": 11,
+      "keyId": "n"
+    },
+    "'": {
+      "row": 11,
+      "col": 12,
+      "keyId": "quote"
+    },
+    "Del": {
+      "row": 11,
+      "col": 13,
+      "keyId": "delete"
+    },
+    "PauseBr": {
+      "row": 11,
+      "col": 15,
+      "keyId": "pause_break"
+    }
+  }
+}

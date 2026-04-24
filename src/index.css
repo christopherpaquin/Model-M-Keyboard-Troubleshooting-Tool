@@ -57,12 +57,87 @@ code {
   min-width: 0;
 }
 
-.tools-row {
+.app-header {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 14px 14px;
+  margin-bottom: 12px;
+}
+
+.app-header__top {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 10px 14px;
-  margin-bottom: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px 16px;
+}
+
+.app-header__title-block {
+  min-width: 0;
+  flex: 1 1 12rem;
+}
+
+.app-header h1 {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin: 0 0 6px 0;
+}
+
+.app-header__actions {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.app-header__toolbar {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.app-header__blurb {
+  margin: 12px 0 0;
+  padding: 0;
+  max-width: 50rem;
+}
+
+.app-header__blurb--lead {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: var(--fg);
+}
+
+.app-header__blurb--body {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.app-header__blurb--body-tight {
+  margin-top: 0.35rem;
+}
+
+.app-header__blurb--lead strong,
+.app-header__blurb--body strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+/* Match on-diagram M2 (blue) / M1 (amber) tints; see traceColor.ts */
+.app-header__tint {
+  font-weight: 600;
+}
+
+.app-header__tint--m2 {
+  color: hsl(200deg 58% 68%);
+}
+
+.app-header__tint--m1 {
+  color: hsl(32deg 72% 58%);
 }
 
 h1 {
