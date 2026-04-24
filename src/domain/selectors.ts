@@ -1,3 +1,4 @@
+import { keyCapLabel } from "../lib/keyCapLabel";
 import type {
   ComparisonKeySuggestion,
   KeyboardKey,
@@ -119,7 +120,7 @@ export function suggestComparisonKeys(
     usedKeys.add(c.key.keyId);
     picked.push({
       keyId: c.key.keyId,
-      displayName: c.key.displayName,
+      displayName: keyCapLabel(c.key.keyId, c.key.displayName),
       traceId: c.traceId,
       reason: DEFAULT_REASON,
     });

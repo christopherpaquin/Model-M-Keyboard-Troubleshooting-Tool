@@ -39,7 +39,7 @@ tracePaths:
     traceId: dashed_F
     pathId: path_005
     geometry: M 192 48 L 648 192 L 234 242 L 514 242 L 648 242 L 688 242 L 855 278 L
-      254 286 L 534 286 L 262 330 L 574 330 L 278 374 L 688 374 L 856 386 L 728
+      254 286 L 534 286 L 262 330 L 568 330 L 278 374 L 688 374 L 856 386 L 728
       418
     pathType: overlay
     label: Membrane 1 (top) — F
@@ -47,8 +47,7 @@ tracePaths:
     traceId: dashed_G
     pathId: path_006
     geometry: M 226 48 L 688 192 L 274 242 L 578 242 L 294 286 L 588 286 L 648 286 L
-      688 286 L 898 296 L 855 314 L 302 330 L 530 330 L 318 374 L 420 418 L 648
-      418
+      688 286 L 898 296 L 855 314 L 302 330 L 318 374 L 420 418 L 648 418
     pathType: overlay
     label: Membrane 1 (top) — G
   - modelId: ibm-1391401-ansi
@@ -129,8 +128,7 @@ tracePaths:
   - modelId: ibm-1391401-ansi
     traceId: solid_11
     pathId: path_018
-    geometry: M 582 48 L 382 330 L 422 330 L 460 330 L 496 330 L 530 330 L 574 330 L
-      769 350
+    geometry: M 582 48 L 382 330 L 422 330 L 460 330 L 496 330 L 568 330 L 769 350
     pathType: overlay
     label: Membrane 2 (bottom) — 11
   - modelId: ibm-1391401-ansi

@@ -1,19 +1,22 @@
 modelId: unicomp-pc-122
-displayName: Unicomp PC 122 — QMK (sharktastica)
+displayName: Unicomp PC 122 — QMK
 family: Unicomp / IBM Class
-layoutName: 122 PC
-subtitle: Unicomp PC 122 — QMK (sharktastica)
-description: 8×16 from matrix_pc122.csv. Extra column keys F21–F24, LB* cluster.
+layoutName: 122 PC (physical)
+subtitle: Unicomp PC 122 — QMK
+description: "8×16 QMK (matrix_pc122.csv). 122-key layout: F1–F24, EX1–10, nav,
+  numpad. On-screen positions follow the 5250/122 schematic (not scan order),
+  same as ibm-122-converged."
 schemaVersion: 1.0.0
-modelVersion: 0.2.0-sharktastica-csv
+modelVersion: 0.4.0-physical-122
 supportedFeatures:
   - trace_overlay
   - ribbon_highlight
   - comparison_keys
 dataNotes:
-  - "PC 122: 8 scan rows, 16 columns; confirm Unicomp revision."
-  - Generated from sharktastica QMK CSV; key positions are a coarse grid—edit
-    keys.yaml to match a photo.
+  - "PC 122: 8×16 matrix; on-screen key shapes use
+    tools/layout-ibm-122-physical.mjs. Confirm to your FFC and QMK build."
+  - "Key positions: 122-key 5250 schematic, shared with ibm-122-terminal
+    (tools/layout-ibm-122-physical.mjs)."
 files:
   keys: keys.yaml
   traces: traces.yaml

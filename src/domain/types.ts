@@ -25,6 +25,11 @@ export interface KeyboardModelManifest {
     ribbonContacts: string;
     keyTraceMap: string;
   };
+  /**
+   * Same key set as `files.keys`, different geometry. Used e.g. for SSK ANSI vs ISO plate
+   * positions; see `keyLayoutAlternates` on the loaded model for resolved `KeyboardKey[]`.
+   */
+  keyLayoutAlternates?: { id: string; label: string; file: string }[];
 }
 
 export interface KeyboardKey {
@@ -127,6 +132,11 @@ export interface LoadedKeyboardModel {
   tracePaths: TracePath[];
   ribbonContacts: RibbonContact[];
   keyTraceMap: KeyTraceMapEntry[];
+  /**
+   * Resolved from `manifest.keyLayoutAlternates`: same `keyId`s, alternate x/y/size (e.g. ISO
+   * shape). UI picks one; traces and matrix mapping are unchanged.
+   */
+  keyLayoutAlternates?: { id: string; label: string; keys: KeyboardKey[] }[];
 }
 
 export interface ModelIndexEntry {

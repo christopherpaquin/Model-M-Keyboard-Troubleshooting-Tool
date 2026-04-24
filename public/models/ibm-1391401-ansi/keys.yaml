@@ -616,27 +616,16 @@ keys:
     recognitionRank: 3
     sortOrder: 312535
   - modelId: ibm-1391401-ansi
-    keyId: intl_hash
-    displayName: "#"
-    advancedName: intl_hash
-    section: main
-    x: 516
-    y: 312
-    width: 28
-    height: 36
-    recognitionRank: 3
-    sortOrder: 312572
-  - modelId: ibm-1391401-ansi
     keyId: enter_main
     displayName: Enter
     advancedName: enter_main
     section: main
-    x: 548
+    x: 516
     y: 312
-    width: 52
+    width: 104
     height: 36
     recognitionRank: 10
-    sortOrder: 312605
+    sortOrder: 312572
   - modelId: ibm-1391401-ansi
     keyId: left_shift
     displayName: Shift
@@ -647,7 +636,7 @@ keys:
     width: 76
     height: 36
     recognitionRank: 10
-    sortOrder: 356074
+    sortOrder: 356073
   - modelId: ibm-1391401-ansi
     keyId: z
     displayName: Z
@@ -658,7 +647,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 10
-    sortOrder: 356159
+    sortOrder: 356158
   - modelId: ibm-1391401-ansi
     keyId: x
     displayName: X
@@ -669,7 +658,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356200
+    sortOrder: 356199
   - modelId: ibm-1391401-ansi
     keyId: c
     displayName: C
@@ -680,7 +669,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356241
+    sortOrder: 356240
   - modelId: ibm-1391401-ansi
     keyId: v
     displayName: V
@@ -691,7 +680,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356282
+    sortOrder: 356281
   - modelId: ibm-1391401-ansi
     keyId: b
     displayName: B
@@ -702,7 +691,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356323
+    sortOrder: 356322
   - modelId: ibm-1391401-ansi
     keyId: n
     displayName: N
@@ -713,7 +702,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356364
+    sortOrder: 356363
   - modelId: ibm-1391401-ansi
     keyId: m
     displayName: M
@@ -724,7 +713,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356405
+    sortOrder: 356404
   - modelId: ibm-1391401-ansi
     keyId: comma
     displayName: ","
@@ -735,7 +724,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356446
+    sortOrder: 356445
   - modelId: ibm-1391401-ansi
     keyId: period
     displayName: .
@@ -746,7 +735,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356487
+    sortOrder: 356486
   - modelId: ibm-1391401-ansi
     keyId: slash
     displayName: /
@@ -757,7 +746,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356528
+    sortOrder: 356527
   - modelId: ibm-1391401-ansi
     keyId: right_shift
     displayName: Shift
@@ -768,7 +757,7 @@ keys:
     width: 126
     height: 36
     recognitionRank: 3
-    sortOrder: 356569
+    sortOrder: 356568
   - modelId: ibm-1391401-ansi
     keyId: left_ctrl
     displayName: Ctrl
@@ -779,7 +768,7 @@ keys:
     width: 48
     height: 36
     recognitionRank: 3
-    sortOrder: 400086
+    sortOrder: 400085
   - modelId: ibm-1391401-ansi
     keyId: left_alt
     displayName: Alt
@@ -790,7 +779,7 @@ keys:
     width: 48
     height: 36
     recognitionRank: 3
-    sortOrder: 400143
+    sortOrder: 400142
   - modelId: ibm-1391401-ansi
     keyId: space
     displayName: Space
@@ -801,7 +790,7 @@ keys:
     width: 260
     height: 36
     recognitionRank: 10
-    sortOrder: 400200
+    sortOrder: 400199
   - modelId: ibm-1391401-ansi
     keyId: right_alt
     displayName: Alt
@@ -812,7 +801,7 @@ keys:
     width: 48
     height: 36
     recognitionRank: 3
-    sortOrder: 400469
+    sortOrder: 400468
   - modelId: ibm-1391401-ansi
     keyId: right_ctrl
     displayName: Ctrl
@@ -823,7 +812,7 @@ keys:
     width: 48
     height: 36
     recognitionRank: 3
-    sortOrder: 400526
+    sortOrder: 400525
   - modelId: ibm-1391401-ansi
     keyId: insert
     displayName: Ins
@@ -834,7 +823,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 224705
+    sortOrder: 224704
   - modelId: ibm-1391401-ansi
     keyId: home
     displayName: Home
@@ -845,7 +834,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 224746
+    sortOrder: 224745
   - modelId: ibm-1391401-ansi
     keyId: page_up
     displayName: PgUp
@@ -856,7 +845,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 224787
+    sortOrder: 224786
   - modelId: ibm-1391401-ansi
     keyId: delete
     displayName: Del
@@ -867,7 +856,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 268708
+    sortOrder: 268707
   - modelId: ibm-1391401-ansi
     keyId: end
     displayName: End
@@ -878,7 +867,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 268749
+    sortOrder: 268748
   - modelId: ibm-1391401-ansi
     keyId: page_down
     displayName: PgDn
@@ -889,7 +878,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 268790
+    sortOrder: 268789
   - modelId: ibm-1391401-ansi
     keyId: arrow_up
     displayName: ↑
@@ -900,7 +889,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 356751
+    sortOrder: 356750
   - modelId: ibm-1391401-ansi
     keyId: arrow_left
     displayName: ←
@@ -911,7 +900,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 400712
+    sortOrder: 400711
   - modelId: ibm-1391401-ansi
     keyId: arrow_down
     displayName: ↓
@@ -922,7 +911,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 400753
+    sortOrder: 400752
   - modelId: ibm-1391401-ansi
     keyId: arrow_right
     displayName: →
@@ -933,7 +922,7 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 400794
+    sortOrder: 400793
   - modelId: ibm-1391401-ansi
     keyId: num_lock
     displayName: Num
@@ -944,7 +933,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 224835
+    sortOrder: 224834
   - modelId: ibm-1391401-ansi
     keyId: kp_slash
     displayName: /
@@ -955,7 +944,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 224879
+    sortOrder: 224878
   - modelId: ibm-1391401-ansi
     keyId: kp_asterisk
     displayName: "*"
@@ -966,7 +955,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 224923
+    sortOrder: 224922
   - modelId: ibm-1391401-ansi
     keyId: kp_minus
     displayName: "-"
@@ -977,7 +966,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 224967
+    sortOrder: 224966
   - modelId: ibm-1391401-ansi
     keyId: kp_7
     displayName: "7"
@@ -988,7 +977,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 260839
+    sortOrder: 260838
   - modelId: ibm-1391401-ansi
     keyId: kp_8
     displayName: "8"
@@ -999,7 +988,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 260883
+    sortOrder: 260882
   - modelId: ibm-1391401-ansi
     keyId: kp_9
     displayName: "9"
@@ -1010,7 +999,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 260927
+    sortOrder: 260926
   - modelId: ibm-1391401-ansi
     keyId: kp_plus
     displayName: +
@@ -1021,7 +1010,7 @@ keys:
     width: 38
     height: 72
     recognitionRank: 3
-    sortOrder: 260971
+    sortOrder: 260970
   - modelId: ibm-1391401-ansi
     keyId: kp_4
     displayName: "4"
@@ -1032,7 +1021,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 296843
+    sortOrder: 296842
   - modelId: ibm-1391401-ansi
     keyId: kp_5
     displayName: "5"
@@ -1043,7 +1032,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 10
-    sortOrder: 296887
+    sortOrder: 296886
   - modelId: ibm-1391401-ansi
     keyId: kp_6
     displayName: "6"
@@ -1054,7 +1043,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 296931
+    sortOrder: 296930
   - modelId: ibm-1391401-ansi
     keyId: kp_1
     displayName: "1"
@@ -1065,7 +1054,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 332846
+    sortOrder: 332845
   - modelId: ibm-1391401-ansi
     keyId: kp_2
     displayName: "2"
@@ -1076,7 +1065,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 332890
+    sortOrder: 332889
   - modelId: ibm-1391401-ansi
     keyId: kp_3
     displayName: "3"
@@ -1087,7 +1076,7 @@ keys:
     width: 38
     height: 36
     recognitionRank: 3
-    sortOrder: 332934
+    sortOrder: 332933
   - modelId: ibm-1391401-ansi
     keyId: kp_enter
     displayName: Ent
@@ -1098,7 +1087,7 @@ keys:
     width: 38
     height: 72
     recognitionRank: 10
-    sortOrder: 332978
+    sortOrder: 332977
   - modelId: ibm-1391401-ansi
     keyId: kp_0
     displayName: "0"
@@ -1109,7 +1098,7 @@ keys:
     width: 80
     height: 36
     recognitionRank: 3
-    sortOrder: 368850
+    sortOrder: 368849
   - modelId: ibm-1391401-ansi
     keyId: kp_decimal
     displayName: .
@@ -1120,4 +1109,4 @@ keys:
     width: 36
     height: 36
     recognitionRank: 3
-    sortOrder: 368939
+    sortOrder: 368938

@@ -12,6 +12,7 @@ import {
   suggestComparisonKeys,
 } from "../domain/selectors";
 import { loadModelPackage, loadRegistry } from "../domain/modelLoader";
+import { keyCapLabel } from "../lib/keyCapLabel";
 
 export function App(): React.ReactElement {
   const [registry, setRegistry] = useState<ModelsRegistry | null>(null);
@@ -25,6 +26,8 @@ export function App(): React.ReactElement {
   const [isolate, setIsolate] = useState(false);
   const [hoverTrace, setHoverTrace] = useState<string | null>(null);
   const [showPanel, setShowPanel] = useState(true);
+  /** Empty = manifest primary keys (SSK: ANSI). Otherwise `keyLayoutAlternates` id, e.g. `iso-uk`. */
+  const [keyLayoutId, setKeyLayoutId] = useState("");
 
   useEffect(() => {
     (async () => {
@@ -55,7 +58,12 @@ export function App(): React.ReactElement {
     setFocusTrace(null);
     setIsolate(false);
     setHoverTrace(null);
+    setKeyLayoutId("");
   }, [registry]);
+
+  useEffect(() => {
+    setKeyLayoutId("");
+  }, [model?.manifest.modelId]);
 
   const relTraceIds = useMemo(() => {
     if (!model) return new Set<string>();
@@ -70,7 +78,19 @@ export function App(): React.ReactElement {
   const deadArr = useMemo(() => [...dead], [dead]);
   const deadSig = useMemo(() => [...dead].sort().join("|"), [dead]);
 
-  const keyById = useMemo(() => (model ? getKeyById(model.keys) : new Map<string, import("../domain/types").KeyboardKey>()), [model]);
+  const displayKeys = useMemo((): import("../domain/types").KeyboardKey[] => {
+    if (!model) return [];
+    if (!keyLayoutId || !model.keyLayoutAlternates) {
+      return model.keys;
+    }
+    const alt = model.keyLayoutAlternates.find((a) => a.id === keyLayoutId);
+    return alt?.keys ?? model.keys;
+  }, [model, keyLayoutId]);
+
+  const keyById = useMemo(
+    () => (model ? getKeyById(displayKeys) : new Map<string, import("../domain/types").KeyboardKey>()),
+    [model, displayKeys],
+  );
   const ribbonById = useMemo(
     () => (model ? getRibbonById(model.ribbonContacts) : new Map<string, RibbonContact>()),
     [model],
@@ -103,7 +123,7 @@ export function App(): React.ReactElement {
     const c1 = tr1 != null ? (ribbonById.get(tr1.ribbonContactId)?.contactNumber) : undefined;
     const c2 = tr2 != null ? (ribbonById.get(tr2.ribbonContactId)?.contactNumber) : undefined;
     return {
-      keyLabel: keyById.get(keyId)?.displayName ?? keyId,
+      keyLabel: keyCapLabel(keyId, keyById.get(keyId)?.displayName ?? ""),
       membrane1Top: { id: pathB.traceId, name: tr1?.displayName ?? pathB.traceId },
       membrane2Bottom: { id: pathA.traceId, name: tr2?.displayName ?? pathA.traceId },
       ribbonM1Contact: c1 ?? "—",
@@ -174,7 +194,11 @@ export function App(): React.ReactElement {
               <div className="app-header__toolbar">
                 <div className="field">
                   <label htmlFor="app-model-select">
-                    Keyboard model {registry ? null : <span className="subtle">(no registry yet)</span>}
+                    Keyboard model
+                    {model?.manifest?.displayName ? (
+                      <span className="subtle"> — {model.manifest.displayName}</span>
+                    ) : null}{" "}
+                    {registry ? null : <span className="subtle">(no registry yet)</span>}
                   </label>
                   {registry && (
                     <select
@@ -195,6 +219,27 @@ export function App(): React.ReactElement {
                   )}
                   {loadError ? <p className="danger" style={{ margin: "0.2em 0" }}>Package load: {loadError}</p> : null}
                 </div>
+                {model.keyLayoutAlternates && model.keyLayoutAlternates.length > 0 ? (
+                  <div className="field">
+                    <label htmlFor="app-key-layout">
+                      Key cap shape
+                      <span className="subtle"> (plate layout)</span>
+                    </label>
+                    <select
+                      id="app-key-layout"
+                      value={keyLayoutId}
+                      onChange={(e) => setKeyLayoutId(e.target.value)}
+                      aria-label="Keyboard plate layout (ANSI or ISO diagram)"
+                    >
+                      <option value="">ANSI (US) — default</option>
+                      {model.keyLayoutAlternates.map((a) => (
+                        <option value={a.id} key={a.id}>
+                          {a.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                ) : null}
               </div>
               <div
                 className="app-header__blurb"
@@ -218,7 +263,7 @@ export function App(): React.ReactElement {
               </div>
             </header>
             <KeyboardDiagram
-              keys={model.keys}
+              keys={displayKeys}
               deadKeyIds={dead}
               focusKeyId={dead.size === 1 ? (deadArr[0] ?? null) : null}
               visibleTraceIds={draw}

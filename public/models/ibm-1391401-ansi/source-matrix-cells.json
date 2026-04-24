@@ -1,0 +1,615 @@
+{
+  "source": "modelm-102-key-1391401/ansi-matrix.json",
+  "modelId": "ibm-1391401-ansi",
+  "coordinateSystem": "IBM_FFC: matrix rows R1..R16 = Membrane2 solid_01..16; C0..C7 = M1 dashed_A..H",
+  "rows": 16,
+  "columns": 8,
+  "byKeyId": {
+    "digit_0": {
+      "matrixRow1": 4,
+      "matrixCol0": 3,
+      "pathA": "solid_04",
+      "pathB": "dashed_D"
+    },
+    "digit_1": {
+      "matrixRow1": 3,
+      "matrixCol0": 1,
+      "pathA": "solid_03",
+      "pathB": "dashed_B"
+    },
+    "digit_2": {
+      "matrixRow1": 3,
+      "matrixCol0": 2,
+      "pathA": "solid_03",
+      "pathB": "dashed_C"
+    },
+    "digit_3": {
+      "matrixRow1": 3,
+      "matrixCol0": 3,
+      "pathA": "solid_03",
+      "pathB": "dashed_D"
+    },
+    "digit_4": {
+      "matrixRow1": 3,
+      "matrixCol0": 4,
+      "pathA": "solid_03",
+      "pathB": "dashed_E"
+    },
+    "digit_5": {
+      "matrixRow1": 3,
+      "matrixCol0": 5,
+      "pathA": "solid_03",
+      "pathB": "dashed_F"
+    },
+    "digit_6": {
+      "matrixRow1": 3,
+      "matrixCol0": 6,
+      "pathA": "solid_03",
+      "pathB": "dashed_G"
+    },
+    "digit_7": {
+      "matrixRow1": 3,
+      "matrixCol0": 7,
+      "pathA": "solid_03",
+      "pathB": "dashed_H"
+    },
+    "digit_8": {
+      "matrixRow1": 4,
+      "matrixCol0": 1,
+      "pathA": "solid_04",
+      "pathB": "dashed_B"
+    },
+    "digit_9": {
+      "matrixRow1": 4,
+      "matrixCol0": 2,
+      "pathA": "solid_04",
+      "pathB": "dashed_C"
+    },
+    "esc": {
+      "matrixRow1": 2,
+      "matrixCol0": 0,
+      "pathA": "solid_02",
+      "pathB": "dashed_A"
+    },
+    "f1": {
+      "matrixRow1": 5,
+      "matrixCol0": 1,
+      "pathA": "solid_05",
+      "pathB": "dashed_B"
+    },
+    "f2": {
+      "matrixRow1": 5,
+      "matrixCol0": 2,
+      "pathA": "solid_05",
+      "pathB": "dashed_C"
+    },
+    "f3": {
+      "matrixRow1": 5,
+      "matrixCol0": 3,
+      "pathA": "solid_05",
+      "pathB": "dashed_D"
+    },
+    "f4": {
+      "matrixRow1": 5,
+      "matrixCol0": 4,
+      "pathA": "solid_05",
+      "pathB": "dashed_E"
+    },
+    "f5": {
+      "matrixRow1": 6,
+      "matrixCol0": 1,
+      "pathA": "solid_06",
+      "pathB": "dashed_B"
+    },
+    "f6": {
+      "matrixRow1": 6,
+      "matrixCol0": 2,
+      "pathA": "solid_06",
+      "pathB": "dashed_C"
+    },
+    "f7": {
+      "matrixRow1": 6,
+      "matrixCol0": 3,
+      "pathA": "solid_06",
+      "pathB": "dashed_D"
+    },
+    "f8": {
+      "matrixRow1": 6,
+      "matrixCol0": 4,
+      "pathA": "solid_06",
+      "pathB": "dashed_E"
+    },
+    "f9": {
+      "matrixRow1": 7,
+      "matrixCol0": 1,
+      "pathA": "solid_07",
+      "pathB": "dashed_B"
+    },
+    "f10": {
+      "matrixRow1": 7,
+      "matrixCol0": 2,
+      "pathA": "solid_07",
+      "pathB": "dashed_C"
+    },
+    "f11": {
+      "matrixRow1": 7,
+      "matrixCol0": 3,
+      "pathA": "solid_07",
+      "pathB": "dashed_D"
+    },
+    "f12": {
+      "matrixRow1": 7,
+      "matrixCol0": 4,
+      "pathA": "solid_07",
+      "pathB": "dashed_E"
+    },
+    "print_screen": {
+      "matrixRow1": 7,
+      "matrixCol0": 5,
+      "pathA": "solid_07",
+      "pathB": "dashed_F"
+    },
+    "scroll_lock": {
+      "matrixRow1": 7,
+      "matrixCol0": 6,
+      "pathA": "solid_07",
+      "pathB": "dashed_G"
+    },
+    "pause_break": {
+      "matrixRow1": 7,
+      "matrixCol0": 7,
+      "pathA": "solid_07",
+      "pathB": "dashed_H"
+    },
+    "backtick": {
+      "matrixRow1": 2,
+      "matrixCol0": 1,
+      "pathA": "solid_02",
+      "pathB": "dashed_B"
+    },
+    "minus": {
+      "matrixRow1": 4,
+      "matrixCol0": 4,
+      "pathA": "solid_04",
+      "pathB": "dashed_E"
+    },
+    "equal": {
+      "matrixRow1": 4,
+      "matrixCol0": 5,
+      "pathA": "solid_04",
+      "pathB": "dashed_F"
+    },
+    "backspace": {
+      "matrixRow1": 4,
+      "matrixCol0": 6,
+      "pathA": "solid_04",
+      "pathB": "dashed_G"
+    },
+    "tab": {
+      "matrixRow1": 8,
+      "matrixCol0": 0,
+      "pathA": "solid_08",
+      "pathB": "dashed_A"
+    },
+    "q": {
+      "matrixRow1": 8,
+      "matrixCol0": 1,
+      "pathA": "solid_08",
+      "pathB": "dashed_B"
+    },
+    "w": {
+      "matrixRow1": 8,
+      "matrixCol0": 2,
+      "pathA": "solid_08",
+      "pathB": "dashed_C"
+    },
+    "e": {
+      "matrixRow1": 8,
+      "matrixCol0": 3,
+      "pathA": "solid_08",
+      "pathB": "dashed_D"
+    },
+    "r": {
+      "matrixRow1": 8,
+      "matrixCol0": 4,
+      "pathA": "solid_08",
+      "pathB": "dashed_E"
+    },
+    "t": {
+      "matrixRow1": 8,
+      "matrixCol0": 5,
+      "pathA": "solid_08",
+      "pathB": "dashed_F"
+    },
+    "y": {
+      "matrixRow1": 8,
+      "matrixCol0": 6,
+      "pathA": "solid_08",
+      "pathB": "dashed_G"
+    },
+    "u": {
+      "matrixRow1": 8,
+      "matrixCol0": 7,
+      "pathA": "solid_08",
+      "pathB": "dashed_H"
+    },
+    "i": {
+      "matrixRow1": 9,
+      "matrixCol0": 1,
+      "pathA": "solid_09",
+      "pathB": "dashed_B"
+    },
+    "o": {
+      "matrixRow1": 9,
+      "matrixCol0": 2,
+      "pathA": "solid_09",
+      "pathB": "dashed_C"
+    },
+    "p": {
+      "matrixRow1": 9,
+      "matrixCol0": 3,
+      "pathA": "solid_09",
+      "pathB": "dashed_D"
+    },
+    "bracket_left": {
+      "matrixRow1": 9,
+      "matrixCol0": 4,
+      "pathA": "solid_09",
+      "pathB": "dashed_E"
+    },
+    "bracket_right": {
+      "matrixRow1": 9,
+      "matrixCol0": 5,
+      "pathA": "solid_09",
+      "pathB": "dashed_F"
+    },
+    "backslash": {
+      "matrixRow1": 9,
+      "matrixCol0": 6,
+      "pathA": "solid_09",
+      "pathB": "dashed_G"
+    },
+    "caps_lock": {
+      "matrixRow1": 10,
+      "matrixCol0": 0,
+      "pathA": "solid_10",
+      "pathB": "dashed_A"
+    },
+    "a": {
+      "matrixRow1": 10,
+      "matrixCol0": 1,
+      "pathA": "solid_10",
+      "pathB": "dashed_B"
+    },
+    "s": {
+      "matrixRow1": 10,
+      "matrixCol0": 2,
+      "pathA": "solid_10",
+      "pathB": "dashed_C"
+    },
+    "d": {
+      "matrixRow1": 10,
+      "matrixCol0": 3,
+      "pathA": "solid_10",
+      "pathB": "dashed_D"
+    },
+    "f": {
+      "matrixRow1": 10,
+      "matrixCol0": 4,
+      "pathA": "solid_10",
+      "pathB": "dashed_E"
+    },
+    "g": {
+      "matrixRow1": 10,
+      "matrixCol0": 5,
+      "pathA": "solid_10",
+      "pathB": "dashed_F"
+    },
+    "h": {
+      "matrixRow1": 10,
+      "matrixCol0": 6,
+      "pathA": "solid_10",
+      "pathB": "dashed_G"
+    },
+    "j": {
+      "matrixRow1": 10,
+      "matrixCol0": 7,
+      "pathA": "solid_10",
+      "pathB": "dashed_H"
+    },
+    "k": {
+      "matrixRow1": 11,
+      "matrixCol0": 1,
+      "pathA": "solid_11",
+      "pathB": "dashed_B"
+    },
+    "l": {
+      "matrixRow1": 11,
+      "matrixCol0": 2,
+      "pathA": "solid_11",
+      "pathB": "dashed_C"
+    },
+    "semicolon": {
+      "matrixRow1": 11,
+      "matrixCol0": 3,
+      "pathA": "solid_11",
+      "pathB": "dashed_D"
+    },
+    "quote": {
+      "matrixRow1": 11,
+      "matrixCol0": 4,
+      "pathA": "solid_11",
+      "pathB": "dashed_E"
+    },
+    "enter_main": {
+      "matrixRow1": 11,
+      "matrixCol0": 5,
+      "pathA": "solid_11",
+      "pathB": "dashed_F"
+    },
+    "left_shift": {
+      "matrixRow1": 12,
+      "matrixCol0": 0,
+      "pathA": "solid_12",
+      "pathB": "dashed_A"
+    },
+    "z": {
+      "matrixRow1": 12,
+      "matrixCol0": 1,
+      "pathA": "solid_12",
+      "pathB": "dashed_B"
+    },
+    "x": {
+      "matrixRow1": 12,
+      "matrixCol0": 2,
+      "pathA": "solid_12",
+      "pathB": "dashed_C"
+    },
+    "c": {
+      "matrixRow1": 12,
+      "matrixCol0": 3,
+      "pathA": "solid_12",
+      "pathB": "dashed_D"
+    },
+    "v": {
+      "matrixRow1": 12,
+      "matrixCol0": 4,
+      "pathA": "solid_12",
+      "pathB": "dashed_E"
+    },
+    "b": {
+      "matrixRow1": 12,
+      "matrixCol0": 5,
+      "pathA": "solid_12",
+      "pathB": "dashed_F"
+    },
+    "n": {
+      "matrixRow1": 12,
+      "matrixCol0": 6,
+      "pathA": "solid_12",
+      "pathB": "dashed_G"
+    },
+    "m": {
+      "matrixRow1": 12,
+      "matrixCol0": 7,
+      "pathA": "solid_12",
+      "pathB": "dashed_H"
+    },
+    "comma": {
+      "matrixRow1": 13,
+      "matrixCol0": 1,
+      "pathA": "solid_13",
+      "pathB": "dashed_B"
+    },
+    "period": {
+      "matrixRow1": 13,
+      "matrixCol0": 2,
+      "pathA": "solid_13",
+      "pathB": "dashed_C"
+    },
+    "slash": {
+      "matrixRow1": 13,
+      "matrixCol0": 3,
+      "pathA": "solid_13",
+      "pathB": "dashed_D"
+    },
+    "right_shift": {
+      "matrixRow1": 13,
+      "matrixCol0": 4,
+      "pathA": "solid_13",
+      "pathB": "dashed_E"
+    },
+    "left_ctrl": {
+      "matrixRow1": 14,
+      "matrixCol0": 0,
+      "pathA": "solid_14",
+      "pathB": "dashed_A"
+    },
+    "left_alt": {
+      "matrixRow1": 14,
+      "matrixCol0": 2,
+      "pathA": "solid_14",
+      "pathB": "dashed_C"
+    },
+    "space": {
+      "matrixRow1": 14,
+      "matrixCol0": 4,
+      "pathA": "solid_14",
+      "pathB": "dashed_E"
+    },
+    "right_alt": {
+      "matrixRow1": 14,
+      "matrixCol0": 6,
+      "pathA": "solid_14",
+      "pathB": "dashed_G"
+    },
+    "right_ctrl": {
+      "matrixRow1": 14,
+      "matrixCol0": 7,
+      "pathA": "solid_14",
+      "pathB": "dashed_H"
+    },
+    "insert": {
+      "matrixRow1": 6,
+      "matrixCol0": 5,
+      "pathA": "solid_06",
+      "pathB": "dashed_F"
+    },
+    "delete": {
+      "matrixRow1": 6,
+      "matrixCol0": 6,
+      "pathA": "solid_06",
+      "pathB": "dashed_G"
+    },
+    "home": {
+      "matrixRow1": 5,
+      "matrixCol0": 5,
+      "pathA": "solid_05",
+      "pathB": "dashed_F"
+    },
+    "end": {
+      "matrixRow1": 5,
+      "matrixCol0": 6,
+      "pathA": "solid_05",
+      "pathB": "dashed_G"
+    },
+    "page_up": {
+      "matrixRow1": 5,
+      "matrixCol0": 7,
+      "pathA": "solid_05",
+      "pathB": "dashed_H"
+    },
+    "page_down": {
+      "matrixRow1": 6,
+      "matrixCol0": 7,
+      "pathA": "solid_06",
+      "pathB": "dashed_H"
+    },
+    "arrow_up": {
+      "matrixRow1": 13,
+      "matrixCol0": 5,
+      "pathA": "solid_13",
+      "pathB": "dashed_F"
+    },
+    "arrow_left": {
+      "matrixRow1": 13,
+      "matrixCol0": 6,
+      "pathA": "solid_13",
+      "pathB": "dashed_G"
+    },
+    "arrow_down": {
+      "matrixRow1": 13,
+      "matrixCol0": 7,
+      "pathA": "solid_13",
+      "pathB": "dashed_H"
+    },
+    "arrow_right": {
+      "matrixRow1": 14,
+      "matrixCol0": 5,
+      "pathA": "solid_14",
+      "pathB": "dashed_F"
+    },
+    "num_lock": {
+      "matrixRow1": 1,
+      "matrixCol0": 0,
+      "pathA": "solid_01",
+      "pathB": "dashed_A"
+    },
+    "kp_slash": {
+      "matrixRow1": 1,
+      "matrixCol0": 1,
+      "pathA": "solid_01",
+      "pathB": "dashed_B"
+    },
+    "kp_asterisk": {
+      "matrixRow1": 1,
+      "matrixCol0": 2,
+      "pathA": "solid_01",
+      "pathB": "dashed_C"
+    },
+    "kp_minus": {
+      "matrixRow1": 1,
+      "matrixCol0": 3,
+      "pathA": "solid_01",
+      "pathB": "dashed_D"
+    },
+    "kp_7": {
+      "matrixRow1": 1,
+      "matrixCol0": 4,
+      "pathA": "solid_01",
+      "pathB": "dashed_E"
+    },
+    "kp_8": {
+      "matrixRow1": 9,
+      "matrixCol0": 7,
+      "pathA": "solid_09",
+      "pathB": "dashed_H"
+    },
+    "kp_9": {
+      "matrixRow1": 1,
+      "matrixCol0": 5,
+      "pathA": "solid_01",
+      "pathB": "dashed_F"
+    },
+    "kp_plus": {
+      "matrixRow1": 1,
+      "matrixCol0": 6,
+      "pathA": "solid_01",
+      "pathB": "dashed_G"
+    },
+    "kp_4": {
+      "matrixRow1": 1,
+      "matrixCol0": 7,
+      "pathA": "solid_01",
+      "pathB": "dashed_H"
+    },
+    "kp_5": {
+      "matrixRow1": 15,
+      "matrixCol0": 0,
+      "pathA": "solid_15",
+      "pathB": "dashed_A"
+    },
+    "kp_6": {
+      "matrixRow1": 15,
+      "matrixCol0": 6,
+      "pathA": "solid_15",
+      "pathB": "dashed_G"
+    },
+    "kp_1": {
+      "matrixRow1": 11,
+      "matrixCol0": 7,
+      "pathA": "solid_11",
+      "pathB": "dashed_H"
+    },
+    "kp_2": {
+      "matrixRow1": 15,
+      "matrixCol0": 1,
+      "pathA": "solid_15",
+      "pathB": "dashed_B"
+    },
+    "kp_3": {
+      "matrixRow1": 15,
+      "matrixCol0": 2,
+      "pathA": "solid_15",
+      "pathB": "dashed_C"
+    },
+    "kp_enter": {
+      "matrixRow1": 15,
+      "matrixCol0": 3,
+      "pathA": "solid_15",
+      "pathB": "dashed_D"
+    },
+    "kp_0": {
+      "matrixRow1": 15,
+      "matrixCol0": 4,
+      "pathA": "solid_15",
+      "pathB": "dashed_E"
+    },
+    "kp_decimal": {
+      "matrixRow1": 15,
+      "matrixCol0": 5,
+      "pathA": "solid_15",
+      "pathB": "dashed_F"
+    }
+  }
+}

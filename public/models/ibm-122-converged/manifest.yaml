@@ -1,20 +1,20 @@
 modelId: ibm-122-converged
-displayName: IBM Model M 122 (Converged) — QMK (sharktastica)
+displayName: IBM Model M 122 - Converged (5250)
 family: IBM Model M
-layoutName: 122 terminal
-subtitle: IBM Model M 122 (Converged) — QMK (sharktastica)
-description: 8×20 from matrix_converged.csv. Same as matrix reference used for
-  ibm-122-terminal; duplicate package for CSV-traceability.
+layoutName: 122 converged 5250
+subtitle: IBM Model M 122 - Converged (5250) · 8×20 QMK
+description: 8×20 QMK (matrix_converged.csv) — 5250-style matrix; M2=rows,
+  M1=columns. Pair with ibm-122-terminal for the same QMK hand-built package.
 schemaVersion: 1.0.0
-modelVersion: 0.2.0-sharktastica-csv
+modelVersion: 0.3.0-physical-122
 supportedFeatures:
   - trace_overlay
   - ribbon_highlight
   - comparison_keys
 dataNotes:
-  - Canonical 8×20 M122; compare with ibm-122-terminal package.
-  - Generated from sharktastica QMK CSV; key positions are a coarse grid—edit
-    keys.yaml to match a photo.
+  - Converged CSV traceability; on-screen key shape matches 122 layout helper.
+  - "Key positions: 122-key 5250 schematic, shared with ibm-122-terminal
+    (tools/layout-ibm-122-physical.mjs)."
 files:
   keys: keys.yaml
   traces: traces.yaml

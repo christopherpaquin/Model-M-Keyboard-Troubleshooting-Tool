@@ -3,6 +3,7 @@ import type { KeyboardKey, KeyTraceMapEntry, KeyboardTrace, RibbonContact } from
 import { tracesForKey } from "../domain/selectors";
 import { strokeForTrace } from "../lib/traceColor";
 import { buildTracePathGeometry, keyRectFillTints } from "../lib/computeTraceDisplayGeometry";
+import { keyCapLabel, keyCapLabelLines } from "../lib/keyCapLabel";
 import { SvgRibbonGutter } from "./SvgRibbonGutter";
 
 export type SelectionTraceInfo = {
@@ -159,7 +160,18 @@ export function KeyboardDiagram(props: {
             const selected = props.deadKeyIds.has(k.keyId);
             const tids = tracesForKey(props.keyTraceMap, k.keyId);
             const glow = props.hoverTraceId && tids.includes(props.hoverTraceId) ? "rgba(107,158,245,0.65)" : null;
-            const fs = k.displayName.length > 3 || k.keyId === "backspace" ? 8.5 : 10.5;
+            const capLines = keyCapLabelLines(k.keyId, k.displayName);
+            const labelFlat = keyCapLabel(k.keyId, k.displayName);
+            const fs =
+              capLines.length > 1
+                ? Math.min(9, 7 + k.width / 20)
+                : labelFlat.length > 14
+                  ? 6
+                  : labelFlat.length > 7 || k.keyId.length > 14
+                    ? 7.5
+                    : labelFlat.length > 3
+                      ? 8.5
+                      : 10.5;
             const tints = keyRectFillTints(
               k,
               props.keyTraceMap,
@@ -194,14 +206,26 @@ export function KeyboardDiagram(props: {
                 />
                 <text
                   x={k.x + k.width / 2}
-                  y={k.y + k.height / 2 + 3}
+                  y={
+                    capLines.length > 1
+                      ? k.y + k.height / 2 - 4
+                      : k.y + k.height / 2 + 3
+                  }
                   textAnchor="middle"
                   fontSize={fs}
                   fill="#c9ced9"
                   pointerEvents="none"
                   style={{ userSelect: "none" as const }}
                 >
-                  {k.displayName}
+                  {capLines.map((line, li) => (
+                    <tspan
+                      x={k.x + k.width / 2}
+                      key={li}
+                      dy={li === 0 ? 0 : Math.min(11, fs + 1)}
+                    >
+                      {line}
+                    </tspan>
+                  ))}
                 </text>
               </g>
             );

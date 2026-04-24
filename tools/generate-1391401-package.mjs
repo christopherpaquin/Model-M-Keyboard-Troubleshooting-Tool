@@ -10,137 +10,15 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { upsertModelRegistryEntry } from "./model-registry.mjs";
+import { LAYOUT_102, VIEW_TOP_PAD_102 } from "./layout-ibm-102-physical.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const outDir = path.join(root, "public", "models", "ibm-1391401-ansi");
 const MATRIX_JSON = path.join(root, "modelm-102-key-1391401", "ansi-matrix.json");
 
-/**
- * Pushes the key grid below the membrane/ribbon header (larger than before
- * so tail diagram + pin labels are readable; keys start below that band).
- */
-const VIEW_TOP_PAD = 120;
-
-/** Approximate ANSI 101 layout in SVG space (viewBox units) — *before* VIEW_TOP_PAD. */
-const LAYOUT_RAW = {
-  esc: [16, 56, 36, 32],
-  f1: [72, 56, 36, 32],
-  f2: [112, 56, 36, 32],
-  f3: [152, 56, 36, 32],
-  f4: [192, 56, 36, 32],
-  f5: [252, 56, 36, 32],
-  f6: [292, 56, 36, 32],
-  f7: [332, 56, 36, 32],
-  f8: [372, 56, 36, 32],
-  f9: [432, 56, 36, 32],
-  f10: [472, 56, 36, 32],
-  f11: [512, 56, 36, 32],
-  f12: [552, 56, 36, 32],
-  /**
-   * System keys: 36w; x aligned with `insert` / `home` / `page_up` (nav column) so Prt/Scr/Pause read as stacked above.
-   */
-  print_screen: [630, 56, 36, 32],
-  scroll_lock: [670, 56, 36, 32],
-  pause_break: [710, 56, 36, 32],
-  backtick: [16, 104, 36, 36],
-  digit_1: [56, 104, 36, 36],
-  digit_2: [96, 104, 36, 36],
-  digit_3: [136, 104, 36, 36],
-  digit_4: [176, 104, 36, 36],
-  digit_5: [216, 104, 36, 36],
-  digit_6: [256, 104, 36, 36],
-  digit_7: [296, 104, 36, 36],
-  digit_8: [336, 104, 36, 36],
-  digit_9: [376, 104, 36, 36],
-  digit_0: [416, 104, 36, 36],
-  minus: [456, 104, 36, 36],
-  equal: [496, 104, 36, 36],
-  backspace: [536, 104, 84, 36],
-  tab: [16, 148, 54, 36],
-  q: [76, 148, 36, 36],
-  w: [116, 148, 36, 36],
-  e: [156, 148, 36, 36],
-  r: [196, 148, 36, 36],
-  t: [236, 148, 36, 36],
-  y: [276, 148, 36, 36],
-  u: [316, 148, 36, 36],
-  i: [356, 148, 36, 36],
-  o: [396, 148, 36, 36],
-  p: [436, 148, 36, 36],
-  bracket_left: [476, 148, 36, 36],
-  bracket_right: [516, 148, 36, 36],
-  backslash: [556, 148, 64, 36],
-  caps_lock: [16, 192, 62, 36],
-  a: [84, 192, 36, 36],
-  s: [124, 192, 36, 36],
-  d: [164, 192, 36, 36],
-  f: [204, 192, 36, 36],
-  g: [244, 192, 36, 36],
-  h: [284, 192, 36, 36],
-  j: [324, 192, 36, 36],
-  k: [364, 192, 36, 36],
-  l: [404, 192, 36, 36],
-  semicolon: [444, 192, 32, 36],
-  quote: [480, 192, 32, 36],
-  intl_hash: [516, 192, 28, 36],
-  /** One-row ANSI “wide” Enter — not ISO vertical. */
-  enter_main: [548, 192, 52, 36],
-  left_shift: [16, 236, 76, 36],
-  z: [100, 236, 36, 36],
-  x: [140, 236, 36, 36],
-  c: [180, 236, 36, 36],
-  v: [220, 236, 36, 36],
-  b: [260, 236, 36, 36],
-  n: [300, 236, 36, 36],
-  m: [340, 236, 36, 36],
-  comma: [380, 236, 36, 36],
-  period: [420, 236, 36, 36],
-  slash: [460, 236, 36, 36],
-  /** After `slash` to x=496; 500–626 clears nav (Insert 630). */
-  right_shift: [500, 236, 126, 36],
-  left_ctrl: [16, 280, 48, 36],
-  left_alt: [72, 280, 48, 36],
-  space: [128, 280, 260, 36],
-  right_alt: [396, 280, 48, 36],
-  right_ctrl: [452, 280, 48, 36],
-  /** Inset 6+ — cleared of Bksp (x≤620) and `\\` (x≤620), so no overlap. */
-  insert: [630, 104, 36, 36],
-  home: [670, 104, 36, 36],
-  page_up: [710, 104, 36, 36],
-  delete: [630, 148, 36, 36],
-  end: [670, 148, 36, 36],
-  page_down: [710, 148, 36, 36],
-  arrow_up: [670, 236, 36, 36],
-  arrow_left: [630, 280, 36, 36],
-  arrow_down: [670, 280, 36, 36],
-  arrow_right: [710, 280, 36, 36],
-  /**
-   * Numpad: top row (Num, /, *, -) y-aligned with `insert` / `home` / `page_up` (y=104, h=36).
-   * Stacked data rows h=36 with 0px gap; “+” / “Enter” h=72 = two rows (sits flush under prior row).
-   */
-  num_lock: [750, 104, 38, 36],
-  kp_slash: [793, 104, 38, 36],
-  kp_asterisk: [836, 104, 38, 36],
-  kp_minus: [879, 104, 38, 36],
-  kp_7: [750, 140, 38, 36],
-  kp_8: [793, 140, 38, 36],
-  kp_9: [836, 140, 38, 36],
-  kp_plus: [879, 140, 38, 72],
-  kp_4: [750, 176, 38, 36],
-  kp_5: [793, 176, 38, 36],
-  kp_6: [836, 176, 38, 36],
-  kp_1: [750, 212, 38, 36],
-  kp_2: [793, 212, 38, 36],
-  kp_3: [836, 212, 38, 36],
-  kp_enter: [879, 212, 38, 72],
-  kp_0: [750, 248, 80, 36],
-  kp_decimal: [838, 248, 36, 36],
-};
-
-const LAYOUT = Object.fromEntries(
-  Object.entries(LAYOUT_RAW).map(([k, v]) => [k, [v[0], v[1] + VIEW_TOP_PAD, v[2], v[3]]]),
-);
+const VIEW_TOP_PAD = VIEW_TOP_PAD_102;
+const LAYOUT = LAYOUT_102;
 
 const DISPLAY = {
   esc: "Esc",
@@ -184,7 +62,6 @@ const DISPLAY = {
   l: "L",
   semicolon: ";",
   quote: "'",
-  intl_hash: "#",
   enter_main: "Enter",
   left_shift: "Shift",
   z: "Z",
@@ -365,7 +242,7 @@ const MATRIX_LABEL_TO_KEYID = {
   ";": "semicolon",
   "'": "quote",
   ENTER: "enter_main",
-  "#": "intl_hash",
+  // "#" in ansi-matrix.json: ignore for 102 US ANSI (no key left of Enter; matrix cell unused in UI).
   SHIFT_L: "left_shift",
   Z: "z",
   X: "x",
@@ -427,7 +304,7 @@ function rowTokenToSolid(r) {
 }
 
 /**
- * @returns {{ solidByKeyId: Map<string, string>, dashedByKeyId: Map<string, string>, metadata: unknown, ignoredLabels: string[] }}
+ * @returns {{ solidByKeyId: Map<string, string>, dashedByKeyId: Map<string, string>, metadata: unknown, raw: unknown, ignoredLabels: string[] }}
  */
 function loadMatrixTraces() {
   if (!fs.existsSync(MATRIX_JSON)) {
@@ -450,7 +327,7 @@ function loadMatrixTraces() {
     solidByKeyId.set(keyId, rowTokenToSolid(r));
     dashedByKeyId.set(keyId, colTokenToDashed(c));
   }
-  return { solidByKeyId, dashedByKeyId, metadata: raw.metadata, ignoredLabels };
+  return { solidByKeyId, dashedByKeyId, metadata: raw.metadata, raw, ignoredLabels };
 }
 
 function recognitionRank(keyId) {
@@ -651,7 +528,7 @@ function buildTracePaths(modelId, keys, tracesList, solidByKeyId, dashedByKeyId,
 function manifest(modelId) {
   const displayName = "IBM Model M 102-key ANSI (1391401 / 1391404 class)";
   const layoutName = "102-key ANSI";
-  const modelVersion = "0.4.1-membrane-naming";
+  const modelVersion = "0.4.3-ansi-enter-aligned";
   return {
     modelId,
     displayName,
@@ -666,6 +543,7 @@ function manifest(modelId) {
     dataNotes: [
       "pathA / Membrane 2 (bottom, numbered 1..16) = matrix rows R1..R16. pathB / Membrane 1 (top, lettered A..H) = matrix columns C0..C7. Every key has a unique (R,C) in ansi-matrix.json.",
       "Numpad rows in the JSON were reserved so cells stay unique; confirm against your FFC before repairs.",
+      "Schematic: 102 US ANSI — one Enter (no key left of it); the \"#\" matrix cell in ansi-matrix.json is unused in the diagram. Backspace, backslash, and Enter share a common right edge in the alnum area.",
       "Schematic on-screen key positions and polylines are for navigation; not photo-accurate to the FFC shape.",
     ],
     files: {
@@ -678,6 +556,50 @@ function manifest(modelId) {
   };
 }
 
+function buildSourceMatrixCells(
+  modelId,
+  raw,
+  solidByKeyId,
+  dashedByKeyId,
+) {
+  const meta = raw?.metadata;
+  const rows = meta?.rows;
+  const cols = meta?.columns;
+  if (rows == null || cols == null) {
+    throw new Error("ansi-matrix.json metadata must include rows and columns");
+  }
+  const byKeyId = {};
+  for (const k of solidByKeyId.keys()) {
+    if (!dashedByKeyId.has(k)) {
+      continue;
+    }
+    const s = solidByKeyId.get(k);
+    const d = dashedByKeyId.get(k);
+    if (!s || !d) {
+      continue;
+    }
+    const m = /^solid_(\d+)$/.exec(s);
+    const md = /^dashed_([A-H])$/.exec(d);
+    if (!m || !md) {
+      continue;
+    }
+    byKeyId[k] = {
+      matrixRow1: parseInt(m[1], 10),
+      matrixCol0: md[1].charCodeAt(0) - 65,
+      pathA: s,
+      pathB: d,
+    };
+  }
+  return {
+    source: "modelm-102-key-1391401/ansi-matrix.json",
+    modelId,
+    coordinateSystem: "IBM_FFC: matrix rows R1..R16 = Membrane2 solid_01..16; C0..C7 = M1 dashed_A..H",
+    rows,
+    columns: cols,
+    byKeyId,
+  };
+}
+
 const MODEL_ID = "ibm-1391401-ansi";
 
 function writeYaml(name, data) {
@@ -686,7 +608,7 @@ function writeYaml(name, data) {
 }
 
 fs.mkdirSync(outDir, { recursive: true });
-const { solidByKeyId, dashedByKeyId, metadata: matrixFileMeta, ignoredLabels } = loadMatrixTraces();
+const { solidByKeyId, dashedByKeyId, metadata: matrixFileMeta, raw: matrixRaw, ignoredLabels } = loadMatrixTraces();
 if (ignoredLabels.length > 0) {
   console.warn("Matrix labels with no keyId in MATRIX_LABEL_TO_KEYID (ignored):", ignoredLabels.join(", "));
 }
@@ -718,6 +640,9 @@ writeYaml("traces.yaml", { traces: traceList });
 writeYaml("trace_paths.yaml", { tracePaths: paths });
 writeYaml("ribbon_contacts.yaml", { ribbonContacts: ribbon });
 writeYaml("key_trace_map.yaml", { keyTraceMap: kmap });
+
+const srcJson = buildSourceMatrixCells(MODEL_ID, matrixRaw, solidByKeyId, dashedByKeyId);
+fs.writeFileSync(path.join(outDir, "source-matrix-cells.json"), JSON.stringify(srcJson, null, 2), "utf8");
 
 upsertModelRegistryEntry(MODEL_ID, "ibm-1391401-ansi");
 

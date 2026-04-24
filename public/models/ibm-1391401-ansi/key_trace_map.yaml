@@ -448,14 +448,6 @@ keyTraceMap:
     traceId: dashed_E
     role: pathB
   - modelId: ibm-1391401-ansi
-    keyId: intl_hash
-    traceId: solid_11
-    role: pathA
-  - modelId: ibm-1391401-ansi
-    keyId: intl_hash
-    traceId: dashed_G
-    role: pathB
-  - modelId: ibm-1391401-ansi
     keyId: enter_main
     traceId: solid_11
     role: pathA

@@ -158,6 +158,31 @@ export function validateModel(model: LoadedKeyboardModel): ModelValidationReport
     }
   }
 
+  const baseIds = new Set(model.keys.map((k) => k.keyId));
+  if (model.keyLayoutAlternates) {
+    for (const alt of model.keyLayoutAlternates) {
+      if (alt.keys.length !== model.keys.length) {
+        push(
+          issues,
+          "error",
+          "ALT_KEYS_COUNT",
+          `keyLayoutAlternates[${alt.id}]: key count ${alt.keys.length} !== main keys ${model.keys.length}`,
+        );
+        continue;
+      }
+      for (const k of alt.keys) {
+        if (!baseIds.has(k.keyId)) {
+          push(issues, "error", "ALT_KEY_UNKNOWN", `keyLayoutAlternates[${alt.id}]: extra keyId ${k.keyId}`);
+        }
+      }
+      for (const id of baseIds) {
+        if (!alt.keys.some((k) => k.keyId === id)) {
+          push(issues, "error", "ALT_KEY_MISSING", `keyLayoutAlternates[${alt.id}]: missing keyId ${id}`);
+        }
+      }
+    }
+  }
+
   for (const t of model.traces) {
     if (!pathByTrace.has(t.traceId) || (pathByTrace.get(t.traceId)?.length ?? 0) === 0) {
       push(

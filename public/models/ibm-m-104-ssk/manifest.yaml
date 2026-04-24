@@ -1,22 +1,30 @@
 modelId: ibm-m-104-ssk
 displayName: IBM Model M 104/105 Space Saving Keyboard (SSK) — QMK
-family: IBM / Unicomp (Model M class)
+family: IBM Model M
 layoutName: SSK 104+
 subtitle: IBM Model M 104/105 Space Saving Keyboard (SSK) — QMK
-description: 8×16 QMK scan from sharktastica matrix_ssk.csv; M2 = rows, M1 = columns.
+description: 8×16 QMK matrix (matrix_ssk.csv); SSK, no numpad. On-screen key
+  shapes use a 104+ schematic, not a scan table grid.
 schemaVersion: 1.0.0
-modelVersion: 0.2.0-sharktastica-csv
+modelVersion: 0.4.0-ssk-ansi-iso
 supportedFeatures:
   - trace_overlay
   - ribbon_highlight
   - comparison_keys
 dataNotes:
-  - "SSK: verify against your SSK membrane."
-  - Generated from sharktastica QMK CSV; key positions are a coarse grid—edit
-    keys.yaml to match a photo.
+  - "SSK: verify QMK vs your FFC. Diagram layout matches 104+ reference (not
+    matrix row order)."
+  - "SSK: default on-screen keys are ANSI (US), 104+ no numpad. If your plate
+    has the extra key left of Z, switch to the ISO/UK layout in the app (or load
+    keys-iso.yaml). intl_backslash is placed in the overflow when not on the US
+    schematic. See tools/layout-ibm-ssk-physical.mjs. Not a scan matrix grid."
 files:
   keys: keys.yaml
   traces: traces.yaml
   tracePaths: trace_paths.yaml
   ribbonContacts: ribbon_contacts.yaml
   keyTraceMap: key_trace_map.yaml
+keyLayoutAlternates:
+  - id: iso-uk
+    label: ISO/UK (extra key left of Z)
+    file: keys-iso.yaml

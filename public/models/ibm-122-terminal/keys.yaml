@@ -3,712 +3,712 @@ keys:
     keyId: a
     displayName: A
     section: main
-    x: 154
-    y: 164
+    x: 149
+    y: 250
     width: 30
     height: 26
     recognitionRank: 10
-    sortOrder: 328154
+    sortOrder: 500149
   - modelId: ibm-122-terminal
     keyId: arrow_down
     displayName: ↓
     section: navigation
-    x: 532
-    y: 232
+    x: 614
+    y: 322
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 464533
+    sortOrder: 644615
   - modelId: ibm-122-terminal
     keyId: arrow_left
     displayName: ←
     section: navigation
-    x: 500
-    y: 200
+    x: 582
+    y: 290
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 400502
+    sortOrder: 580584
   - modelId: ibm-122-terminal
     keyId: arrow_right
     displayName: →
     section: navigation
-    x: 564
-    y: 200
+    x: 646
+    y: 290
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 400567
+    sortOrder: 580649
   - modelId: ibm-122-terminal
     keyId: arrow_up
     displayName: ↑
     section: navigation
-    x: 532
-    y: 168
+    x: 614
+    y: 258
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 336536
+    sortOrder: 516618
   - modelId: ibm-122-terminal
     keyId: b
     displayName: B
     section: main
     x: 282
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388287
+    sortOrder: 560287
   - modelId: ibm-122-terminal
     keyId: backslash
     displayName: \
     section: main
-    x: 530
-    y: 134
-    width: 40
+    x: 524
+    y: 220
+    width: 32
     height: 26
     recognitionRank: 3
-    sortOrder: 268536
+    sortOrder: 440530
   - modelId: ibm-122-terminal
     keyId: backspace
     displayName: Bksp
     section: main
-    x: 520
-    y: 104
-    width: 56
+    x: 516
+    y: 190
+    width: 40
     height: 26
     recognitionRank: 10
-    sortOrder: 208527
+    sortOrder: 380523
   - modelId: ibm-122-terminal
     keyId: backtick
     displayName: "`"
     section: main
     x: 100
-    y: 104
+    y: 190
     width: 32
     height: 26
     recognitionRank: 3
-    sortOrder: 208108
+    sortOrder: 380108
   - modelId: ibm-122-terminal
     keyId: bracket_left
     displayName: bracket_left
     section: main
-    x: 466
-    y: 134
+    x: 459
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268475
+    sortOrder: 440468
   - modelId: ibm-122-terminal
     keyId: bracket_right
     displayName: bracket_right
     section: main
-    x: 498
-    y: 134
+    x: 491
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268508
+    sortOrder: 440501
   - modelId: ibm-122-terminal
     keyId: c
     displayName: C
     section: main
     x: 218
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388229
+    sortOrder: 560229
   - modelId: ibm-122-terminal
     keyId: caps_lock
     displayName: Caps
     section: main
     x: 100
-    y: 164
-    width: 50
+    y: 250
+    width: 45
     height: 26
     recognitionRank: 3
-    sortOrder: 328112
+    sortOrder: 500112
   - modelId: ibm-122-terminal
     keyId: comma
     displayName: comma
     section: main
     x: 378
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388391
+    sortOrder: 560391
   - modelId: ibm-122-terminal
     keyId: d
     displayName: D
     section: main
-    x: 218
-    y: 164
+    x: 213
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328232
+    sortOrder: 500227
   - modelId: ibm-122-terminal
     keyId: delete
     displayName: Del
     section: navigation
-    x: 500
-    y: 132
+    x: 582
+    y: 222
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 264515
+    sortOrder: 444597
   - modelId: ibm-122-terminal
     keyId: digit_0
     displayName: digit_0
     section: main
     x: 420
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208436
+    sortOrder: 380436
   - modelId: ibm-122-terminal
     keyId: digit_1
     displayName: digit_1
     section: main
     x: 132
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 10
-    sortOrder: 208149
+    sortOrder: 380149
   - modelId: ibm-122-terminal
     keyId: digit_2
     displayName: digit_2
     section: main
     x: 164
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 10
-    sortOrder: 208182
+    sortOrder: 380182
   - modelId: ibm-122-terminal
     keyId: digit_3
     displayName: digit_3
     section: main
     x: 196
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208215
+    sortOrder: 380215
   - modelId: ibm-122-terminal
     keyId: digit_4
     displayName: digit_4
     section: main
     x: 228
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208248
+    sortOrder: 380248
   - modelId: ibm-122-terminal
     keyId: digit_5
     displayName: digit_5
     section: main
     x: 260
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208281
+    sortOrder: 380281
   - modelId: ibm-122-terminal
     keyId: digit_6
     displayName: digit_6
     section: main
     x: 292
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208314
+    sortOrder: 380314
   - modelId: ibm-122-terminal
     keyId: digit_7
     displayName: digit_7
     section: main
     x: 324
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208347
+    sortOrder: 380347
   - modelId: ibm-122-terminal
     keyId: digit_8
     displayName: digit_8
     section: main
     x: 356
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208380
+    sortOrder: 380380
   - modelId: ibm-122-terminal
     keyId: digit_9
     displayName: digit_9
     section: main
     x: 388
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208413
+    sortOrder: 380413
   - modelId: ibm-122-terminal
     keyId: e
     displayName: E
     section: main
-    x: 210
-    y: 134
+    x: 203
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268236
+    sortOrder: 440229
   - modelId: ibm-122-terminal
     keyId: end
     displayName: End
     section: navigation
-    x: 532
-    y: 132
+    x: 614
+    y: 222
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 264559
+    sortOrder: 444641
   - modelId: ibm-122-terminal
     keyId: enter_main
     displayName: Enter
     section: main
-    x: 506
-    y: 164
+    x: 504
+    y: 250
     width: 52
     height: 26
     recognitionRank: 10
-    sortOrder: 328534
+    sortOrder: 500532
   - modelId: ibm-122-terminal
     keyId: equal
     displayName: equal
     section: main
     x: 484
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208513
+    sortOrder: 380513
   - modelId: ibm-122-terminal
     keyId: euro1
     displayName: EUR
     section: main
-    x: 172
-    y: 224
-    width: 30
+    x: 64
+    y: 310
+    width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 448202
+    sortOrder: 620094
   - modelId: ibm-122-terminal
     keyId: ex1
     displayName: EX1
     section: other
     x: 0
-    y: 170
+    y: 190
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 340031
+    sortOrder: 380031
   - modelId: ibm-122-terminal
     keyId: ex10
     displayName: EX10
     section: other
     x: 34
-    y: 282
+    y: 310
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 564066
+    sortOrder: 620066
   - modelId: ibm-122-terminal
     keyId: ex2
     displayName: EX2
     section: other
     x: 34
-    y: 170
+    y: 190
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 340067
+    sortOrder: 380067
   - modelId: ibm-122-terminal
     keyId: ex3
     displayName: EX3
     section: other
     x: 0
-    y: 198
+    y: 220
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 396034
+    sortOrder: 440034
   - modelId: ibm-122-terminal
     keyId: ex4
     displayName: EX4
     section: other
     x: 34
-    y: 198
+    y: 220
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 396069
+    sortOrder: 440069
   - modelId: ibm-122-terminal
     keyId: ex5
     displayName: EX5
     section: other
     x: 0
-    y: 226
+    y: 250
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 452036
+    sortOrder: 500036
   - modelId: ibm-122-terminal
     keyId: ex6
     displayName: EX6
     section: other
     x: 34
-    y: 226
+    y: 250
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 452071
+    sortOrder: 500071
   - modelId: ibm-122-terminal
     keyId: ex7
     displayName: EX7
     section: other
     x: 0
-    y: 254
+    y: 280
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 508038
+    sortOrder: 560038
   - modelId: ibm-122-terminal
     keyId: ex8
     displayName: EX8
     section: other
     x: 34
-    y: 254
+    y: 280
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 508073
+    sortOrder: 560073
   - modelId: ibm-122-terminal
     keyId: ex9
     displayName: EX9
     section: other
     x: 0
-    y: 282
+    y: 310
     width: 30
-    height: 22
+    height: 24
     recognitionRank: 3
-    sortOrder: 564040
+    sortOrder: 620040
   - modelId: ibm-122-terminal
     keyId: f
     displayName: F
     section: main
-    x: 250
-    y: 164
+    x: 245
+    y: 250
     width: 30
     height: 26
     recognitionRank: 5
-    sortOrder: 328291
+    sortOrder: 500286
   - modelId: ibm-122-terminal
     keyId: f1
     displayName: F1
     section: function
-    x: 8
+    x: 132
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260050
+    sortOrder: 260174
   - modelId: ibm-122-terminal
     keyId: f10
     displayName: F10
     section: function
-    x: 314
+    x: 420
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260357
+    sortOrder: 260463
   - modelId: ibm-122-terminal
     keyId: f11
     displayName: F11
     section: function
-    x: 348
+    x: 452
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260392
+    sortOrder: 260496
   - modelId: ibm-122-terminal
     keyId: f12
     displayName: F12
     section: function
-    x: 382
+    x: 484
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260427
+    sortOrder: 260529
   - modelId: ibm-122-terminal
     keyId: f13
     displayName: F13
     section: function
-    x: 8
+    x: 132
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200054
+    sortOrder: 200178
   - modelId: ibm-122-terminal
     keyId: f14
     displayName: F14
     section: function
-    x: 42
+    x: 164
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200089
+    sortOrder: 200211
   - modelId: ibm-122-terminal
     keyId: f15
     displayName: F15
     section: function
-    x: 76
+    x: 196
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200124
+    sortOrder: 200244
   - modelId: ibm-122-terminal
     keyId: f16
     displayName: F16
     section: function
-    x: 110
+    x: 228
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200159
+    sortOrder: 200277
   - modelId: ibm-122-terminal
     keyId: f17
     displayName: F17
     section: function
-    x: 144
+    x: 260
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200194
+    sortOrder: 200310
   - modelId: ibm-122-terminal
     keyId: f18
     displayName: F18
     section: function
-    x: 178
+    x: 292
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200229
+    sortOrder: 200343
   - modelId: ibm-122-terminal
     keyId: f19
     displayName: F19
     section: function
-    x: 212
+    x: 324
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200264
+    sortOrder: 200376
   - modelId: ibm-122-terminal
     keyId: f2
     displayName: F2
     section: function
-    x: 42
+    x: 164
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260095
+    sortOrder: 260217
   - modelId: ibm-122-terminal
     keyId: f20
     displayName: F20
     section: function
-    x: 246
+    x: 356
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200300
+    sortOrder: 200410
   - modelId: ibm-122-terminal
     keyId: f21
     displayName: F21
     section: function
-    x: 280
+    x: 388
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200335
+    sortOrder: 200443
   - modelId: ibm-122-terminal
     keyId: f22
     displayName: F22
     section: function
-    x: 314
+    x: 420
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200370
+    sortOrder: 200476
   - modelId: ibm-122-terminal
     keyId: f23
     displayName: F23
     section: function
-    x: 348
+    x: 452
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200405
+    sortOrder: 200509
   - modelId: ibm-122-terminal
     keyId: f24
     displayName: F24
     section: function
-    x: 382
+    x: 484
     y: 100
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 200440
+    sortOrder: 200542
   - modelId: ibm-122-terminal
     keyId: f3
     displayName: F3
     section: function
-    x: 76
+    x: 196
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260135
+    sortOrder: 260255
   - modelId: ibm-122-terminal
     keyId: f4
     displayName: F4
     section: function
-    x: 110
+    x: 228
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260170
+    sortOrder: 260288
   - modelId: ibm-122-terminal
     keyId: f5
     displayName: F5
     section: function
-    x: 144
+    x: 260
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260205
+    sortOrder: 260321
   - modelId: ibm-122-terminal
     keyId: f6
     displayName: F6
     section: function
-    x: 178
+    x: 292
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260240
+    sortOrder: 260354
   - modelId: ibm-122-terminal
     keyId: f7
     displayName: F7
     section: function
-    x: 212
+    x: 324
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260275
+    sortOrder: 260387
   - modelId: ibm-122-terminal
     keyId: f8
     displayName: F8
     section: function
-    x: 246
+    x: 356
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260310
+    sortOrder: 260420
   - modelId: ibm-122-terminal
     keyId: f9
     displayName: F9
     section: function
-    x: 280
+    x: 388
     y: 130
-    width: 32
+    width: 30
     height: 24
     recognitionRank: 5
-    sortOrder: 260345
+    sortOrder: 260453
   - modelId: ibm-122-terminal
     keyId: g
     displayName: G
     section: main
-    x: 282
-    y: 164
+    x: 277
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328348
+    sortOrder: 500343
   - modelId: ibm-122-terminal
     keyId: h
     displayName: H
     section: main
-    x: 314
-    y: 164
+    x: 309
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328381
+    sortOrder: 500376
   - modelId: ibm-122-terminal
     keyId: home
     displayName: Home
     section: navigation
-    x: 532
-    y: 100
+    x: 614
+    y: 190
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 200600
+    sortOrder: 380682
   - modelId: ibm-122-terminal
     keyId: i
     displayName: I
     section: main
-    x: 370
-    y: 134
+    x: 363
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268439
+    sortOrder: 440432
   - modelId: ibm-122-terminal
     keyId: insert
     displayName: Ins
     section: navigation
-    x: 500
-    y: 100
+    x: 582
+    y: 190
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 200570
+    sortOrder: 380652
   - modelId: ibm-122-terminal
     keyId: intl_backslash
     displayName: |-
@@ -716,518 +716,518 @@ keys:
       `
     section: main
     x: 474
-    y: 194
+    y: 280
     width: 32
     height: 26
     recognitionRank: 3
-    sortOrder: 388545
+    sortOrder: 560545
   - modelId: ibm-122-terminal
     keyId: j
     displayName: J
     section: main
-    x: 346
-    y: 164
+    x: 341
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328418
+    sortOrder: 500413
   - modelId: ibm-122-terminal
     keyId: k
     displayName: K
     section: main
-    x: 378
-    y: 164
+    x: 373
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328451
+    sortOrder: 500446
   - modelId: ibm-122-terminal
     keyId: kp_0
     displayName: kp_0
     section: numpad
-    x: 620
-    y: 220
+    x: 688
+    y: 310
     width: 48
     height: 24
     recognitionRank: 3
-    sortOrder: 440694
+    sortOrder: 620762
   - modelId: ibm-122-terminal
     keyId: kp_1
     displayName: kp_1
     section: numpad
-    x: 620
-    y: 190
+    x: 688
+    y: 280
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 380695
+    sortOrder: 560763
   - modelId: ibm-122-terminal
     keyId: kp_2
     displayName: kp_2
     section: numpad
-    x: 654
-    y: 190
+    x: 722
+    y: 280
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 380730
+    sortOrder: 560798
   - modelId: ibm-122-terminal
     keyId: kp_3
     displayName: kp_3
     section: numpad
-    x: 688
-    y: 190
+    x: 756
+    y: 280
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 380765
+    sortOrder: 560833
   - modelId: ibm-122-terminal
     keyId: kp_4
     displayName: kp_4
     section: numpad
-    x: 620
-    y: 164
+    x: 688
+    y: 254
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 328698
+    sortOrder: 508766
   - modelId: ibm-122-terminal
     keyId: kp_5
     displayName: kp_5
     section: numpad
-    x: 654
-    y: 164
+    x: 722
+    y: 254
     width: 32
     height: 24
     recognitionRank: 10
-    sortOrder: 328733
+    sortOrder: 508801
   - modelId: ibm-122-terminal
     keyId: kp_6
     displayName: kp_6
     section: numpad
-    x: 688
-    y: 164
+    x: 756
+    y: 254
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 328768
+    sortOrder: 508836
   - modelId: ibm-122-terminal
     keyId: kp_7
     displayName: kp_7
     section: numpad
-    x: 620
-    y: 132
+    x: 688
+    y: 222
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 264701
+    sortOrder: 444769
   - modelId: ibm-122-terminal
     keyId: kp_8
     displayName: kp_8
     section: numpad
-    x: 654
-    y: 132
+    x: 722
+    y: 222
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 264736
+    sortOrder: 444804
   - modelId: ibm-122-terminal
     keyId: kp_9
     displayName: kp_9
     section: numpad
-    x: 688
-    y: 132
+    x: 756
+    y: 222
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 264771
+    sortOrder: 444839
   - modelId: ibm-122-terminal
     keyId: kp_asterisk
     displayName: "*"
     section: numpad
-    x: 688
-    y: 100
+    x: 756
+    y: 190
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 200772
+    sortOrder: 380840
   - modelId: ibm-122-terminal
     keyId: kp_decimal
     displayName: kp_decimal
     section: numpad
-    x: 672
-    y: 220
+    x: 740
+    y: 310
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 440757
+    sortOrder: 620825
   - modelId: ibm-122-terminal
     keyId: kp_enter
     displayName: kp_enter
     section: numpad
-    x: 722
-    y: 164
+    x: 790
+    y: 280
     width: 32
-    height: 80
+    height: 54
     recognitionRank: 3
-    sortOrder: 328808
+    sortOrder: 560876
   - modelId: ibm-122-terminal
     keyId: kp_minus
     displayName: kp_minus
     section: numpad
-    x: 722
-    y: 100
+    x: 790
+    y: 190
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 200809
+    sortOrder: 380877
   - modelId: ibm-122-terminal
     keyId: kp_plus
     displayName: kp_plus
     section: numpad
-    x: 722
-    y: 132
+    x: 790
+    y: 222
     width: 32
-    height: 50
+    height: 56
     recognitionRank: 3
-    sortOrder: 264810
+    sortOrder: 444878
   - modelId: ibm-122-terminal
     keyId: kp_slash
     displayName: /
     section: numpad
-    x: 654
-    y: 100
+    x: 722
+    y: 190
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 200743
+    sortOrder: 380811
   - modelId: ibm-122-terminal
     keyId: l
     displayName: L
     section: main
-    x: 410
-    y: 164
+    x: 405
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328500
+    sortOrder: 500495
   - modelId: ibm-122-terminal
     keyId: left_alt
     displayName: Alt
     section: main
-    x: 138
-    y: 224
+    x: 166
+    y: 310
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 448229
+    sortOrder: 620257
   - modelId: ibm-122-terminal
     keyId: left_ctrl
     displayName: Ctrl
     section: main
     x: 100
-    y: 224
-    width: 34
+    y: 310
+    width: 50
     height: 24
     recognitionRank: 3
-    sortOrder: 448192
+    sortOrder: 620192
   - modelId: ibm-122-terminal
     keyId: left_shift
     displayName: Shift
     section: main
     x: 100
-    y: 194
+    y: 280
     width: 50
     height: 26
     recognitionRank: 10
-    sortOrder: 388193
+    sortOrder: 560193
   - modelId: ibm-122-terminal
     keyId: m
     displayName: M
     section: main
     x: 346
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388440
+    sortOrder: 560440
   - modelId: ibm-122-terminal
     keyId: matrix_aux_plus
     displayName: +*
     section: numpad
     x: 800
-    y: 340
+    y: 400
     width: 28
     height: 20
     recognitionRank: 3
-    sortOrder: 680895
+    sortOrder: 800895
   - modelId: ibm-122-terminal
     keyId: minus
     displayName: minus
     section: main
     x: 452
-    y: 104
+    y: 190
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 208548
+    sortOrder: 380548
   - modelId: ibm-122-terminal
     keyId: n
     displayName: N
     section: main
     x: 314
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388411
+    sortOrder: 560411
   - modelId: ibm-122-terminal
     keyId: nav_center
     displayName: JUMP
     section: navigation
-    x: 532
-    y: 200
+    x: 614
+    y: 290
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 400630
+    sortOrder: 580712
   - modelId: ibm-122-terminal
     keyId: num_lock
     displayName: Num
     section: numpad
-    x: 620
-    y: 100
+    x: 688
+    y: 190
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 200719
+    sortOrder: 380787
   - modelId: ibm-122-terminal
     keyId: o
     displayName: O
     section: main
-    x: 402
-    y: 134
+    x: 395
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268502
+    sortOrder: 440495
   - modelId: ibm-122-terminal
     keyId: p
     displayName: P
     section: main
-    x: 434
-    y: 134
+    x: 427
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268535
+    sortOrder: 440528
   - modelId: ibm-122-terminal
     keyId: page_down
     displayName: PgDn
     section: navigation
-    x: 564
-    y: 132
+    x: 646
+    y: 222
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 264666
+    sortOrder: 444748
   - modelId: ibm-122-terminal
     keyId: page_up
     displayName: PgUp
     section: navigation
-    x: 564
-    y: 100
+    x: 646
+    y: 190
     width: 30
     height: 24
     recognitionRank: 3
-    sortOrder: 200667
+    sortOrder: 380749
   - modelId: ibm-122-terminal
     keyId: period
     displayName: period
     section: main
     x: 410
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388514
+    sortOrder: 560514
   - modelId: ibm-122-terminal
     keyId: q
     displayName: Q
     section: main
-    x: 146
-    y: 134
+    x: 139
+    y: 220
     width: 30
     height: 26
     recognitionRank: 10
-    sortOrder: 268251
+    sortOrder: 440244
   - modelId: ibm-122-terminal
     keyId: quote
     displayName: quote
     section: main
-    x: 474
-    y: 164
+    x: 469
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328580
+    sortOrder: 500575
   - modelId: ibm-122-terminal
     keyId: r
     displayName: R
     section: main
-    x: 242
-    y: 134
+    x: 235
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268349
+    sortOrder: 440342
   - modelId: ibm-122-terminal
     keyId: right_alt
     displayName: Alt
     section: main
-    x: 412
-    y: 224
+    x: 458
+    y: 310
     width: 32
     height: 24
     recognitionRank: 3
-    sortOrder: 448520
+    sortOrder: 620566
   - modelId: ibm-122-terminal
     keyId: right_ctrl
     displayName: Ctrl
     section: main
-    x: 450
-    y: 224
-    width: 32
+    x: 506
+    y: 310
+    width: 50
     height: 24
     recognitionRank: 3
-    sortOrder: 448559
+    sortOrder: 620615
   - modelId: ibm-122-terminal
     keyId: right_shift
     displayName: Shift
     section: main
     x: 506
-    y: 194
+    y: 280
     width: 50
     height: 26
     recognitionRank: 3
-    sortOrder: 388616
+    sortOrder: 560616
   - modelId: ibm-122-terminal
     keyId: s
     displayName: S
     section: main
-    x: 186
-    y: 164
+    x: 181
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328297
+    sortOrder: 500292
   - modelId: ibm-122-terminal
     keyId: semicolon
     displayName: semicolon
     section: main
-    x: 442
-    y: 164
+    x: 437
+    y: 250
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 328554
+    sortOrder: 500549
   - modelId: ibm-122-terminal
     keyId: slash
     displayName: /
     section: main
     x: 442
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388555
+    sortOrder: 560555
   - modelId: ibm-122-terminal
     keyId: space
     displayName: Space
     section: main
-    x: 208
-    y: 224
-    width: 200
+    x: 200
+    y: 310
+    width: 256
     height: 24
     recognitionRank: 10
-    sortOrder: 448322
+    sortOrder: 620314
   - modelId: ibm-122-terminal
     keyId: t
     displayName: T
     section: main
-    x: 274
-    y: 134
+    x: 267
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268389
+    sortOrder: 440382
   - modelId: ibm-122-terminal
     keyId: tab
     displayName: Tab
     section: main
     x: 100
-    y: 134
-    width: 42
+    y: 220
+    width: 35
     height: 26
     recognitionRank: 3
-    sortOrder: 268216
+    sortOrder: 440216
   - modelId: ibm-122-terminal
     keyId: u
     displayName: U
     section: main
-    x: 338
-    y: 134
+    x: 331
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268455
+    sortOrder: 440448
   - modelId: ibm-122-terminal
     keyId: v
     displayName: V
     section: main
     x: 250
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388368
+    sortOrder: 560368
   - modelId: ibm-122-terminal
     keyId: w
     displayName: W
     section: main
-    x: 178
-    y: 134
+    x: 171
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268297
+    sortOrder: 440290
   - modelId: ibm-122-terminal
     keyId: x
     displayName: X
     section: main
     x: 186
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 388306
+    sortOrder: 560306
   - modelId: ibm-122-terminal
     keyId: y
     displayName: Y
     section: main
-    x: 306
-    y: 134
+    x: 299
+    y: 220
     width: 30
     height: 26
     recognitionRank: 3
-    sortOrder: 268427
+    sortOrder: 440420
   - modelId: ibm-122-terminal
     keyId: z
     displayName: Z
     section: main
     x: 154
-    y: 194
+    y: 280
     width: 30
     height: 26
     recognitionRank: 10
-    sortOrder: 388276
+    sortOrder: 560276

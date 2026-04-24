@@ -1,19 +1,24 @@
 modelId: unicomp-endurapro
-displayName: Unicomp Endurapro (104) — QMK (sharktastica)
+displayName: Unicomp Endurapro (104) — QMK
 family: Unicomp
-layoutName: "104"
-subtitle: Unicomp Endurapro (104) — QMK (sharktastica)
-description: From matrix_endurapro.csv. Includes hidden-matrix keys (qmk_*) for routing.
+layoutName: 104 ANSI (physical)
+subtitle: Unicomp Endurapro (104) — QMK
+description: 8×16 QMK (matrix_endurapro.csv). On-screen keys use a 104+ ANSI
+  schematic (numpad, nav, Win/Menu), not a scan table grid. Includes k_*_hidden
+  and aux keyIds for routing.
 schemaVersion: 1.0.0
-modelVersion: 0.2.0-sharktastica-csv
+modelVersion: 0.4.0-physical-104
 supportedFeatures:
   - trace_overlay
   - ribbon_highlight
   - comparison_keys
 dataNotes:
-  - "Endurapro: includes k_bsp_hidden etc. as aux keyIds."
-  - Generated from sharktastica QMK CSV; key positions are a coarse grid—edit
-    keys.yaml to match a photo.
+  - "Endurapro: k_bsp_hidden, k_rshift_hidden, etc. map to cap slivers; verify
+    FFC to QMK on your board."
+  - "Key positions: Unicomp 104+ full ANSI
+    (tools/layout-unicomp-104-physical.mjs) with Win/Menu and numpad, not a scan
+    table grid. Hidden k_*_hidden matrix nodes shown as slivers on the primary
+    key."
 files:
   keys: keys.yaml
   traces: traces.yaml

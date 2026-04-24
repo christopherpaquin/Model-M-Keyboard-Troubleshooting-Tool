@@ -9,14 +9,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { upsertModelRegistryEntry } from "./model-registry.mjs";
+import { buildLayoutIbm122Physical } from "./layout-ibm-122-physical.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const outDir = path.join(root, "public", "models", "ibm-122-terminal");
 
 const MODEL_ID = "ibm-122-terminal";
-
-const VIEW_TOP_PAD = 100;
 
 /* eslint-disable @stylistic/max-len — 8×20 QMK table (one array per row, 20 cells; null = empty) */
 const QMK_ROW_COL = [
@@ -384,119 +383,6 @@ function sectionFor(keyId) {
   return "main";
 }
 
-function R(x, y, w, h) {
-  return [x, y + VIEW_TOP_PAD, w, h];
-}
-
-/** @param {string[]} keyIds — every key in the 8×20 map */
-function buildLayout122M122(keyIds) {
-  const L = {};
-  const cw = 32;
-  const g = 2;
-  for (let n = 13; n <= 24; n++) {
-    L[`f${n}`] = R(8 + (n - 13) * (cw + g), 0, cw, 24);
-  }
-  for (let n = 1; n <= 12; n++) {
-    L[`f${n}`] = R(8 + (n - 1) * (cw + g), 30, cw, 24);
-  }
-  L.ex1 = R(0, 70, 30, 22);
-  L.ex2 = R(34, 70, 30, 22);
-  L.ex3 = R(0, 98, 30, 22);
-  L.ex4 = R(34, 98, 30, 22);
-  L.ex5 = R(0, 126, 30, 22);
-  L.ex6 = R(34, 126, 30, 22);
-  L.ex7 = R(0, 154, 30, 22);
-  L.ex8 = R(34, 154, 30, 22);
-  L.ex9 = R(0, 182, 30, 22);
-  L.ex10 = R(34, 182, 30, 22);
-
-  const bx = 100;
-  const y = (i) => 4 + i * 30;
-  L.backtick = R(bx, y(0), 32, 26);
-  for (let d = 1; d <= 9; d++) {
-    L[`digit_${d}`] = R(bx + 32 * d, y(0), 30, 26);
-  }
-  L.digit_0 = R(bx + 32 * 10, y(0), 30, 26);
-  L.minus = R(bx + 352, y(0), 30, 26);
-  L.equal = R(bx + 384, y(0), 30, 26);
-  L.backspace = R(bx + 420, y(0), 56, 26);
-
-  L.tab = R(bx, y(1), 42, 26);
-  for (const [i, ch] of ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"].entries()) {
-    L[ch] = R(bx + 46 + i * 32, y(1), 30, 26);
-  }
-  L.bracket_left = R(bx + 46 + 10 * 32, y(1), 30, 26);
-  L.bracket_right = R(bx + 46 + 11 * 32, y(1), 30, 26);
-  L.backslash = R(bx + 46 + 12 * 32, y(1), 40, 26);
-
-  L.caps_lock = R(bx, y(2), 50, 26);
-  for (const [i, ch] of ["a", "s", "d", "f", "g", "h", "j", "k", "l"].entries()) {
-    L[ch] = R(bx + 54 + i * 32, y(2), 30, 26);
-  }
-  L.semicolon = R(bx + 54 + 9 * 32, y(2), 30, 26);
-  L.quote = R(bx + 54 + 10 * 32, y(2), 30, 26);
-  L.enter_main = R(bx + 54 + 11 * 32, y(2), 52, 26);
-
-  L.left_shift = R(bx, y(3), 50, 26);
-  for (const [i, ch] of ["z", "x", "c", "v", "b", "n", "m"].entries()) {
-    L[ch] = R(bx + 54 + i * 32, y(3), 30, 26);
-  }
-  L.comma = R(bx + 54 + 7 * 32, y(3), 30, 26);
-  L.period = R(bx + 54 + 8 * 32, y(3), 30, 26);
-  L.slash = R(bx + 54 + 9 * 32, y(3), 30, 26);
-  L.intl_backslash = R(bx + 54 + 10 * 32, y(3), 32, 26);
-  L.right_shift = R(bx + 54 + 11 * 32, y(3), 50, 26);
-
-  L.left_ctrl = R(bx, y(4), 34, 24);
-  L.left_alt = R(bx + 38, y(4), 32, 24);
-  L.euro1 = R(bx + 72, y(4), 30, 24);
-  L.space = R(bx + 108, y(4), 200, 24);
-  L.right_alt = R(bx + 312, y(4), 32, 24);
-  L.right_ctrl = R(bx + 350, y(4), 32, 24);
-
-  const navx = 500;
-  const nvy = 0;
-  L.insert = R(navx, nvy, 30, 24);
-  L.home = R(navx + 32, nvy, 30, 24);
-  L.page_up = R(navx + 64, nvy, 30, 24);
-  L.delete = R(navx, nvy + 32, 30, 24);
-  L.end = R(navx + 32, nvy + 32, 30, 24);
-  L.page_down = R(navx + 64, nvy + 32, 30, 24);
-  L.arrow_left = R(navx, nvy + 100, 30, 24);
-  L.nav_center = R(navx + 32, nvy + 100, 30, 24);
-  L.arrow_right = R(navx + 64, nvy + 100, 30, 24);
-  L.arrow_up = R(navx + 32, nvy + 68, 30, 24);
-  L.arrow_down = R(navx + 32, nvy + 132, 30, 24);
-
-  const npx = 620;
-  L.num_lock = R(npx, 0, 32, 24);
-  L.kp_slash = R(npx + 34, 0, 32, 24);
-  L.kp_asterisk = R(npx + 68, 0, 32, 24);
-  L.kp_minus = R(npx + 102, 0, 32, 24);
-  L.kp_7 = R(npx, 32, 32, 24);
-  L.kp_8 = R(npx + 34, 32, 32, 24);
-  L.kp_9 = R(npx + 68, 32, 32, 24);
-  L.kp_plus = R(npx + 102, 32, 32, 50);
-  L.kp_4 = R(npx, 64, 32, 24);
-  L.kp_5 = R(npx + 34, 64, 32, 24);
-  L.kp_6 = R(npx + 68, 64, 32, 24);
-  L.kp_1 = R(npx, 90, 32, 24);
-  L.kp_2 = R(npx + 34, 90, 32, 24);
-  L.kp_3 = R(npx + 68, 90, 32, 24);
-  L.kp_0 = R(npx, 120, 48, 24);
-  L.kp_decimal = R(npx + 52, 120, 32, 24);
-  L.kp_enter = R(npx + 102, 64, 32, 80);
-  L.matrix_aux_plus = R(800, 240, 28, 20);
-  for (const [i, k] of keyIds.sort().entries()) {
-    if (L[k]) {
-      continue;
-    }
-    const c = 18;
-    L[k] = R(650 + (i % 6) * 26, 200 + ((i / 6) | 0) * 24, 24, 20);
-  }
-  return L;
-}
-
 function colToDashed(col) {
   if (col < 0 || col > 19) throw new Error(`col out of range: ${col}`);
   const letter = String.fromCharCode(65 + col);
@@ -773,7 +659,7 @@ function manifest122() {
 const matrix = buildMatrixMap();
 const { solidByKeyId, dashedByKeyId } = buildSolidDashed(matrix);
 const keyIds = [...matrix.keys()].sort();
-const LAYOUT_122b = buildLayout122M122(keyIds);
+const LAYOUT_122b = buildLayoutIbm122Physical(keyIds);
 
 function writeYaml(name, data) {
   const doc = new YAML.Document(data);

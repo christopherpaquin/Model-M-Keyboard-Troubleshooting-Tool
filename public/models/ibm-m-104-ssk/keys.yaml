@@ -1,777 +1,777 @@
 keys:
   - modelId: ibm-m-104-ssk
-    keyId: a
-    displayName: A
-    section: main
-    x: 6
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208006
-  - modelId: ibm-m-104-ssk
-    keyId: arrow_down
-    displayName: arrow_down
-    section: navigation
-    x: 35
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208036
-  - modelId: ibm-m-104-ssk
-    keyId: arrow_left
-    displayName: arrow_left
-    section: navigation
-    x: 64
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208066
-  - modelId: ibm-m-104-ssk
-    keyId: arrow_right
-    displayName: arrow_right
-    section: navigation
-    x: 93
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208096
-  - modelId: ibm-m-104-ssk
-    keyId: arrow_up
-    displayName: arrow_up
-    section: navigation
-    x: 122
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208126
-  - modelId: ibm-m-104-ssk
-    keyId: b
-    displayName: B
-    section: main
-    x: 151
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208156
-  - modelId: ibm-m-104-ssk
-    keyId: backslash
-    displayName: backslash
-    section: main
-    x: 180
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208186
-  - modelId: ibm-m-104-ssk
-    keyId: backspace
-    displayName: backspace
-    section: main
-    x: 209
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208216
-  - modelId: ibm-m-104-ssk
-    keyId: backtick
-    displayName: backtick
-    section: main
-    x: 238
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208246
-  - modelId: ibm-m-104-ssk
-    keyId: bracket_left
-    displayName: bracket_left
-    section: main
-    x: 267
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208276
-  - modelId: ibm-m-104-ssk
-    keyId: bracket_right
-    displayName: bracket_right
-    section: main
-    x: 296
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208306
-  - modelId: ibm-m-104-ssk
-    keyId: c
-    displayName: C
-    section: main
-    x: 325
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208336
-  - modelId: ibm-m-104-ssk
-    keyId: caps_lock
-    displayName: caps_lock
-    section: main
-    x: 354
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208366
-  - modelId: ibm-m-104-ssk
-    keyId: comma
-    displayName: comma
-    section: main
-    x: 383
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208396
-  - modelId: ibm-m-104-ssk
-    keyId: d
-    displayName: D
-    section: main
-    x: 412
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208426
-  - modelId: ibm-m-104-ssk
-    keyId: delete
-    displayName: delete
-    section: navigation
-    x: 441
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208456
-  - modelId: ibm-m-104-ssk
-    keyId: digit_0
-    displayName: digit_0
-    section: main
-    x: 470
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208486
-  - modelId: ibm-m-104-ssk
-    keyId: digit_1
-    displayName: digit_1
-    section: main
-    x: 499
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208516
-  - modelId: ibm-m-104-ssk
-    keyId: digit_2
-    displayName: digit_2
-    section: main
-    x: 528
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208546
-  - modelId: ibm-m-104-ssk
-    keyId: digit_3
-    displayName: digit_3
-    section: main
-    x: 557
-    y: 104
-    width: 28
-    height: 28
-    sortOrder: 208576
-  - modelId: ibm-m-104-ssk
-    keyId: digit_4
-    displayName: digit_4
-    section: main
-    x: 6
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266026
-  - modelId: ibm-m-104-ssk
-    keyId: digit_5
-    displayName: digit_5
-    section: main
-    x: 35
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266056
-  - modelId: ibm-m-104-ssk
-    keyId: digit_6
-    displayName: digit_6
-    section: main
-    x: 64
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266086
-  - modelId: ibm-m-104-ssk
-    keyId: digit_7
-    displayName: digit_7
-    section: main
-    x: 93
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266116
-  - modelId: ibm-m-104-ssk
-    keyId: digit_8
-    displayName: digit_8
-    section: main
-    x: 122
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266146
-  - modelId: ibm-m-104-ssk
-    keyId: digit_9
-    displayName: digit_9
-    section: main
-    x: 151
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266176
-  - modelId: ibm-m-104-ssk
-    keyId: e
-    displayName: E
-    section: main
-    x: 180
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266206
-  - modelId: ibm-m-104-ssk
-    keyId: end
-    displayName: end
-    section: navigation
-    x: 209
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266236
-  - modelId: ibm-m-104-ssk
-    keyId: enter_main
-    displayName: enter_main
-    section: main
-    x: 238
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266266
-  - modelId: ibm-m-104-ssk
-    keyId: equal
-    displayName: equal
-    section: main
-    x: 267
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266296
-  - modelId: ibm-m-104-ssk
     keyId: esc
     displayName: Esc
     section: main
-    x: 296
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266326
-  - modelId: ibm-m-104-ssk
-    keyId: euro1
-    displayName: EUR
-    section: main
-    x: 325
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266356
-  - modelId: ibm-m-104-ssk
-    keyId: f
-    displayName: F
-    section: main
-    x: 354
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266386
+    x: 16
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352016
   - modelId: ibm-m-104-ssk
     keyId: f1
     displayName: F1
     section: function
-    x: 383
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266416
-  - modelId: ibm-m-104-ssk
-    keyId: f10
-    displayName: F10
-    section: function
-    x: 412
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266446
-  - modelId: ibm-m-104-ssk
-    keyId: f11
-    displayName: F11
-    section: function
-    x: 441
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266476
-  - modelId: ibm-m-104-ssk
-    keyId: f12
-    displayName: F12
-    section: function
-    x: 470
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266506
+    x: 72
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352073
   - modelId: ibm-m-104-ssk
     keyId: f2
     displayName: F2
     section: function
-    x: 499
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266536
+    x: 112
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352114
   - modelId: ibm-m-104-ssk
     keyId: f3
     displayName: F3
     section: function
-    x: 528
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266566
+    x: 152
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352155
   - modelId: ibm-m-104-ssk
     keyId: f4
     displayName: F4
     section: function
-    x: 557
-    y: 133
-    width: 28
-    height: 28
-    sortOrder: 266596
+    x: 192
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352196
   - modelId: ibm-m-104-ssk
     keyId: f5
     displayName: F5
     section: function
-    x: 6
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324046
+    x: 252
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352257
   - modelId: ibm-m-104-ssk
     keyId: f6
     displayName: F6
     section: function
-    x: 35
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324076
+    x: 292
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352298
   - modelId: ibm-m-104-ssk
     keyId: f7
     displayName: F7
     section: function
-    x: 64
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324106
+    x: 332
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352339
   - modelId: ibm-m-104-ssk
     keyId: f8
     displayName: F8
     section: function
-    x: 93
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324136
+    x: 372
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352380
   - modelId: ibm-m-104-ssk
     keyId: f9
     displayName: F9
     section: function
-    x: 122
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324166
+    x: 432
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352441
   - modelId: ibm-m-104-ssk
-    keyId: g
-    displayName: G
+    keyId: f10
+    displayName: F10
+    section: function
+    x: 472
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352482
+  - modelId: ibm-m-104-ssk
+    keyId: f11
+    displayName: F11
+    section: function
+    x: 512
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352523
+  - modelId: ibm-m-104-ssk
+    keyId: f12
+    displayName: F12
+    section: function
+    x: 552
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352564
+  - modelId: ibm-m-104-ssk
+    keyId: print_screen
+    displayName: PrtSc
     section: main
-    x: 151
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324196
+    x: 630
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352643
   - modelId: ibm-m-104-ssk
-    keyId: h
-    displayName: H
+    keyId: scroll_lock
+    displayName: ScrLk
     section: main
-    x: 180
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324226
+    x: 670
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352684
   - modelId: ibm-m-104-ssk
-    keyId: home
-    displayName: home
-    section: navigation
-    x: 209
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324256
-  - modelId: ibm-m-104-ssk
-    keyId: i
-    displayName: I
+    keyId: pause_break
+    displayName: Pause
     section: main
-    x: 238
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324286
+    x: 710
+    y: 176
+    width: 36
+    height: 32
+    sortOrder: 352725
+  - modelId: ibm-m-104-ssk
+    keyId: backtick
+    displayName: backtick
+    section: main
+    x: 16
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448032
+  - modelId: ibm-m-104-ssk
+    keyId: euro1
+    displayName: €
+    section: main
+    x: 20
+    y: 224
+    width: 32
+    height: 36
+    sortOrder: 448037
+  - modelId: ibm-m-104-ssk
+    keyId: digit_1
+    displayName: digit_1
+    section: main
+    x: 56
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448074
+  - modelId: ibm-m-104-ssk
+    keyId: digit_2
+    displayName: digit_2
+    section: main
+    x: 96
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448115
+  - modelId: ibm-m-104-ssk
+    keyId: digit_3
+    displayName: digit_3
+    section: main
+    x: 136
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448156
+  - modelId: ibm-m-104-ssk
+    keyId: digit_4
+    displayName: digit_4
+    section: main
+    x: 176
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448197
+  - modelId: ibm-m-104-ssk
+    keyId: digit_5
+    displayName: digit_5
+    section: main
+    x: 216
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448238
+  - modelId: ibm-m-104-ssk
+    keyId: digit_6
+    displayName: digit_6
+    section: main
+    x: 256
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448279
+  - modelId: ibm-m-104-ssk
+    keyId: digit_7
+    displayName: digit_7
+    section: main
+    x: 296
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448320
+  - modelId: ibm-m-104-ssk
+    keyId: digit_8
+    displayName: digit_8
+    section: main
+    x: 336
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448361
+  - modelId: ibm-m-104-ssk
+    keyId: digit_9
+    displayName: digit_9
+    section: main
+    x: 376
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448402
+  - modelId: ibm-m-104-ssk
+    keyId: digit_0
+    displayName: digit_0
+    section: main
+    x: 416
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448443
+  - modelId: ibm-m-104-ssk
+    keyId: minus
+    displayName: minus
+    section: main
+    x: 456
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448484
+  - modelId: ibm-m-104-ssk
+    keyId: equal
+    displayName: equal
+    section: main
+    x: 496
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448525
+  - modelId: ibm-m-104-ssk
+    keyId: backspace
+    displayName: backspace
+    section: main
+    x: 536
+    y: 224
+    width: 84
+    height: 36
+    sortOrder: 448566
   - modelId: ibm-m-104-ssk
     keyId: insert
     displayName: insert
     section: navigation
-    x: 267
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324316
+    x: 630
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448661
+  - modelId: ibm-m-104-ssk
+    keyId: home
+    displayName: home
+    section: navigation
+    x: 670
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448702
+  - modelId: ibm-m-104-ssk
+    keyId: page_up
+    displayName: page_up
+    section: navigation
+    x: 710
+    y: 224
+    width: 36
+    height: 36
+    sortOrder: 448743
+  - modelId: ibm-m-104-ssk
+    keyId: tab
+    displayName: tab
+    section: main
+    x: 16
+    y: 268
+    width: 54
+    height: 36
+    sortOrder: 536050
+  - modelId: ibm-m-104-ssk
+    keyId: q
+    displayName: Q
+    section: main
+    x: 76
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536111
+  - modelId: ibm-m-104-ssk
+    keyId: w
+    displayName: W
+    section: main
+    x: 116
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536152
+  - modelId: ibm-m-104-ssk
+    keyId: e
+    displayName: E
+    section: main
+    x: 156
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536193
+  - modelId: ibm-m-104-ssk
+    keyId: r
+    displayName: R
+    section: main
+    x: 196
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536234
+  - modelId: ibm-m-104-ssk
+    keyId: t
+    displayName: T
+    section: main
+    x: 236
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536275
+  - modelId: ibm-m-104-ssk
+    keyId: y
+    displayName: Y
+    section: main
+    x: 276
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536316
+  - modelId: ibm-m-104-ssk
+    keyId: u
+    displayName: U
+    section: main
+    x: 316
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536357
+  - modelId: ibm-m-104-ssk
+    keyId: i
+    displayName: I
+    section: main
+    x: 356
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536398
+  - modelId: ibm-m-104-ssk
+    keyId: o
+    displayName: O
+    section: main
+    x: 396
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536439
+  - modelId: ibm-m-104-ssk
+    keyId: p
+    displayName: P
+    section: main
+    x: 436
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536480
+  - modelId: ibm-m-104-ssk
+    keyId: bracket_left
+    displayName: bracket_left
+    section: main
+    x: 476
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536521
+  - modelId: ibm-m-104-ssk
+    keyId: bracket_right
+    displayName: bracket_right
+    section: main
+    x: 516
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536562
+  - modelId: ibm-m-104-ssk
+    keyId: backslash
+    displayName: backslash
+    section: main
+    x: 556
+    y: 268
+    width: 64
+    height: 36
+    sortOrder: 536603
+  - modelId: ibm-m-104-ssk
+    keyId: delete
+    displayName: delete
+    section: navigation
+    x: 630
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536678
+  - modelId: ibm-m-104-ssk
+    keyId: end
+    displayName: end
+    section: navigation
+    x: 670
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536719
+  - modelId: ibm-m-104-ssk
+    keyId: page_down
+    displayName: page_down
+    section: navigation
+    x: 710
+    y: 268
+    width: 36
+    height: 36
+    sortOrder: 536760
+  - modelId: ibm-m-104-ssk
+    keyId: caps_lock
+    displayName: caps_lock
+    section: main
+    x: 16
+    y: 312
+    width: 62
+    height: 36
+    sortOrder: 624067
+  - modelId: ibm-m-104-ssk
+    keyId: a
+    displayName: A
+    section: main
+    x: 84
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624136
+  - modelId: ibm-m-104-ssk
+    keyId: s
+    displayName: S
+    section: main
+    x: 124
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624177
+  - modelId: ibm-m-104-ssk
+    keyId: d
+    displayName: D
+    section: main
+    x: 164
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624218
+  - modelId: ibm-m-104-ssk
+    keyId: f
+    displayName: F
+    section: main
+    x: 204
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624259
+  - modelId: ibm-m-104-ssk
+    keyId: g
+    displayName: G
+    section: main
+    x: 244
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624300
+  - modelId: ibm-m-104-ssk
+    keyId: h
+    displayName: H
+    section: main
+    x: 284
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624341
+  - modelId: ibm-m-104-ssk
+    keyId: j
+    displayName: J
+    section: main
+    x: 324
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624382
+  - modelId: ibm-m-104-ssk
+    keyId: k
+    displayName: K
+    section: main
+    x: 364
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624423
+  - modelId: ibm-m-104-ssk
+    keyId: l
+    displayName: L
+    section: main
+    x: 404
+    y: 312
+    width: 36
+    height: 36
+    sortOrder: 624464
+  - modelId: ibm-m-104-ssk
+    keyId: semicolon
+    displayName: semicolon
+    section: main
+    x: 444
+    y: 312
+    width: 32
+    height: 36
+    sortOrder: 624505
+  - modelId: ibm-m-104-ssk
+    keyId: quote
+    displayName: quote
+    section: main
+    x: 480
+    y: 312
+    width: 32
+    height: 36
+    sortOrder: 624542
+  - modelId: ibm-m-104-ssk
+    keyId: enter_main
+    displayName: enter_main
+    section: main
+    x: 516
+    y: 312
+    width: 104
+    height: 36
+    sortOrder: 624579
   - modelId: ibm-m-104-ssk
     keyId: intl_backslash
     displayName: |-
       #
       `
     section: main
-    x: 296
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324346
-  - modelId: ibm-m-104-ssk
-    keyId: j
-    displayName: J
-    section: main
-    x: 325
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324376
-  - modelId: ibm-m-104-ssk
-    keyId: k
-    displayName: K
-    section: main
-    x: 354
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324406
-  - modelId: ibm-m-104-ssk
-    keyId: l
-    displayName: L
-    section: main
-    x: 383
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324436
-  - modelId: ibm-m-104-ssk
-    keyId: left_alt
-    displayName: left_alt
-    section: main
-    x: 412
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324466
-  - modelId: ibm-m-104-ssk
-    keyId: left_ctrl
-    displayName: left_ctrl
-    section: main
-    x: 441
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324496
+    x: 650
+    y: 320
+    width: 24
+    height: 20
+    sortOrder: 640714
   - modelId: ibm-m-104-ssk
     keyId: left_shift
     displayName: left_shift
     section: main
-    x: 470
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324526
-  - modelId: ibm-m-104-ssk
-    keyId: m
-    displayName: M
-    section: main
-    x: 499
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324556
-  - modelId: ibm-m-104-ssk
-    keyId: minus
-    displayName: minus
-    section: main
-    x: 528
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324586
-  - modelId: ibm-m-104-ssk
-    keyId: n
-    displayName: N
-    section: main
-    x: 557
-    y: 162
-    width: 28
-    height: 28
-    sortOrder: 324616
-  - modelId: ibm-m-104-ssk
-    keyId: o
-    displayName: O
-    section: main
-    x: 6
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382066
-  - modelId: ibm-m-104-ssk
-    keyId: p
-    displayName: P
-    section: main
-    x: 35
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382096
-  - modelId: ibm-m-104-ssk
-    keyId: page_down
-    displayName: page_down
-    section: navigation
-    x: 64
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382126
-  - modelId: ibm-m-104-ssk
-    keyId: page_up
-    displayName: page_up
-    section: navigation
-    x: 93
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382156
-  - modelId: ibm-m-104-ssk
-    keyId: pause_break
-    displayName: Pause
-    section: main
-    x: 122
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382186
-  - modelId: ibm-m-104-ssk
-    keyId: period
-    displayName: period
-    section: main
-    x: 151
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382216
-  - modelId: ibm-m-104-ssk
-    keyId: print_screen
-    displayName: PrtSc
-    section: main
-    x: 180
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382246
-  - modelId: ibm-m-104-ssk
-    keyId: q
-    displayName: Q
-    section: main
-    x: 209
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382276
-  - modelId: ibm-m-104-ssk
-    keyId: quote
-    displayName: quote
-    section: main
-    x: 238
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382306
-  - modelId: ibm-m-104-ssk
-    keyId: r
-    displayName: R
-    section: main
-    x: 267
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382336
-  - modelId: ibm-m-104-ssk
-    keyId: right_alt
-    displayName: right_alt
-    section: main
-    x: 296
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382366
-  - modelId: ibm-m-104-ssk
-    keyId: right_ctrl
-    displayName: right_ctrl
-    section: main
-    x: 325
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382396
-  - modelId: ibm-m-104-ssk
-    keyId: right_shift
-    displayName: right_shift
-    section: main
-    x: 354
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382426
-  - modelId: ibm-m-104-ssk
-    keyId: s
-    displayName: S
-    section: main
-    x: 383
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382456
-  - modelId: ibm-m-104-ssk
-    keyId: scroll_lock
-    displayName: ScrLk
-    section: main
-    x: 412
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382486
-  - modelId: ibm-m-104-ssk
-    keyId: semicolon
-    displayName: semicolon
-    section: main
-    x: 441
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382516
-  - modelId: ibm-m-104-ssk
-    keyId: slash
-    displayName: slash
-    section: main
-    x: 470
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382546
-  - modelId: ibm-m-104-ssk
-    keyId: space
-    displayName: space
-    section: main
-    x: 499
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382576
-  - modelId: ibm-m-104-ssk
-    keyId: t
-    displayName: T
-    section: main
-    x: 528
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382606
-  - modelId: ibm-m-104-ssk
-    keyId: tab
-    displayName: tab
-    section: main
-    x: 557
-    y: 191
-    width: 28
-    height: 28
-    sortOrder: 382636
-  - modelId: ibm-m-104-ssk
-    keyId: u
-    displayName: U
-    section: main
-    x: 6
-    y: 220
-    width: 28
-    height: 28
-    sortOrder: 440086
-  - modelId: ibm-m-104-ssk
-    keyId: v
-    displayName: V
-    section: main
-    x: 35
-    y: 220
-    width: 28
-    height: 28
-    sortOrder: 440116
-  - modelId: ibm-m-104-ssk
-    keyId: w
-    displayName: W
-    section: main
-    x: 64
-    y: 220
-    width: 28
-    height: 28
-    sortOrder: 440146
-  - modelId: ibm-m-104-ssk
-    keyId: x
-    displayName: X
-    section: main
-    x: 93
-    y: 220
-    width: 28
-    height: 28
-    sortOrder: 440176
-  - modelId: ibm-m-104-ssk
-    keyId: y
-    displayName: Y
-    section: main
-    x: 122
-    y: 220
-    width: 28
-    height: 28
-    sortOrder: 440206
+    x: 16
+    y: 356
+    width: 76
+    height: 36
+    sortOrder: 712081
   - modelId: ibm-m-104-ssk
     keyId: z
     displayName: Z
     section: main
-    x: 151
-    y: 220
-    width: 28
-    height: 28
-    sortOrder: 440236
+    x: 100
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712166
+  - modelId: ibm-m-104-ssk
+    keyId: x
+    displayName: X
+    section: main
+    x: 140
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712207
+  - modelId: ibm-m-104-ssk
+    keyId: c
+    displayName: C
+    section: main
+    x: 180
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712248
+  - modelId: ibm-m-104-ssk
+    keyId: v
+    displayName: V
+    section: main
+    x: 220
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712289
+  - modelId: ibm-m-104-ssk
+    keyId: b
+    displayName: B
+    section: main
+    x: 260
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712330
+  - modelId: ibm-m-104-ssk
+    keyId: n
+    displayName: N
+    section: main
+    x: 300
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712371
+  - modelId: ibm-m-104-ssk
+    keyId: m
+    displayName: M
+    section: main
+    x: 340
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712412
+  - modelId: ibm-m-104-ssk
+    keyId: comma
+    displayName: comma
+    section: main
+    x: 380
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712453
+  - modelId: ibm-m-104-ssk
+    keyId: period
+    displayName: period
+    section: main
+    x: 420
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712494
+  - modelId: ibm-m-104-ssk
+    keyId: slash
+    displayName: slash
+    section: main
+    x: 460
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712535
+  - modelId: ibm-m-104-ssk
+    keyId: right_shift
+    displayName: right_shift
+    section: main
+    x: 500
+    y: 356
+    width: 126
+    height: 36
+    sortOrder: 712576
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_up
+    displayName: arrow_up
+    section: navigation
+    x: 670
+    y: 356
+    width: 36
+    height: 36
+    sortOrder: 712747
+  - modelId: ibm-m-104-ssk
+    keyId: left_ctrl
+    displayName: left_ctrl
+    section: main
+    x: 16
+    y: 400
+    width: 48
+    height: 36
+    sortOrder: 800094
+  - modelId: ibm-m-104-ssk
+    keyId: left_alt
+    displayName: left_alt
+    section: main
+    x: 72
+    y: 400
+    width: 48
+    height: 36
+    sortOrder: 800151
+  - modelId: ibm-m-104-ssk
+    keyId: space
+    displayName: space
+    section: main
+    x: 128
+    y: 400
+    width: 260
+    height: 36
+    sortOrder: 800208
+  - modelId: ibm-m-104-ssk
+    keyId: right_alt
+    displayName: right_alt
+    section: main
+    x: 396
+    y: 400
+    width: 48
+    height: 36
+    sortOrder: 800477
+  - modelId: ibm-m-104-ssk
+    keyId: right_ctrl
+    displayName: right_ctrl
+    section: main
+    x: 452
+    y: 400
+    width: 48
+    height: 36
+    sortOrder: 800534
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_left
+    displayName: arrow_left
+    section: navigation
+    x: 630
+    y: 400
+    width: 36
+    height: 36
+    sortOrder: 800713
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_down
+    displayName: arrow_down
+    section: navigation
+    x: 670
+    y: 400
+    width: 36
+    height: 36
+    sortOrder: 800754
+  - modelId: ibm-m-104-ssk
+    keyId: arrow_right
+    displayName: arrow_right
+    section: navigation
+    x: 710
+    y: 400
+    width: 36
+    height: 36
+    sortOrder: 800795

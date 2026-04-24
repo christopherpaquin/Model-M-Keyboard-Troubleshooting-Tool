@@ -88,6 +88,20 @@ export async function loadModelPackage(
     const ribT = await fetchText(`${base}/${manifest.files.ribbonContacts}`);
     const mapT = await fetchText(`${base}/${manifest.files.keyTraceMap}`);
 
+    const keyLayoutAlts: NonNullable<LoadedKeyboardModel["keyLayoutAlternates"]> = [];
+    if (Array.isArray(manifest.keyLayoutAlternates)) {
+      for (const a of manifest.keyLayoutAlternates) {
+        if (typeof a?.file === "string" && typeof a.id === "string" && typeof a.label === "string") {
+          const altT = await fetchText(`${base}/${a.file}`);
+          keyLayoutAlts.push({
+            id: a.id,
+            label: a.label,
+            keys: readKeys(YAML.parse(altT)),
+          });
+        }
+      }
+    }
+
     const model: LoadedKeyboardModel = {
       manifest,
       keys: readKeys(YAML.parse(keysT)),
@@ -95,6 +109,7 @@ export async function loadModelPackage(
       tracePaths: readPaths(YAML.parse(pathsT)),
       ribbonContacts: readRibbon(YAML.parse(ribT)),
       keyTraceMap: readKeyMap(YAML.parse(mapT)),
+      keyLayoutAlternates: keyLayoutAlts.length > 0 ? keyLayoutAlts : undefined,
     };
 
     const v = validateModel(model);
@@ -126,6 +141,7 @@ export async function loadModelPackage(
         tracePaths: [],
         ribbonContacts: [],
         keyTraceMap: [],
+        keyLayoutAlternates: undefined,
       },
       error: e instanceof Error ? e.message : String(e),
     };

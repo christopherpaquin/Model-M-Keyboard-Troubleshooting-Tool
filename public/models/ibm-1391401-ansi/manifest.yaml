@@ -3,13 +3,13 @@ displayName: IBM Model M 102-key ANSI (1391401 / 1391404 class)
 family: IBM Model M
 layoutName: 102-key ANSI
 subtitle: IBM Model M 102-key ANSI (1391401 / 1391404 class) ·
-  0.4.1-membrane-naming · 102-key ANSI
+  0.4.3-ansi-enter-aligned · 102-key ANSI
 description: "IBM 102-key ANSI (1391401 class): each key is one (R,C) in
   modelm-102-key-1391401/ansi-matrix.json — R1..R16 → Membrane 2 (bottom) traces
   1..16, C0..C7 → Membrane 1 (top) A..H. Often compatible with 1391404; verify
   the matrix for your part."
 schemaVersion: 1.0.0
-modelVersion: 0.4.1-membrane-naming
+modelVersion: 0.4.3-ansi-enter-aligned
 supportedFeatures:
   - trace_overlay
   - ribbon_highlight
@@ -20,6 +20,9 @@ dataNotes:
     unique (R,C) in ansi-matrix.json.
   - Numpad rows in the JSON were reserved so cells stay unique; confirm against
     your FFC before repairs.
+  - 'Schematic: 102 US ANSI — one Enter (no key left of it); the "#" matrix cell
+    in ansi-matrix.json is unused in the diagram. Backspace, backslash, and
+    Enter share a common right edge in the alnum area.'
   - Schematic on-screen key positions and polylines are for navigation; not
     photo-accurate to the FFC shape.
 files:

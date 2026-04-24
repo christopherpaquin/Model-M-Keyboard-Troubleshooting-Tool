@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 /**
+ * Dev cross-check: modelm-102-key-1391401/ansi-matrix.json vs matrix_enhanced.csv (QMK).
+ * (The in-app `ibm-101-102-enhanced` package was removed as duplicate of ibm-1391401-ansi.)
+ * Run: `node tools/verify-102-enhanced.mjs`
  * Cross-checks modelm-102-key-1391401/ansi-matrix.json (R1–R16, C0–C7) against
  * sharktastica-csv/matrix_enhanced.csv (9×? QMK scan table).
  * The repo uses 16+8 *membrane* lines; the CSV is a 9×Q col QMK *scan* layout — row/column

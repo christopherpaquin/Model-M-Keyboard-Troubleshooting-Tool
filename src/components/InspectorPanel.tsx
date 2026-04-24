@@ -4,6 +4,7 @@ import type { ComparisonKeySuggestion } from "../domain/types";
 import { keysSharingTrace } from "../domain/selectors";
 import type { KeyTraceMapEntry } from "../domain/types";
 import { traceNarrationForKey } from "../domain/troubleshooting";
+import { keyCapLabel } from "../lib/keyCapLabel";
 import { getTraceById } from "../domain/selectors";
 
 export function InspectorPanel({
@@ -67,7 +68,7 @@ export function InspectorPanel({
               const s = traceNarrationForKey(map, tmap, k.keyId);
               return (
                 <li key={k.keyId} style={{ margin: "0.2em 0" }}>
-                  <code className="key-tag">{k.displayName}</code>{" "}
+                  <code className="key-tag">{keyCapLabel(k.keyId, k.displayName)}</code>{" "}
                   <span className="muted">
                     — {s.membrane1Top} + {s.membrane2Bottom}
                   </span>
@@ -160,7 +161,8 @@ export function InspectorPanel({
                   .slice(0, 32)
                   .map((k) => (
                     <li key={k.keyId} style={{ fontSize: 0.85 }}>
-                      {k.displayName} <span className="muted">({k.keyId})</span>
+                      {keyCapLabel(k.keyId, k.displayName)}{" "}
+                      <span className="muted">({k.keyId})</span>
                     </li>
                   ))}
                 {keysSharingTrace(map, keyById, t.traceId).length > 32 ? (
